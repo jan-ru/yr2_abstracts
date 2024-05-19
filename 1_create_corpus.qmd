@@ -13,6 +13,7 @@ execute:
 -->
 
 ```{python}
+import os
 import bibtexparser
 from bibtexparser.bparser import BibTexParser
 from bibtexparser.customization import convert_to_unicode
@@ -31,6 +32,15 @@ def insert_space_after_comma(keywords):
     keywords_with_spaces = ', '.join(keyword_list)
     return keywords_with_spaces
 
+def process_citekey(citekey):
+    # Check if the citekey contains a forward slash
+    if '/' in citekey:
+        # Extract the part of the string after the last forward slash
+        citekey = citekey.split('/')[-1]
+        if len(citekey) > 20:
+            citekey = citekey[:20]
+    return citekey
+
 def highlight_title(title, search_term):
     # Check if the search term is present in the title
     if search_term in title:
@@ -41,8 +51,23 @@ def highlight_title(title, search_term):
         return title
 
 bibfile = 'bib/MySelection.bib'
-
+directory = './abstracts'
+filename = 'temp'
+extension =  '.md'
 search_term = "BPM"
+
+if os.path.exists(directory):
+    for filename in os.listdir(directory):
+        file_path = os.path.join(directory, filename)
+        try:
+            if os.path.isfile(file_path):
+                os.unlink(file_path)  # Remove the file
+        except Exception as e:
+            print(f'Failed to delete {file_path}. Reason: {e}')
+else:
+    # If the directory does not exist, create it
+    os.makedirs(directory)
+    print(f'Directory {directory} created.')
 
 # Open the BibTeX file
 with open(bibfile, 'r', encoding='utf-8') as bibtex_file:
@@ -55,10 +80,31 @@ for entry in bib_database.entries:
     citekey, title, abstract, keywords = extract_ti_ab_kw(bibfile)
     highlighted_title = highlight_title(title, search_term)
     formatted_keywords = insert_space_after_comma(keywords)
+    file_name = process_citekey(citekey)
+    file_path = os.path.join(directory, file_name + extension)
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write(f"{title} (@{citekey})\n\n{abstract}\n\nKeywords: {formatted_keywords}\n")
     display(Markdown(f"{title} (@{citekey})\n\n{abstract}\n\nKeywords: {formatted_keywords}\n"))
     sequence += 1
 
 display(Markdown(f"***Number of selected bibtex entries {sequence}.***"))
+
+output_file = 'corpus.md'
+file_path = os.path.join(directory, output_file)
+corpus_content = []
+
+for filename in os.listdir(directory):
+    file_path = os.path.join(directory, filename)
+    if os.path.isfile(file_path) and filename.endswith('.md'):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as file:
+                corpus_content.append(file.read())
+        except Exception as e:
+            print(f'Failed to read {file_path}. Reason: {e}')
+
+with open(output_file, 'w', encoding='utf-8') as file:
+    file.write('\n\n'.join(corpus_content))
+
 ```
 
 <!-- excluded: conference paper

@@ -1,0 +1,11 @@
+---
+title: "Highlight"
+format: pdf
+header-includes:
+  - \usepackage{soul}
+latex-output-dir: docs
+latex-clean: true
+
+---
+
+{{< include abstracts4pdf.md >}}

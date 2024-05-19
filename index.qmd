@@ -11,4 +11,5 @@ crossref:
 |Status | Version | Date       | Changes from previous version |
 |-------|---------|------------|-------------------------------|
 |       |         |            |                               |
-|Draft  | 0.1     | 16 May 2024| None                          |
+|       |         |            |Split file into abstracts for rendering to html |
+|Draft  | 0.1     | 16 May 2024|None                          |
