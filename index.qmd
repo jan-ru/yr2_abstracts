@@ -1,4 +1,5 @@
 ---
+title: home
 crossref:
   fig-prefix: figure   # (default is "Figure")
   tbl-prefix: table    # (default is "Table")
@@ -13,3 +14,16 @@ crossref:
 |       |         |            |                               |
 |       |         |            |Split file into abstracts for rendering to html |
 |Draft  | 0.1     | 16 May 2024|None                          |
+
+::: {.content-visible when-format="pdf"}
+
+# Preface {.unnumbered}
+
+{{< include 00-preface.qmd >}}
+
+
+# Acknowledgements {.unnumbered}
+
+{{< include 00-awknowledgements.qmd >}}
+
+:::
