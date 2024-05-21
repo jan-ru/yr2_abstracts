@@ -1,202 +1,1002 @@
 [
   {
+    "objectID": "abstracts/Amantea2022.html",
+    "href": "abstracts/Amantea2022.html",
+    "title": "1",
+    "section": "",
+    "text": "Title\nBusiness Process Modelling in Healthcare and Compliance Management: A Logical Framework (Amantea et al. (2022))",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Amantea2022</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Amantea2022.html#abstract",
+    "href": "abstracts/Amantea2022.html#abstract",
+    "title": "1",
+    "section": "Abstract",
+    "text": "Abstract\nThis work describes a methodological approach to investigate Compliance Management in healthcare based on a BPM perspective, exploring an application in an innovative hospital service. Firstly, we present a business process analysis by modeling the process with the adoption of a standard language. Secondly, we encode a set of rules in LegalRuleML, an XML formalism designed to be a standard for representing the semantic and logical content of legal documents. The rules represent some provisions of the General Data Protection Regulation (GDPR) that are involved in the health process analyzed. Moreover, in order to perform the regulatory compliance check automatically, we converted the set of rules into Defeasible Deontic Logic format (DDL), readable by the Regorous compliance checker developed at CSIRO. Overall, the paper shows a methodology to automate regulatory compliance checking of a real hospital process with actual regulations and norms. The codes in the LegalRuleML and DDL formats used in the work are available online.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Amantea2022</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Amantea2022.html#keywords",
+    "href": "abstracts/Amantea2022.html#keywords",
+    "title": "1",
+    "section": "Keywords",
+    "text": "Keywords\nNo keywords available",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Amantea2022</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Amantea2022.html#reference",
+    "href": "abstracts/Amantea2022.html#reference",
+    "title": "1",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nAmantea, Ilaria Angela, Livio Robaldo, Emilio Sulis, Guido Governatori, and Guido Boella. 2022. “Business Process Modelling in Healthcare and Compliance Management: A Logical Framework.” FLAP 9 (4): 1131–54.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Amantea2022</span>"
+    ]
+  },
+  {
     "objectID": "abstracts/Awad2010.html",
     "href": "abstracts/Awad2010.html",
-    "title": "",
+    "title": "7",
     "section": "",
-    "text": "A Compliance Management Framework for Business Process Models (Awad (2010))\nCompanies develop process models to explicitly describe their business operations. In the same time, business operations, business processes, must adhere to various types of compliance requirements. Regulations, e.g., Sarbanes Oxley Act of 2002, internal policies, best practices are just a few sources of compliance requirements. In some cases, non-adherence to compliance requirements makes the organization subject to legal punishment. In other cases, non-adherence to compliance leads to loss of competitive advantage and thus loss of market share. Unlike the classical domain-independent behavioral correctness of business processes, compliance requirements are domain-specific. Moreover, compliance requirements change over time. New requirements might appear due to change in laws and adoption of new policies. Compliance requirements are offered or enforced by different entities that have different objectives behind these requirements. Finally, compliance requirements might affect different aspects of business processes, e.g., control flow and data flow. As a result, it is infeasible to hard-code compliance checks in tools. Rather, a repeatable process of modeling compliance rules and checking them against business processes automatically is needed. This thesis provides a formal approach to support process design-time compliance checking. Using visual patterns, it is possible to model compliance requirements concerning control flow, data flow and conditional flow rules. Each pattern is mapped into a temporal logic formula. The thesis addresses the problem of consistency checking among various compliance requirements, as they might stem from divergent sources. Also, the thesis contributes to automatically check compliance requirements against process models using model checking. We show that extra domain knowledge, other than expressed in compliance rules, is needed to reach correct decisions. In case of violations, we are able to provide a useful feedback to the user. The feedback is in the form of parts of the process model whose execution causes the violation. In some cases, our approach is capable of providing automated remedy of the violation.\nKeywords: No keywords available\n\n\n\n\nAwad, Ahmed Mahmoud Hany Aly. 2010. “A Compliance Management Framework for Business Process Models.” PhD thesis, University of Potsdam.",
+    "text": "Title\nA Compliance Management Framework for Business Process Models (Awad (2010))",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Awad2010</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Awad2010</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Awad2010.html#abstract",
+    "href": "abstracts/Awad2010.html#abstract",
+    "title": "7",
+    "section": "Abstract",
+    "text": "Abstract\nCompanies develop process models to explicitly describe their business operations. In the same time, business operations, business processes, must adhere to various types of compliance requirements. Regulations, e.g., Sarbanes Oxley Act of 2002, internal policies, best practices are just a few sources of compliance requirements. In some cases, non-adherence to compliance requirements makes the organization subject to legal punishment. In other cases, non-adherence to compliance leads to loss of competitive advantage and thus loss of market share. Unlike the classical domain-independent behavioral correctness of business processes, compliance requirements are domain-specific. Moreover, compliance requirements change over time. New requirements might appear due to change in laws and adoption of new policies. Compliance requirements are offered or enforced by different entities that have different objectives behind these requirements. Finally, compliance requirements might affect different aspects of business processes, e.g., control flow and data flow. As a result, it is infeasible to hard-code compliance checks in tools. Rather, a repeatable process of modeling compliance rules and checking them against business processes automatically is needed. This thesis provides a formal approach to support process design-time compliance checking. Using visual patterns, it is possible to model compliance requirements concerning control flow, data flow and conditional flow rules. Each pattern is mapped into a temporal logic formula. The thesis addresses the problem of consistency checking among various compliance requirements, as they might stem from divergent sources. Also, the thesis contributes to automatically check compliance requirements against process models using model checking. We show that extra domain knowledge, other than expressed in compliance rules, is needed to reach correct decisions. In case of violations, we are able to provide a useful feedback to the user. The feedback is in the form of parts of the process model whose execution causes the violation. In some cases, our approach is capable of providing automated remedy of the violation.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Awad2010</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Awad2010.html#keywords",
+    "href": "abstracts/Awad2010.html#keywords",
+    "title": "7",
+    "section": "Keywords",
+    "text": "Keywords\nBusiness Process Models, Compliance, Temporal Logic, Violation Explanation, Violation Resolution",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Awad2010</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Awad2010.html#reference",
+    "href": "abstracts/Awad2010.html#reference",
+    "title": "7",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nAwad, Ahmed Mahmoud Hany Aly. 2010. “A Compliance Management Framework for Business Process Models.” PhD thesis, University of Potsdam.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Awad2010</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Bernardojunior2023.html",
+    "href": "abstracts/Bernardojunior2023.html",
+    "title": "2",
+    "section": "",
+    "text": "Title\nToward Agile Business Process Management: Description of Concepts and a Proposed Definition (Bernardo Junior and De Padua (2023))",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bernardojunior2023</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Bernardojunior2023.html#abstract",
+    "href": "abstracts/Bernardojunior2023.html#abstract",
+    "title": "2",
+    "section": "Abstract",
+    "text": "Abstract\nBusiness Process Management (BPM) needs to be adjusted quickly and flexibly to cope with the dynamics of the business environment, so the demand for the incorporation of agility has reached BPM. To contribute to the theoretical consolidation of Agile BPM, it is necessary to develop a conceptualization for the term, that is, to describe the essential attributes for its understanding. Communicating the meaning of the concept in reduced words occurs through the definition, so the main objective of this study is to develop a scientific definition for Agile BPM. This study was performed in three phases. First, a systematic literature review was conducted to investigate how the scientific literature has addressed Agile BPM. Next, a deductive analysis was performed to conceptualize Agile BPM. In the third phase, a consultation with experts was conducted to refine the conceptual view and critique a tentative definition, preceded by judges’ analysis to consolidate the definition. As a result, the concept of Agile BPM was elaborated, and based on the reduction of this conceptualization, a scientific definition was presented which describes that Agile BPM is ``the promotion of BPM in which practitioners stimulate change quickly and flexibly in order to meet organizational demands with compliance and provide a better customer experience’’. There is a pioneering spirit in the present study regarding the deliberate conceptualization of Agile BPM, which provides the basis for discussion of the topic, and helps scientific dissemination through a definition, contributing to the development of a theory of Agile BPM.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bernardojunior2023</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Bernardojunior2023.html#keywords",
+    "href": "abstracts/Bernardojunior2023.html#keywords",
+    "title": "2",
+    "section": "Keywords",
+    "text": "Keywords\nAgility, bpm governance, Business And Economics–Management, Business process management, challenges, Communication, critical success factors, Customer satisfaction, implementation capabilities, intuition, knowledge systems, Literature reviews, operations strategy, organization, Systematic review",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bernardojunior2023</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Bernardojunior2023.html#reference",
+    "href": "abstracts/Bernardojunior2023.html#reference",
+    "title": "2",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nBernardo Junior, Ronaldo, and Silvia Ines Dallavalle De Padua. 2023. “Toward Agile Business Process Management: Description of Concepts and a Proposed Definition.” Knowl Process Manag 30 (1): 14–32. https://doi.org/10.1002/kpm.1737.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bernardojunior2023</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Bevilacqua2012.html",
+    "href": "abstracts/Bevilacqua2012.html",
+    "title": "3",
+    "section": "",
+    "text": "Title\nBusiness Process Reengineering of Emergency Management Procedures: A Case Study (Bevilacqua, Ciarapica, and Paciarotti (2012))",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bevilacqua2012</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Bevilacqua2012.html#abstract",
+    "href": "abstracts/Bevilacqua2012.html#abstract",
+    "title": "3",
+    "section": "Abstract",
+    "text": "Abstract\nThe production and storage of dangerous substances in an industrial establishment creates risks for man, environment and properties in the surrounding area. Safety regulations require the establishment of a preventive information campaign regarding industrial risks and self-defence measures to adopt in an emergency situation. In the case of a major accident, people must be promptly made aware of the appropriate self-defence actions and behaviours to adopt. This strategic activity can reduce the panic effect, make citizens more cooperative and guarantee the effectiveness of any emergency plan. In this paper, the information chain is studied as an industrial process modelled by the IDEF0 language. Through this method, each link in the chain has been deeply analysed. For each function of the process, the inputs, outputs and necessary controls and resources have been identified. Starting from a clear view of the current state, the process of re-engineering has been implemented to minimise or eliminate downtime, deficiencies and illnesses and, thus, consequent time losses. The main contribution of the IDEF0 application in emergency management is to provide a clear view of the whole system, a communication system between emergency actors, a rich information source and a structured base for the re-engineering process.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bevilacqua2012</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Bevilacqua2012.html#keywords",
+    "href": "abstracts/Bevilacqua2012.html#keywords",
+    "title": "3",
+    "section": "Keywords",
+    "text": "Keywords\nEmergency management, IDEF0, Information supply, Information system, Public, Risk information, Safety management",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bevilacqua2012</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Bevilacqua2012.html#reference",
+    "href": "abstracts/Bevilacqua2012.html#reference",
+    "title": "3",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nBevilacqua, M., F. E. Ciarapica, and C. Paciarotti. 2012. “Business Process Reengineering of Emergency Management Procedures: A Case Study.” Safety Science 50 (5): 1368–76. https://doi.org/10.1016/j.ssci.2012.01.002.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bevilacqua2012</span>"
     ]
   },
   {
     "objectID": "abstracts/Corsius2021.html",
     "href": "abstracts/Corsius2021.html",
-    "title": "",
+    "title": "4",
     "section": "",
-    "text": "RegelSpraak: A CNL for Executable Tax Rules Specification (Corsius et al. (2021))\nRegelSpraak is a CNL developed at the Dutch Tax Administration (DTA) over the last decade. Keeping up with frequently changing tax rules poses a formidable challenge to the DTA IT department. RegelSpraak is a central asset in ongoing efforts of the DTA to attune their tax IT systems to automatic execution of tax law. RegelSpraak now is part of the operational process of rule specification and execution. In this practice-oriented paper, we present the history of RegelSpraak, its properties and the context of its use, emphasizing its double functionality as a language readable by non-technical tax experts but also directly interpretable in a software generating setup.\nKeywords: CNL\n\n\n\n\nCorsius, Mischa, Stijn Hoppenbrouwers, Mariette Lokin, Elian Baars, Gertrude Sangers-Van Cappellen, and Ilona Wilmont. 2021. “RegelSpraak: A CNL for Executable Tax Rules Specification.” In Proceedings of the Seventh International Workshop on Controlled Natural Language (CNL 2020/21).",
+    "text": "Title\nRegelSpraak: A CNL for Executable Tax Rules Specification (Corsius et al. (2021))",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Corsius2021</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Corsius2021</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Corsius2021.html#abstract",
+    "href": "abstracts/Corsius2021.html#abstract",
+    "title": "4",
+    "section": "Abstract",
+    "text": "Abstract\nRegelSpraak is a CNL developed at the Dutch Tax Administration (DTA) over the last decade. Keeping up with frequently changing tax rules poses a formidable challenge to the DTA IT department. RegelSpraak is a central asset in ongoing efforts of the DTA to attune their tax IT systems to automatic execution of tax law. RegelSpraak now is part of the operational process of rule specification and execution. In this practice-oriented paper, we present the history of RegelSpraak, its properties and the context of its use, emphasizing its double functionality as a language readable by non-technical tax experts but also directly interpretable in a software generating setup.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Corsius2021</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Corsius2021.html#keywords",
+    "href": "abstracts/Corsius2021.html#keywords",
+    "title": "4",
+    "section": "Keywords",
+    "text": "Keywords\nCNL",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Corsius2021</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Corsius2021.html#reference",
+    "href": "abstracts/Corsius2021.html#reference",
+    "title": "4",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nCorsius, Mischa, Stijn Hoppenbrouwers, Mariette Lokin, Elian Baars, Gertrude Sangers-Van Cappellen, and Ilona Wilmont. 2021. “RegelSpraak: A CNL for Executable Tax Rules Specification.” In Proceedings of the Seventh International Workshop on Controlled Natural Language (CNL 2020/21).",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Corsius2021</span>"
     ]
   },
   {
     "objectID": "abstracts/Elgammal2014.html",
     "href": "abstracts/Elgammal2014.html",
-    "title": "",
+    "title": "8",
     "section": "",
-    "text": "Business Process Compliance Management: An Integrated Proactive Approach (Elgammal et al. (2014))\nToday’s enterprises demand a high degree of compliance of business processes to meet regulations, such as Sarbanes-Oxley and Basel I-III. To ensure continuous guaranteed compliance, compliance management should be considered during all phases of the business process lifecycle; from the analysis and design to deployment, monitoring and evaluation. This paper introduces an integrated business process compliance management framework that incorporates design-time verification and runtime monitoring approaches. The nutshell of the approach is the Compliance Request Language (CRL), which is a high-level pattern-based language for the abstract specification of compliance requirements. From CRL expressions, formal compliance rules can be automatically generated, thereby eliminating the need for business and compliance experts to learn and use complex low-level formal languages. Formalized compliance rules enable automated approaches to be used for the static verification and dynamic monitoring of business processes. An integrated prototypical tool-suite is developed as a proof-of-concept to help validating the applicability of the approaches, and validated by experiment with two real-life case studies.\nKeywords: No keywords available\n\n\n\n\nElgammal, A, S Sebahi, O Turetken, MS Hacid, MP Papazoglou, and WJ van den Heuvel. 2014. “Business Process Compliance Management: An Integrated Proactive Approach.” In CRAFTING GLOBAL COMPETITIVE ECONOMIES: 2020 VISION STRATEGIC PLANNING & SMART IMPLEMENTATION, VOLS I-IV, edited by KS Soliman, 764–81.",
+    "text": "Title\nBusiness Process Compliance Management: An Integrated Proactive Approach (Elgammal et al. (2014))",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Elgammal2014</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Elgammal2014</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Elgammal2014.html#abstract",
+    "href": "abstracts/Elgammal2014.html#abstract",
+    "title": "8",
+    "section": "Abstract",
+    "text": "Abstract\nToday’s enterprises demand a high degree of compliance of business processes to meet regulations, such as Sarbanes-Oxley and Basel I-III. To ensure continuous guaranteed compliance, compliance management should be considered during all phases of the business process lifecycle; from the analysis and design to deployment, monitoring and evaluation. This paper introduces an integrated business process compliance management framework that incorporates design-time verification and runtime monitoring approaches. The nutshell of the approach is the Compliance Request Language (CRL), which is a high-level pattern-based language for the abstract specification of compliance requirements. From CRL expressions, formal compliance rules can be automatically generated, thereby eliminating the need for business and compliance experts to learn and use complex low-level formal languages. Formalized compliance rules enable automated approaches to be used for the static verification and dynamic monitoring of business processes. An integrated prototypical tool-suite is developed as a proof-of-concept to help validating the applicability of the approaches, and validated by experiment with two real-life case studies.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Elgammal2014</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Elgammal2014.html#keywords",
+    "href": "abstracts/Elgammal2014.html#keywords",
+    "title": "8",
+    "section": "Keywords",
+    "text": "Keywords\nCompliance Patterns, Design-time Compliance Management, Regulatory Compliance, Runtime Compliance Monitoring",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Elgammal2014</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Elgammal2014.html#reference",
+    "href": "abstracts/Elgammal2014.html#reference",
+    "title": "8",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nElgammal, A, S Sebahi, O Turetken, MS Hacid, MP Papazoglou, and WJ van den Heuvel. 2014. “Business Process Compliance Management: An Integrated Proactive Approach.” In CRAFTING GLOBAL COMPETITIVE ECONOMIES: 2020 VISION STRATEGIC PLANNING & SMART IMPLEMENTATION, VOLS I-IV, edited by KS Soliman, 764–81.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Elgammal2014</span>"
     ]
   },
   {
     "objectID": "abstracts/Hadasch2016.html",
     "href": "abstracts/Hadasch2016.html",
-    "title": "",
+    "title": "9",
     "section": "",
-    "text": "The Influence of Directive Explanations on Users’ Business Process Compliance Performance (Hadasch, Maedche, and Gregor (2016))\nPurpose – In organizations, individual user’s compliance with business processes is important from a regulatory and efficiency point of view. The restriction of users’ choices by implementing a restrictive information system is a typical approach in many organizations. However, restrictions and mandated compliance may affect employees’ performance negatively. Especially when users need a certain degree of flexibility in completing their work activity. The purpose of this paper is to introduce the concept of directive explanations (DEs). DEs provide context-dependent feedback to users, but do not force users to comply.\nKeywords: No keywords available\n\n\n\n\nHadasch, Frank, Alexander Maedche, and Shirley Gregor. 2016. “The Influence of Directive Explanations on Users’ Business Process Compliance Performance.” Business Process Management Journal 22 (3): 458–83. https://doi.org/10.1108/BPMJ-05-2015-0067.",
+    "text": "Title\nThe Influence of Directive Explanations on Users’ Business Process Compliance Performance (Hadasch, Maedche, and Gregor (2016))",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Hadasch2016</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hadasch2016</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Hadasch2016.html#abstract",
+    "href": "abstracts/Hadasch2016.html#abstract",
+    "title": "9",
+    "section": "Abstract",
+    "text": "Abstract\nPurpose – In organizations, individual user’s compliance with business processes is important from a regulatory and efficiency point of view. The restriction of users’ choices by implementing a restrictive information system is a typical approach in many organizations. However, restrictions and mandated compliance may affect employees’ performance negatively. Especially when users need a certain degree of flexibility in completing their work activity. The purpose of this paper is to introduce the concept of directive explanations (DEs). DEs provide context-dependent feedback to users, but do not force users to comply.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hadasch2016</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Hadasch2016.html#keywords",
+    "href": "abstracts/Hadasch2016.html#keywords",
+    "title": "9",
+    "section": "Keywords",
+    "text": "Keywords\nBusiness Process Compliance, Explanations, Organizational Processes, Process, User-system cooperation",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hadasch2016</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Hadasch2016.html#reference",
+    "href": "abstracts/Hadasch2016.html#reference",
+    "title": "9",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nHadasch, Frank, Alexander Maedche, and Shirley Gregor. 2016. “The Influence of Directive Explanations on Users’ Business Process Compliance Performance.” Business Process Management Journal 22 (3): 458–83. https://doi.org/10.1108/BPMJ-05-2015-0067.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hadasch2016</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Hashmi Unknown Year.html",
+    "href": "abstracts/Hashmi Unknown Year.html",
+    "title": "12",
+    "section": "",
+    "text": "Title\nLegal Compliance Through Design: Preliminary Results of a Literature Survey (Hashmi, Casanovas, and de Koker (n.d.))",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Hashmi Unknown Year</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Hashmi Unknown Year.html#abstract",
+    "href": "abstracts/Hashmi Unknown Year.html#abstract",
+    "title": "12",
+    "section": "Abstract",
+    "text": "Abstract\nIn this paper we present the preliminary results of a literature survey conducted in the context of a larger research project on legal compliance by design (LCbD) and legal compliance through design (LCtD). Even though a rich set of approaches and frameworks are available, our analysis shows that there is less focus on legal compliance in general, and LCbD and LCtD in particular. The technical literature on compliance has been concentrated on specific aspects of the law, i.e. mainly on those related to corporate and administrative management (including those of law firms and government). Other legal dimensions such as public law, case law, constitutional, virtual ethics etc., have been put aside.",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Hashmi Unknown Year</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Hashmi Unknown Year.html#keywords",
+    "href": "abstracts/Hashmi Unknown Year.html#keywords",
+    "title": "12",
+    "section": "Keywords",
+    "text": "Keywords\nlaw and regulations, legal compliance by design, legal compliance through design, legal dimensions, literature review, regulatory compliance",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Hashmi Unknown Year</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Hashmi Unknown Year.html#reference",
+    "href": "abstracts/Hashmi Unknown Year.html#reference",
+    "title": "12",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nHashmi, Mustafa, Pompeu Casanovas, and Louis de Koker. n.d. “Legal Compliance Through Design: Preliminary Results of a Literature Survey.”",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Hashmi Unknown Year</span>"
     ]
   },
   {
     "objectID": "abstracts/Hashmi2017.html",
     "href": "abstracts/Hashmi2017.html",
-    "title": "",
+    "title": "10",
     "section": "",
-    "text": "Norms Modeling Constructs of Business Process Compliance Management Frameworks: A Conceptual Evaluation (Hashmi and Governatori (2017))\nThe effectiveness of a compliance management framework (CMF) can be guaranteed only if the framework is based on sound conceptual and formal foundations. In particular, the formal language used in the CMF is able to expressively represent the specifications of normative requirements (hereafter, norms) that impose constraints on various activities of a business process. However, if the language used lacks expressiveness and the modelling constructs proposed in the CMF are not able to properly represent different types of norms, it can significantly impede the reliability of the compliance results produced by the CMF. This paper investigates whether existing CMFs are able to provide reasoning and modeling support for various types of normative requirements by evaluating the conceptual foundations of the modeling constructs that existing CMFs use to represent a specific type of norm. The evaluation results portray somewhat a bleak picture of the state-of-the-affairs when it comes to represent norms as none of the existing CMFs is able to provide a comprehensive reasoning and modeling support. Also, it points to the shortcomings of the CMFs and emphasises exigent need of new modeling languages with sound theoretical and formal foundations for representing legal norms.\nKeywords: Business Processes, Compliance, Compliance Management Frameworks, Modelling Constructs, Modelling Languages, Norms\n\n\n\n\nHashmi, Mustafa, and Guido Governatori. 2017. “Norms Modeling Constructs of Business Process Compliance Management Frameworks: A Conceptual Evaluation.” Artificial Intelligence and Law 26 (September): 251–305. https://doi.org/10.1007/s10506-017-9215-8.",
+    "text": "Title\nNorms Modeling Constructs of Business Process Compliance Management Frameworks: A Conceptual Evaluation (Hashmi and Governatori (2017))",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Hashmi2017</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Hashmi2017</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Hashmi2017.html#abstract",
+    "href": "abstracts/Hashmi2017.html#abstract",
+    "title": "10",
+    "section": "Abstract",
+    "text": "Abstract\nThe effectiveness of a compliance management framework (CMF) can be guaranteed only if the framework is based on sound conceptual and formal foundations. In particular, the formal language used in the CMF is able to expressively represent the specifications of normative requirements (hereafter, norms) that impose constraints on various activities of a business process. However, if the language used lacks expressiveness and the modelling constructs proposed in the CMF are not able to properly represent different types of norms, it can significantly impede the reliability of the compliance results produced by the CMF. This paper investigates whether existing CMFs are able to provide reasoning and modeling support for various types of normative requirements by evaluating the conceptual foundations of the modeling constructs that existing CMFs use to represent a specific type of norm. The evaluation results portray somewhat a bleak picture of the state-of-the-affairs when it comes to represent norms as none of the existing CMFs is able to provide a comprehensive reasoning and modeling support. Also, it points to the shortcomings of the CMFs and emphasises exigent need of new modeling languages with sound theoretical and formal foundations for representing legal norms.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Hashmi2017</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Hashmi2017.html#keywords",
+    "href": "abstracts/Hashmi2017.html#keywords",
+    "title": "10",
+    "section": "Keywords",
+    "text": "Keywords\nBusiness Processes, Compliance, Compliance Management Frameworks, Modelling Constructs, Modelling Languages, Norms",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Hashmi2017</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Hashmi2017.html#reference",
+    "href": "abstracts/Hashmi2017.html#reference",
+    "title": "10",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nHashmi, Mustafa, and Guido Governatori. 2017. “Norms Modeling Constructs of Business Process Compliance Management Frameworks: A Conceptual Evaluation.” Artificial Intelligence and Law 26 (September): 251–305. https://doi.org/10.1007/s10506-017-9215-8.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Hashmi2017</span>"
     ]
   },
   {
     "objectID": "abstracts/Hashmi2018.html",
     "href": "abstracts/Hashmi2018.html",
-    "title": "",
+    "title": "11",
     "section": "",
-    "text": "Are We Done with Business Process Compliance: State of the Art and Challenges Ahead (Hashmi et al. (2018))\nLiterature on business process compliance (BPC) has predominantly focused on the alignment of the regulatory rules with the design, verification and validation of business processes. Previously surveys on BPC have been conducted with specific context in mind; however, the literature on BPC management research is largely sparse and does not accumulate a detailed understanding on existing literature and related issues faced by the domain. This survey provides a holistic view of the literature on existing BPC management approaches, and categories them based on different compliance management strategies in the context of formulated research questions. A systematic literature approach is used where search terms pertaining keywords were used to identify literature related to the research questions from scholarly databases. From initially 183 papers, we selected 79 papers related to the themes of this survey published between 2000–2015. The survey results reveal that mostly compliance management approaches center around three distinct categories namely: design-time (28%), run-time (32%) and auditing (10%). Also, organisational and internal control based compliance management frameworks (21%) and hybrid approaches make (9%) of the surveyed approaches. Furthermore, open research challenges and gaps are identified and discussed with respect to the compliance problem.\nKeywords: Business process compliance, Business processes, Compliance Management Frameworks, Normative requirements, Norms compliance\n\n\n\n\nHashmi, Mustafa, Guido Governatori, Ho-Pun Lam, and Moe Thandar Wynn. 2018. “Are We Done with Business Process Compliance: State of the Art and Challenges Ahead.” Knowl Inf Syst 57 (1): 79–133. https://doi.org/10.1007/s10115-017-1142-1.",
+    "text": "Title\nAre We Done with Business Process Compliance: State of the Art and Challenges Ahead (Hashmi et al. (2018))",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Hashmi2018</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Hashmi2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Hashmi2018.html#abstract",
+    "href": "abstracts/Hashmi2018.html#abstract",
+    "title": "11",
+    "section": "Abstract",
+    "text": "Abstract\nLiterature on business process compliance (BPC) has predominantly focused on the alignment of the regulatory rules with the design, verification and validation of business processes. Previously surveys on BPC have been conducted with specific context in mind; however, the literature on BPC management research is largely sparse and does not accumulate a detailed understanding on existing literature and related issues faced by the domain. This survey provides a holistic view of the literature on existing BPC management approaches, and categories them based on different compliance management strategies in the context of formulated research questions. A systematic literature approach is used where search terms pertaining keywords were used to identify literature related to the research questions from scholarly databases. From initially 183 papers, we selected 79 papers related to the themes of this survey published between 2000–2015. The survey results reveal that mostly compliance management approaches center around three distinct categories namely: design-time (28%), run-time (32%) and auditing (10%). Also, organisational and internal control based compliance management frameworks (21%) and hybrid approaches make (9%) of the surveyed approaches. Furthermore, open research challenges and gaps are identified and discussed with respect to the compliance problem.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Hashmi2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Hashmi2018.html#keywords",
+    "href": "abstracts/Hashmi2018.html#keywords",
+    "title": "11",
+    "section": "Keywords",
+    "text": "Keywords\nBusiness process compliance, Business processes, Compliance Management Frameworks, Normative requirements, Norms compliance",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Hashmi2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Hashmi2018.html#reference",
+    "href": "abstracts/Hashmi2018.html#reference",
+    "title": "11",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nHashmi, Mustafa, Guido Governatori, Ho-Pun Lam, and Moe Thandar Wynn. 2018. “Are We Done with Business Process Compliance: State of the Art and Challenges Ahead.” Knowl Inf Syst 57 (1): 79–133. https://doi.org/10.1007/s10115-017-1142-1.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Hashmi2018</span>"
     ]
   },
   {
     "objectID": "abstracts/Holzmüller-Laue2014.html",
     "href": "abstracts/Holzmüller-Laue2014.html",
-    "title": "",
+    "title": "13",
     "section": "",
-    "text": "Improved Compliance by BPM-Driven Workflow Automation (Holzmüller-Laue et al. (2014))\nUsing methods and technologies of business process management (BPM) for the laboratory automation has important benefits (i.e., the agility of high-level automation processes, rapid interdisciplinary prototyping and implementation of laboratory tasks and procedures, and efficient real-time process documentation). A principal goal of the model-driven development is the improved transparency of processes and the alignment of process diagrams and technical code. First experiences of using the business process model and notation (BPMN) show that easy-to-read graphical process models can achieve and provide standardization of laboratory workflows. The model-based development allows one to change processes quickly and an easy adaption to changing requirements. The process models are able to host work procedures and their scheduling in compliance with predefined guidelines and policies. Finally, the process-controlled documentation of complex workflow results addresses modern laboratory needs of quality assurance. BPMN 2.0 as an automation language to control every kind of activity or subprocess is directed to complete workflows in end-to-end relationships. BPMN is applicable as a system-independent and cross-disciplinary graphical language to document all methods in laboratories (i.e., screening procedures or analytical processes). That means, with the BPM standard, a communication method of sharing process knowledge of laboratories is also available.\nKeywords: BPMN, end-to-end workflow, laboratory automation, model-based application development, systems integration\n\n\n\n\nHolzmüller-Laue, Silke, Bernd Göde, Heidi Fleischer, and Kerstin Thurow. 2014. “Improved Compliance by BPM-Driven Workflow Automation.” SLAS Technology 19 (6): 528–45. https://doi.org/10.1177/2211068214549626.",
+    "text": "Title\nImproved Compliance by BPM-Driven Workflow Automation (Holzmüller-Laue et al. (2014))",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Holzmüller-Laue2014</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Holzmüller-Laue2014</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Holzmüller-Laue2014.html#abstract",
+    "href": "abstracts/Holzmüller-Laue2014.html#abstract",
+    "title": "13",
+    "section": "Abstract",
+    "text": "Abstract\nUsing methods and technologies of business process management (BPM) for the laboratory automation has important benefits (i.e., the agility of high-level automation processes, rapid interdisciplinary prototyping and implementation of laboratory tasks and procedures, and efficient real-time process documentation). A principal goal of the model-driven development is the improved transparency of processes and the alignment of process diagrams and technical code. First experiences of using the business process model and notation (BPMN) show that easy-to-read graphical process models can achieve and provide standardization of laboratory workflows. The model-based development allows one to change processes quickly and an easy adaption to changing requirements. The process models are able to host work procedures and their scheduling in compliance with predefined guidelines and policies. Finally, the process-controlled documentation of complex workflow results addresses modern laboratory needs of quality assurance. BPMN 2.0 as an automation language to control every kind of activity or subprocess is directed to complete workflows in end-to-end relationships. BPMN is applicable as a system-independent and cross-disciplinary graphical language to document all methods in laboratories (i.e., screening procedures or analytical processes). That means, with the BPM standard, a communication method of sharing process knowledge of laboratories is also available.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Holzmüller-Laue2014</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Holzmüller-Laue2014.html#keywords",
+    "href": "abstracts/Holzmüller-Laue2014.html#keywords",
+    "title": "13",
+    "section": "Keywords",
+    "text": "Keywords\nBPMN, end-to-end workflow, laboratory automation, model-based application development, systems integration",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Holzmüller-Laue2014</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Holzmüller-Laue2014.html#reference",
+    "href": "abstracts/Holzmüller-Laue2014.html#reference",
+    "title": "13",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nHolzmüller-Laue, Silke, Bernd Göde, Heidi Fleischer, and Kerstin Thurow. 2014. “Improved Compliance by BPM-Driven Workflow Automation.” SLAS Technology 19 (6): 528–45. https://doi.org/10.1177/2211068214549626.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Holzmüller-Laue2014</span>"
     ]
   },
   {
     "objectID": "abstracts/Kir2021.html",
     "href": "abstracts/Kir2021.html",
-    "title": "",
+    "title": "14",
     "section": "",
-    "text": "A Knowledge-Intensive Adaptive Business Process Management Framework (Kir and Erdogan (2021))\nBusiness process management has been the driving force of optimization and operational efficiency for companies until now, but the digitalization era we have been experiencing requires businesses to be agile and responsive as well. In order to be a part of this digital transformation, delivering new levels of automation-fueled agility through digitalization of BPM itself is required. However, the automation of BPM cannot be achieved by solely focusing on process space and classical planning techniques. It requires a holistic approach that also captures the social aspects of the business environment, such as corporate strategies, organization policies, negotiations, and cooperation. For this purpose, we combine BPM, knowledge-intensive systems and intelligent agent technologies, and yield one consolidated intelligent business process management framework, namely agileBPM, that governs the entire BPM life-cycle. Accordingly, agileBPM proposes a modeling methodology to semantically capture the business interests, enterprise environment and process space in accordance with the agent-oriented software engineering paradigm. The proposed agent-based process execution environment provides cognitive capabilities (such as goal-driven planning, norm compliance, knowledge-driven actions, and dynamic cooperation) on top of the developed business models to support knowledge workers’ multi-criteria decision making tasks. The context awareness and exception handling capabilities of the proposed approach have been presented with experimental studies. Through comparative evaluations, it is shown that agileBPM is the most comprehensive knowledge-intensive process management solution.\nKeywords: Agent-based business process management, Agile business process management, Business process management, Knowledge-intensive processes, Process adaptation, Process modeling and execution\n\n\n\n\nKir, Huseyin, and Nadia Erdogan. 2021. “A Knowledge-Intensive Adaptive Business Process Management Framework.” Information Systems 95 (January): 101639. https://doi.org/10.1016/j.is.2020.101639.",
+    "text": "Title\nA Knowledge-Intensive Adaptive Business Process Management Framework (Kir and Erdogan (2021))",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Kir2021</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Kir2021</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Kir2021.html#abstract",
+    "href": "abstracts/Kir2021.html#abstract",
+    "title": "14",
+    "section": "Abstract",
+    "text": "Abstract\nBusiness process management has been the driving force of optimization and operational efficiency for companies until now, but the digitalization era we have been experiencing requires businesses to be agile and responsive as well. In order to be a part of this digital transformation, delivering new levels of automation-fueled agility through digitalization of BPM itself is required. However, the automation of BPM cannot be achieved by solely focusing on process space and classical planning techniques. It requires a holistic approach that also captures the social aspects of the business environment, such as corporate strategies, organization policies, negotiations, and cooperation. For this purpose, we combine BPM, knowledge-intensive systems and intelligent agent technologies, and yield one consolidated intelligent business process management framework, namely agileBPM, that governs the entire BPM life-cycle. Accordingly, agileBPM proposes a modeling methodology to semantically capture the business interests, enterprise environment and process space in accordance with the agent-oriented software engineering paradigm. The proposed agent-based process execution environment provides cognitive capabilities (such as goal-driven planning, norm compliance, knowledge-driven actions, and dynamic cooperation) on top of the developed business models to support knowledge workers’ multi-criteria decision making tasks. The context awareness and exception handling capabilities of the proposed approach have been presented with experimental studies. Through comparative evaluations, it is shown that agileBPM is the most comprehensive knowledge-intensive process management solution.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Kir2021</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Kir2021.html#keywords",
+    "href": "abstracts/Kir2021.html#keywords",
+    "title": "14",
+    "section": "Keywords",
+    "text": "Keywords\nAgent-based business process management, Agile business process management, Business process management, Knowledge-intensive processes, Process adaptation, Process modeling and execution",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Kir2021</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Kir2021.html#reference",
+    "href": "abstracts/Kir2021.html#reference",
+    "title": "14",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nKir, Huseyin, and Nadia Erdogan. 2021. “A Knowledge-Intensive Adaptive Business Process Management Framework.” Information Systems 95 (January): 101639. https://doi.org/10.1016/j.is.2020.101639.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Kir2021</span>"
     ]
   },
   {
     "objectID": "abstracts/Koncevics2017.html",
     "href": "abstracts/Koncevics2017.html",
-    "title": "",
+    "title": "6",
     "section": "",
-    "text": "Comparative Analysis of Business Process Modelling Tools for Compliance Management Support (Koncevics et al. (2017))\nThe paper presents results of the comparative analysis of business process modelling tools for supporting automated compliance management in organisations. By compliance in the paper we mean compliance to legislation, regulations of municipalities, external regulatory requirements and also internal organisational policies. The goal of the research is (1) to identify main attributes of business process modelling tools relevant in compliance management, and (2) to use the identified attributes for analysis of the tools to better understand the scope of their capability to support compliance management. The attributes of the tools have been derived from the related research. The analysis of the tools has been performed by installing each tool and evaluating it against a set of the identified attributes. The obtained results are useful in choosing the tools for compliance management in general and for open source solutions to develop new compliance management tools in particular.\nKeywords: Business process compliance, compliance management, compliance management tools, open source business process modelling tools\n\n\n\n\nKoncevics, Rolands, Ludmila Penicina, Andrejs Gaidukovs, Maris Dargis, Rita Burbo, and Ainars Auzins. 2017. “Comparative Analysis of Business Process Modelling Tools for Compliance Management Support.” Appl. Comput. Syst. 21 (1): 22–27. https://doi.org/10.1515/ACSS-2017-0003.",
+    "text": "Title\nComparative Analysis of Business Process Modelling Tools for Compliance Management Support (Koncevics et al. (2017))",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Koncevics2017</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Koncevics2017</span>"
     ]
   },
   {
-    "objectID": "abstracts/Ly2015.html",
-    "href": "abstracts/Ly2015.html",
-    "title": "",
-    "section": "",
-    "text": "Compliance Monitoring in Business Processes: Functionalities, Application, and Tool-Support (Ly et al. (2015))\nIn recent years, monitoring the compliance of business processes with relevant regula- tions, constraints, and rules during runtime has evolved as major concern in literature and practice. Monitoring not only refers to continuously observing possible compliance violations, but also includes the ability to provide fine-grained feedback and to predict possible compliance violations in the future. The body of literature on business process compliance is large and approaches specifically addressing process monitoring are hard to identify. Moreover, proper means for the systematic comparison of these approaches are missing. Hence, it is unclear which approaches are suitable for particular scenarios. The goal of this paper is to define a framework for Compliance Monitoring Functionalities (CMF) that enables the systematic comparison of existing and new approaches for monitoring compliance rules over business processes during runtime. To define the scope of the framework, at first, related areas are identified and discussed. The CMFs are harvested based on a systematic literature review and five selected case studies. The appropriateness of the selection of CMFs is demonstrated in two ways: (a) a systematic comparison with pattern-based compliance approaches and (b) a classification of existing compliance monitoring approaches using the CMFs. Moreover, the application of the CMFs is showcased using three existing tools that are applied to two realistic data sets. Overall, the CMF framework provides powerful means to position existing and future compliance monitoring approaches.\nKeywords: Business process compliance, Compliance monitoring, Operational support\n\n\n\n\nLy, Linh Thao, Fabrizio Maria Maggi, Marco Montali, Stefanie Rinderle-Ma, and Wil MP Van Der Aalst. 2015. “Compliance Monitoring in Business Processes: Functionalities, Application, and Tool-Support.” Information Systems, 2.309, 54: 209–34.",
+    "objectID": "abstracts/Koncevics2017.html#abstract",
+    "href": "abstracts/Koncevics2017.html#abstract",
+    "title": "6",
+    "section": "Abstract",
+    "text": "Abstract\nThe paper presents results of the comparative analysis of business process modelling tools for supporting automated compliance management in organisations. By compliance in the paper we mean compliance to legislation, regulations of municipalities, external regulatory requirements and also internal organisational policies. The goal of the research is (1) to identify main attributes of business process modelling tools relevant in compliance management, and (2) to use the identified attributes for analysis of the tools to better understand the scope of their capability to support compliance management. The attributes of the tools have been derived from the related research. The analysis of the tools has been performed by installing each tool and evaluating it against a set of the identified attributes. The obtained results are useful in choosing the tools for compliance management in general and for open source solutions to develop new compliance management tools in particular.",
     "crumbs": [
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Ly2015</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Koncevics2017</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Koncevics2017.html#keywords",
+    "href": "abstracts/Koncevics2017.html#keywords",
+    "title": "6",
+    "section": "Keywords",
+    "text": "Keywords\nBusiness process compliance, compliance management, compliance management tools, open source business process modelling tools",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Koncevics2017</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Koncevics2017.html#reference",
+    "href": "abstracts/Koncevics2017.html#reference",
+    "title": "6",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nKoncevics, Rolands, Ludmila Penicina, Andrejs Gaidukovs, Maris Dargis, Rita Burbo, and Ainars Auzins. 2017. “Comparative Analysis of Business Process Modelling Tools for Compliance Management Support.” Appl. Comput. Syst. 21 (1): 22–27. https://doi.org/10.1515/ACSS-2017-0003.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Koncevics2017</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Lohmann2013.html",
+    "href": "abstracts/Lohmann2013.html",
+    "title": "15",
+    "section": "",
+    "text": "Title\nCompliance by Design for Artifact-Centric Business Processes (Lohmann (2013))",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Lohmann2013</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Lohmann2013.html#abstract",
+    "href": "abstracts/Lohmann2013.html#abstract",
+    "title": "15",
+    "section": "Abstract",
+    "text": "Abstract\nCompliance to legal regulations, internal policies, or best practices is becoming a more and more important aspect in business processes management. Compliance requirements are usually formulated in a set of rules that can be checked during or after the execution of the business process, called compliance by detection. If noncompliant behavior is detected, the business process needs to be redesigned. Alternatively, the rules can be already taken into account while modeling the business process to result in a business process that is compliant by design. This technique has the advantage that a subsequent verification of compliance is not required.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Lohmann2013</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Lohmann2013.html#keywords",
+    "href": "abstracts/Lohmann2013.html#keywords",
+    "title": "15",
+    "section": "Keywords",
+    "text": "Keywords\nArtifact-centric business processes, Compliance by design, Compliance management, Process synthesis",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Lohmann2013</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Lohmann2013.html#reference",
+    "href": "abstracts/Lohmann2013.html#reference",
+    "title": "15",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nLohmann, Niels. 2013. “Compliance by Design for Artifact-Centric Business Processes.” Information Systems 38 (4): 606–18. https://doi.org/10.1016/j.is.2012.07.003.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Lohmann2013</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Loreti2018.html",
+    "href": "abstracts/Loreti2018.html",
+    "title": "16",
+    "section": "",
+    "text": "Title\nA Distributed Approach to Compliance Monitoring of Business Process Event Streams (Loreti et al. (2018))",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Loreti2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Loreti2018.html#abstract",
+    "href": "abstracts/Loreti2018.html#abstract",
+    "title": "16",
+    "section": "Abstract",
+    "text": "Abstract\nIn recent years, the significant advantages brought to business processes by process mining account for its evolution as a major concern in both industrial and academic research. In particular, increasing attention has been turned to compliance monitoring as a way to identify when a sequence of events deviates from the expected behaviour. As we are entering the IoT era, an increasing variety of smart objects can be introduced in business processes (e.g., tags to track products in a plant, smartphones and badge swiping to draw the activities of customers and employees in a shopping centre, etc.). All these objects produce large volumes of log data in the form of streams, which need to be run-time analysed to extract further knowledge about the underlying business process and to identify unexpected, non-conforming events. Albeit rather straightforward on a small log file, compliance verification techniques may show poor performances when dealing with big data and streams, thus calling for scalable approaches. This work investigates the possibility of spreading the compliance monitoring task over a network of computing nodes, achieving the desired scalability. The monitor is realised through the existing SCIFF framework for compliance checking, which provides a high level logic-based language for expressing the properties to be monitored and nicely supports the partitioning of the monitoring task. The distributed computation is achieved through a MapReduce approach and the adoption of an existing general engine for large scale stream processing. Experimental results show the feasibility of the approach as well as the advantages in performance brought to the compliance monitoring task.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Loreti2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Loreti2018.html#keywords",
+    "href": "abstracts/Loreti2018.html#keywords",
+    "title": "16",
+    "section": "Keywords",
+    "text": "Keywords\nBusiness process management, Distributed compliance monitoring, MapReduce, Stream processing",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Loreti2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Loreti2018.html#reference",
+    "href": "abstracts/Loreti2018.html#reference",
+    "title": "16",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nLoreti, Daniela, Federico Chesani, Anna Ciampolini, and Paola Mello. 2018. “A Distributed Approach to Compliance Monitoring of Business Process Event Streams.” Future Generation Computer Systems 82 (May): 104–18. https://doi.org/10.1016/j.future.2017.12.043.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Loreti2018</span>"
     ]
   },
   {
     "objectID": "abstracts/Mendling2018.html",
     "href": "abstracts/Mendling2018.html",
-    "title": "",
+    "title": "17",
     "section": "",
-    "text": "Blockchains for Business Process Management-Challenges and Opportunities (Mendling et al. (2018))\nBlockchain technology promises a sizable potential for executing inter-organizational business processes without requiring a central party serving as a single point of trust (and failure). This paper analyzes its impact on business process management (BPM). We structure the discussion using two BPM frameworks, namely the six BPM core capabilities and the BPM lifecycle. This paper provides research directions for investigating the application of blockchain technology to BPM.\nKeywords: Top100\n\n\n\n\nMendling, Jan, Ingo Weber, Wil Van Der Aalst, Jan Vom Brocke, Cristina Cabanillas, Florian Daniel, Søren Debois, Claudio Di Ciccio, Marlon Dumas, and Schahram Dustdar. 2018. “Blockchains for Business Process Management-Challenges and Opportunities.” ACM Transactions on Management Information Systems (TMIS) 9 (1): 1–16.",
+    "text": "Title\nBlockchains for Business Process Management-Challenges and Opportunities (Mendling et al. (2018))",
     "crumbs": [
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Mendling2018</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Mendling2018</span>"
     ]
   },
   {
-    "objectID": "abstracts/Ramezani2013.html",
-    "href": "abstracts/Ramezani2013.html",
-    "title": "",
-    "section": "",
-    "text": "Supporting Domain Experts to Select and Configure Precise Compliance Rules (Ramezani, Fahland, and van der Aalst (2013))\nCompliance specifications concisely describe selected aspects of what a business operation should adhere to. To enable automated techniques for compliance checking, it is important that these requirements are specified correctly and precisely, describing exactly the behavior intended. Although there are rigorous mathematical formalisms for representing compliance rules, these are often perceived to be difficult to use for business users. Regardless of notation, however, there are often subtle but important details in compliance requirements that need to be considered. The main challenge in compliance checking is to bridge the gap between informal description and a precise specification of all requirements. In this paper, we present an approach which aims to facilitate creating and understanding formal compliance requirements by providing configurable templates that capture these details as options for commonly-required compliance requirements. These options are configured interactively with end-users, using question trees and natural language. The approach is implemented in the Process Mining Toolkit ProM.\nKeywords: auditing, compliance checking, compliance specification, configurable compliance rules, question tree\n\n\n\n\nRamezani, Elham, Dirk Fahland, and Wil M. P. van der Aalst. 2013. “Supporting Domain Experts to Select and Configure Precise Compliance Rules.” In Business Process Management Workshops - BPM 2013 International Workshops, Beijing, China, August 26, 2013, Revised Papers, edited by Niels Lohmann, Minseok Song, and Petia Wohed, 171:498–512. Lecture Notes in Business Information Processing. Springer. https://doi.org/10.1007/978-3-319-06257-0\\_39.",
+    "objectID": "abstracts/Mendling2018.html#abstract",
+    "href": "abstracts/Mendling2018.html#abstract",
+    "title": "17",
+    "section": "Abstract",
+    "text": "Abstract\nBlockchain technology promises a sizable potential for executing inter-organizational business processes without requiring a central party serving as a single point of trust (and failure). This paper analyzes its impact on business process management (BPM). We structure the discussion using two BPM frameworks, namely the six BPM core capabilities and the BPM lifecycle. This paper provides research directions for investigating the application of blockchain technology to BPM.",
     "crumbs": [
-      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Ramezani2013</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Mendling2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Mendling2018.html#keywords",
+    "href": "abstracts/Mendling2018.html#keywords",
+    "title": "17",
+    "section": "Keywords",
+    "text": "Keywords\nBlockchain, Business Process Management, Research Challenges",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Mendling2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Mendling2018.html#reference",
+    "href": "abstracts/Mendling2018.html#reference",
+    "title": "17",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nMendling, Jan, Ingo Weber, Wil Van Der Aalst, Jan Vom Brocke, Cristina Cabanillas, Florian Daniel, Søren Debois, Claudio Di Ciccio, Marlon Dumas, and Schahram Dustdar. 2018. “Blockchains for Business Process Management-Challenges and Opportunities.” ACM Transactions on Management Information Systems (TMIS) 9 (1): 1–16.",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Mendling2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Ramezani2011.html",
+    "href": "abstracts/Ramezani2011.html",
+    "title": "18",
+    "section": "",
+    "text": "Title\nSeparating Compliance Management and Business Process Management (Ramezani et al. (2011))",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Ramezani2011</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Ramezani2011.html#abstract",
+    "href": "abstracts/Ramezani2011.html#abstract",
+    "title": "18",
+    "section": "Abstract",
+    "text": "Abstract\nNo abstract available",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Ramezani2011</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Ramezani2011.html#keywords",
+    "href": "abstracts/Ramezani2011.html#keywords",
+    "title": "18",
+    "section": "Keywords",
+    "text": "Keywords\nTop100",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Ramezani2011</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Ramezani2011.html#reference",
+    "href": "abstracts/Ramezani2011.html#reference",
+    "title": "18",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nRamezani, Elham, Dirk Fahland, Jan Martijn van der Werf, and Peter Mattheis. 2011. “Separating Compliance Management and Business Process Management.” In International Conference on Business Process Management, 459–64. Springer.",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Ramezani2011</span>"
     ]
   },
   {
     "objectID": "abstracts/Raucci2020.html",
     "href": "abstracts/Raucci2020.html",
-    "title": "",
+    "title": "19",
     "section": "",
-    "text": "BPM Perspectives to Support ICSs: Exploiting the Integration of Formal Verifications into Investment Service Provision Processes (Raucci et al. (2020))\nPurpose This paper investigates the criteria for a selective integration, in the multidisciplinary business process management (BPM) areas, between information technologies tools and the company’s internal control systems (ICSs) aimed at directing organizational behaviours. Adopting a process-based perspective, the authors propose a formal methodology to increase ICSs aims, related to the segregation of duties (SoDs) models, efficiently and effectively. Design/methodology/approach The authors examine the applicability of formal verifications to validate a banking process of providing investment services, which is mapped through the workflow management system. To mitigate the state explosion problem of formal methods, the authors propose an efficient methodology that has been proved on the SoDs models in the bank ICSs, as a case study. Findings The authors’ investigations suggest that in the BPM domain, the banking ICSs aims can benefit from the aforesaid methodologies, originating from the formal methods area, to increase the reliability and correctness in the design, modelling and implementation of the SoDs models. Originality/value The proposed methodology is quite general and can be efficiently applied to large-scale systems in different business contexts or areas of the BPM. Its application to the bank’s SoD prevents or detects significant weaknesses, operational risks, excessive risk appetite and other undesirable behaviours in the investment services provision processes. This guarantees that the investment ordered/offered is ``suitable and appropriate’’ with the client’s risk profile, especially non-professional, required by the MiFID II Directive.\nKeywords: Banking Processes, Business Process Management, Formal Methods, Internal Control Systems, Investment Services, Segregation of Duties\n\n\n\n\nRaucci, Domenico, Antonella Santone, Francesco Mercaldo, and Tomasz Dyczkowski. 2020. “BPM Perspectives to Support ICSs: Exploiting the Integration of Formal Verifications into Investment Service Provision Processes.” Industrial Management & Data Systems 120 (7): 1383–1400. https://doi.org/10.1108/IMDS-11-2019-0593.",
+    "text": "Title\nBPM Perspectives to Support ICSs: Exploiting the Integration of Formal Verifications into Investment Service Provision Processes (Raucci et al. (2020))",
     "crumbs": [
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Raucci2020</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Raucci2020</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Raucci2020.html#abstract",
+    "href": "abstracts/Raucci2020.html#abstract",
+    "title": "19",
+    "section": "Abstract",
+    "text": "Abstract\nPurpose This paper investigates the criteria for a selective integration, in the multidisciplinary business process management (BPM) areas, between information technologies tools and the company’s internal control systems (ICSs) aimed at directing organizational behaviours. Adopting a process-based perspective, the authors propose a formal methodology to increase ICSs aims, related to the segregation of duties (SoDs) models, efficiently and effectively. Design/methodology/approach The authors examine the applicability of formal verifications to validate a banking process of providing investment services, which is mapped through the workflow management system. To mitigate the state explosion problem of formal methods, the authors propose an efficient methodology that has been proved on the SoDs models in the bank ICSs, as a case study. Findings The authors’ investigations suggest that in the BPM domain, the banking ICSs aims can benefit from the aforesaid methodologies, originating from the formal methods area, to increase the reliability and correctness in the design, modelling and implementation of the SoDs models. Originality/value The proposed methodology is quite general and can be efficiently applied to large-scale systems in different business contexts or areas of the BPM. Its application to the bank’s SoD prevents or detects significant weaknesses, operational risks, excessive risk appetite and other undesirable behaviours in the investment services provision processes. This guarantees that the investment ordered/offered is ``suitable and appropriate’’ with the client’s risk profile, especially non-professional, required by the MiFID II Directive.",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Raucci2020</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Raucci2020.html#keywords",
+    "href": "abstracts/Raucci2020.html#keywords",
+    "title": "19",
+    "section": "Keywords",
+    "text": "Keywords\nBanking Processes, Business Process Management, Formal Methods, Internal Control Systems, Investment Services, Segregation of Duties",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Raucci2020</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Raucci2020.html#reference",
+    "href": "abstracts/Raucci2020.html#reference",
+    "title": "19",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nRaucci, Domenico, Antonella Santone, Francesco Mercaldo, and Tomasz Dyczkowski. 2020. “BPM Perspectives to Support ICSs: Exploiting the Integration of Formal Verifications into Investment Service Provision Processes.” Industrial Management & Data Systems 120 (7): 1383–1400. https://doi.org/10.1108/IMDS-11-2019-0593.",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Raucci2020</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Sackmann2018.html",
+    "href": "abstracts/Sackmann2018.html",
+    "title": "5",
+    "section": "",
+    "text": "Title\nUsing Business Process Compliance Approaches for Compliance Management with Regard to Digitization: Evidence from a Systematic Literature Review (Sackmann, Kühnel, and Seyffarth (2018))",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Sackmann2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Sackmann2018.html#abstract",
+    "href": "abstracts/Sackmann2018.html#abstract",
+    "title": "5",
+    "section": "Abstract",
+    "text": "Abstract\nBusiness Process Compliance (BPC) means ensuring that business processes are in accordance with relevant compliance requirements. Thus, BPC is an essential part of both business process management (BPM) and compliance management (CM). Digitization has also been referred to as a ``digital revolution’’ that describes a technological change that has extended to many organi- zational areas and tasks, including compliance. Current efforts to digitize, e.g., by realizing cyber-physical systems, rely on the automation and interoperability of systems. In order for CM not to hamper these efforts, it becomes an increasingly relevant issue to digitize compliance as well. The managerial perspective of compliance comprises several phases, which together represent a CM life-cycle. Efforts to digitize compliance require bundling interoperable BPC technologies, methods, and tools supporting this life-cycle in a consolidated manner. Several approaches addressing the field of BPC have already been developed and explored. Based on a systematic literature review, we examined these approaches in terms of their suitability for supporting the CM life-cycle phases in support of the digitization of compliance. The results of our literature review show which CM life-cycle phases are supported by BPC approaches and which phases are the focus of research. Moreover, the results show that a purely sequential clustering, as specified in a CM life-cycle, is not always suitable for the bundling of BPC approaches in support of the digitization of compliance. Consequently, we propose a novel, task-oriented clustering of BPC approaches that is particularly oriented toward interoperability.",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Sackmann2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Sackmann2018.html#keywords",
+    "href": "abstracts/Sackmann2018.html#keywords",
+    "title": "5",
+    "section": "Keywords",
+    "text": "Keywords\nBusiness process compliance, Compliance management life-cycle, Digitization",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Sackmann2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Sackmann2018.html#reference",
+    "href": "abstracts/Sackmann2018.html#reference",
+    "title": "5",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nSackmann, Stefan, Stephan Kühnel, and Tobias Seyffarth. 2018. “Using Business Process Compliance Approaches for Compliance Management with Regard to Digitization: Evidence from a Systematic Literature Review.” In Business Process Management - 16th International Conference, BPM 2018, Sydney, NSW, Australia, September 9-14, 2018, Proceedings, edited by Mathias Weske, Marco Montali, Ingo Weber, and Jan vom Brocke, 11080:409–25. Lecture Notes in Computer Science. Springer. https://doi.org/10.1007/978-3-319-98648-7\\_24.",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Sackmann2018</span>"
     ]
   },
   {
     "objectID": "abstracts/Vanderaalst2018.html",
     "href": "abstracts/Vanderaalst2018.html",
-    "title": "",
+    "title": "21",
     "section": "",
-    "text": "Spreadsheets for Business Process Management: Using Process Mining to Deal with Events'' Rather thanNumbers’’? (Van Der Aalst (2018))\nPurpose – Process mining provides a generic collection of techniques to turn event data into valuable insights, improvement ideas, predictions, and recommendations. This paper uses spreadsheets as a metaphor to introduce process mining as an essential tool for data scientists and business analysts. The purpose of this paper is to illustrate that process mining can do with events what spreadsheets can do with numbers.\nKeywords: No keywords available\n\n\n\n\nVan Der Aalst, Wil. 2018. “Spreadsheets for Business Process Management: Using Process Mining to Deal with ‘Events’ Rather Than ‘Numbers’?” BPMJ 24 (1): 105–27. https://doi.org/10.1108/BPMJ-10-2016-0190.",
+    "text": "Title\nSpreadsheets for Business Process Management: Using Process Mining to Deal with Events'' Rather thanNumbers’’? (Van Der Aalst (2018))",
     "crumbs": [
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Vanderaalst2018</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Vanderaalst2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Vanderaalst2018.html#abstract",
+    "href": "abstracts/Vanderaalst2018.html#abstract",
+    "title": "21",
+    "section": "Abstract",
+    "text": "Abstract\nPurpose – Process mining provides a generic collection of techniques to turn event data into valuable insights, improvement ideas, predictions, and recommendations. This paper uses spreadsheets as a metaphor to introduce process mining as an essential tool for data scientists and business analysts. The purpose of this paper is to illustrate that process mining can do with events what spreadsheets can do with numbers.",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Vanderaalst2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Vanderaalst2018.html#keywords",
+    "href": "abstracts/Vanderaalst2018.html#keywords",
+    "title": "21",
+    "section": "Keywords",
+    "text": "Keywords\nBusiness Process Management, Data Science, Process Mining, Spreadsheets",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Vanderaalst2018</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Vanderaalst2018.html#reference",
+    "href": "abstracts/Vanderaalst2018.html#reference",
+    "title": "21",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nVan Der Aalst, Wil. 2018. “Spreadsheets for Business Process Management: Using Process Mining to Deal with ‘Events’ Rather Than ‘Numbers’?” BPMJ 24 (1): 105–27. https://doi.org/10.1108/BPMJ-10-2016-0190.",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Vanderaalst2018</span>"
     ]
   },
   {
     "objectID": "abstracts/Vanderfeesten2011.html",
     "href": "abstracts/Vanderfeesten2011.html",
-    "title": "",
+    "title": "22",
     "section": "",
-    "text": "Product-Based Workflow Support (Vanderfeesten, Reijers, and Van Der Aalst (2011))\nDespite the industrial need for the improvement of information-intensive business processes, few scientifically grounded approaches exist to support such initiatives. In this paper, we propose a new approach that builds on concepts that are part of a product-oriented view on process optimization. Essentially, this approach allows end users to flexibly decide on the best possible way to create an informational product within the limits that are imposed by regulations and logical dependencies. We argue that this provides various benefits in comparison to earlier work. To support the end user in making sensible decisions, we describe two alternative approaches to provide her with recommendations to this end. We formalize these alternatives and discuss their relative strengths and weaknesses. The feasibility of the overall approach, which we refer to as Product-Based Workflow Support, is demonstrated by a workflow system realized using ProM and DECLARE.\nKeywords: Business Process Modelling, Product Data Model, Workflow Management\n\n\n\n\nVanderfeesten, Irene, Hajo A. Reijers, and Wil M. P. Van Der Aalst. 2011. “Product-Based Workflow Support.” Information Systems 36 (2): 517–35. https://doi.org/10.1016/j.is.2010.09.008.",
+    "text": "Title\nProduct-Based Workflow Support (Vanderfeesten, Reijers, and Van Der Aalst (2011))",
     "crumbs": [
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Vanderfeesten2011</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Vanderfeesten2011</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Vanderfeesten2011.html#abstract",
+    "href": "abstracts/Vanderfeesten2011.html#abstract",
+    "title": "22",
+    "section": "Abstract",
+    "text": "Abstract\nDespite the industrial need for the improvement of information-intensive business processes, few scientifically grounded approaches exist to support such initiatives. In this paper, we propose a new approach that builds on concepts that are part of a product-oriented view on process optimization. Essentially, this approach allows end users to flexibly decide on the best possible way to create an informational product within the limits that are imposed by regulations and logical dependencies. We argue that this provides various benefits in comparison to earlier work. To support the end user in making sensible decisions, we describe two alternative approaches to provide her with recommendations to this end. We formalize these alternatives and discuss their relative strengths and weaknesses. The feasibility of the overall approach, which we refer to as Product-Based Workflow Support, is demonstrated by a workflow system realized using ProM and DECLARE.",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Vanderfeesten2011</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Vanderfeesten2011.html#keywords",
+    "href": "abstracts/Vanderfeesten2011.html#keywords",
+    "title": "22",
+    "section": "Keywords",
+    "text": "Keywords\nBusiness Process Modelling, Product Data Model, Workflow Management",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Vanderfeesten2011</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Vanderfeesten2011.html#reference",
+    "href": "abstracts/Vanderfeesten2011.html#reference",
+    "title": "22",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nVanderfeesten, Irene, Hajo A. Reijers, and Wil M. P. Van Der Aalst. 2011. “Product-Based Workflow Support.” Information Systems 36 (2): 517–35. https://doi.org/10.1016/j.is.2010.09.008.",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Vanderfeesten2011</span>"
     ]
   },
   {
     "objectID": "abstracts/Viriyasitavat2020.html",
     "href": "abstracts/Viriyasitavat2020.html",
-    "title": "",
+    "title": "24",
     "section": "",
-    "text": "Blockchain-Based Business Process Management (BPM) Framework for Service Composition in Industry 4.0 (Viriyasitavat (2020))\nBusiness process management (BPM) aims to optimize business processes to achieve better system performance such as higher profit, quicker response, and better services. BPM systems in Industry 4.0 are required to digitize and automate business process workflows and support the transparent interoperations of service vendors. The critical bottleneck to advance BPM systems is the evaluation, verification, and transformation of trustworthiness and digitized assets. Most of BPM systems rely heavily on domain experts or third parties to deal with trustworthiness. In this paper, an automated BPM solution is investigated to select and compose services in open business environment, Blockchain technology (BCT) is explored and proposed to transfer and verify the trustiness of businesses and partners, and a BPM framework is developed to illustrate how BCT can be integrated to support prompt, reliable, and cost-effective evaluation and transferring of Quality of Services in the workflow composition and management.\nKeywords: Block-chain technology (BCT), Business process management (BPM), Industry 4.0, Internet of Things (IoT), Quality of Service (QoS), Service selection and composition, Smart contracts, Trustworthiness\n\n\n\n\nViriyasitavat, Wattana. 2020. “Blockchain-Based Business Process Management (BPM) Framework for Service Composition in Industry 4.0.” Journal of Intelligent Manufacturing.",
+    "text": "Title\nBlockchain-Based Business Process Management (BPM) Framework for Service Composition in Industry 4.0 (Viriyasitavat (2020))",
     "crumbs": [
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Viriyasitavat2020</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Viriyasitavat2020</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Viriyasitavat2020.html#abstract",
+    "href": "abstracts/Viriyasitavat2020.html#abstract",
+    "title": "24",
+    "section": "Abstract",
+    "text": "Abstract\nBusiness process management (BPM) aims to optimize business processes to achieve better system performance such as higher profit, quicker response, and better services. BPM systems in Industry 4.0 are required to digitize and automate business process workflows and support the transparent interoperations of service vendors. The critical bottleneck to advance BPM systems is the evaluation, verification, and transformation of trustworthiness and digitized assets. Most of BPM systems rely heavily on domain experts or third parties to deal with trustworthiness. In this paper, an automated BPM solution is investigated to select and compose services in open business environment, Blockchain technology (BCT) is explored and proposed to transfer and verify the trustiness of businesses and partners, and a BPM framework is developed to illustrate how BCT can be integrated to support prompt, reliable, and cost-effective evaluation and transferring of Quality of Services in the workflow composition and management.",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Viriyasitavat2020</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Viriyasitavat2020.html#keywords",
+    "href": "abstracts/Viriyasitavat2020.html#keywords",
+    "title": "24",
+    "section": "Keywords",
+    "text": "Keywords\nBlock-chain technology (BCT), Business process management (BPM), Industry 4.0, Internet of Things (IoT), Quality of Service (QoS), Service selection and composition, Smart contracts, Trustworthiness",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Viriyasitavat2020</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Viriyasitavat2020.html#reference",
+    "href": "abstracts/Viriyasitavat2020.html#reference",
+    "title": "24",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nViriyasitavat, Wattana. 2020. “Blockchain-Based Business Process Management (BPM) Framework for Service Composition in Industry 4.0.” Journal of Intelligent Manufacturing.",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Viriyasitavat2020</span>"
     ]
   },
   {
     "objectID": "abstracts/Viriyasitavat2023.html",
     "href": "abstracts/Viriyasitavat2023.html",
-    "title": "",
+    "title": "23",
     "section": "",
-    "text": "Blockchain-as-a-Service for Business Process Management: Survey and Challenges (Viriyasitavat et al. (2023))\nBlockchain technology (BCT) has brought a paradigm shift to Business Process Management (BPM). BCT provides a trusted decentralized infrastructure to secure data and process executions using distributed ledgers and smart contract to manage complex business processes. Numerous efforts have been made to exploit BCT in supporting dynamic and trusted collaborations of business processes. This paper aims to understand recent BCT development for its BPM applications and identify the limitations and challenges for further development via a systematic literature review (SLR). It is found that numerous works have reported using BCT as technical solutions to fulfill some traditional BPM functions. This paper is distinguished from existing works, especially several relevant surveys in the sense that (1) the impact of using BCT in BPM is thoroughly explored to identify new constraints and challenges explicitly brought by blockchains; (2) the requirements for Business Process Compliance (BPC) are firstly analyzed in detail. Note that BPC is to assure the adherence of business processes to pre-defined policies, standards, specifications, regulations, and laws when business processes are executed. To fill the gaps of BCT applications in these two aspects, Blockchain-as-aService (BCaaS) is adopted in business process architecture, and the trends of BCT developments are identified accordingly.\nKeywords: No keywords available\n\n\n\n\nViriyasitavat, Wattana, Li Da Xu, Gaurav Dhiman, and Zhuming Bi. 2023. “Blockchain-as-a-Service for Business Process Management: Survey and Challenges.” IEEE Trans. Serv. Comput. 16 (3): 2299–2314. https://doi.org/10.1109/TSC.2022.3199232.",
+    "text": "Title\nBlockchain-as-a-Service for Business Process Management: Survey and Challenges (Viriyasitavat et al. (2023))",
     "crumbs": [
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Viriyasitavat2023</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Viriyasitavat2023</span>"
     ]
   },
   {
-    "objectID": "abstracts/Vo2021.html",
-    "href": "abstracts/Vo2021.html",
-    "title": "",
-    "section": "",
-    "text": "Recognizing and Splitting Conditional Sentences for Automation of Business Processes Management (Vo et al. (2021))\nBusiness Process Management (BPM) is the discipline which is responsible for management of discovering, analyzing, redesigning, monitoring, and controlling business processes. One of the most crucial tasks of BPM is discovering and modelling business processes from text documents. In this paper, we present our system that resolves an end-to-end problem consisting of 1) recognizing conditional sentences from technical documents, 2) finding boundaries to extract conditional and resultant clauses from each conditional sentence, and 3) categorizing resultant clause as Action or Consequence which later helps to generate new steps in our business process model automatically. We created a new dataset and three models solve this problem. Our best model achieved very promising results of 83.82, 87.84, and 85.75 for Precision, Recall, and F1, respectively, for extracting Condition, Action, and Consequence clauses using Exact Match metric.\nKeywords: Computer Science - Computation and Language\n\n\n\n\nVo, Ngoc Phuoc An, Irene Manotas, Octavian Popescu, Algimantas Cerniauskas, and Vadim Sheinin. 2021. “Recognizing and Splitting Conditional Sentences for Automation of Business Processes Management.” arXiv. https://arxiv.org/abs/2104.00660.",
+    "objectID": "abstracts/Viriyasitavat2023.html#abstract",
+    "href": "abstracts/Viriyasitavat2023.html#abstract",
+    "title": "23",
+    "section": "Abstract",
+    "text": "Abstract\nBlockchain technology (BCT) has brought a paradigm shift to Business Process Management (BPM). BCT provides a trusted decentralized infrastructure to secure data and process executions using distributed ledgers and smart contract to manage complex business processes. Numerous efforts have been made to exploit BCT in supporting dynamic and trusted collaborations of business processes. This paper aims to understand recent BCT development for its BPM applications and identify the limitations and challenges for further development via a systematic literature review (SLR). It is found that numerous works have reported using BCT as technical solutions to fulfill some traditional BPM functions. This paper is distinguished from existing works, especially several relevant surveys in the sense that (1) the impact of using BCT in BPM is thoroughly explored to identify new constraints and challenges explicitly brought by blockchains; (2) the requirements for Business Process Compliance (BPC) are firstly analyzed in detail. Note that BPC is to assure the adherence of business processes to pre-defined policies, standards, specifications, regulations, and laws when business processes are executed. To fill the gaps of BCT applications in these two aspects, Blockchain-as-aService (BCaaS) is adopted in business process architecture, and the trends of BCT developments are identified accordingly.",
     "crumbs": [
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Vo2021</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Viriyasitavat2023</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Viriyasitavat2023.html#keywords",
+    "href": "abstracts/Viriyasitavat2023.html#keywords",
+    "title": "23",
+    "section": "Keywords",
+    "text": "Keywords\nBlockchain Technology, Blockchain-as-a-services, Business Process Compliance, Business Process Management, Business Processes, Smart Contracts, Systematic Literature Review",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Viriyasitavat2023</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Viriyasitavat2023.html#reference",
+    "href": "abstracts/Viriyasitavat2023.html#reference",
+    "title": "23",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nViriyasitavat, Wattana, Li Da Xu, Gaurav Dhiman, and Zhuming Bi. 2023. “Blockchain-as-a-Service for Business Process Management: Survey and Challenges.” IEEE Trans. Serv. Comput. 16 (3): 2299–2314. https://doi.org/10.1109/TSC.2022.3199232.",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Viriyasitavat2023</span>"
     ]
   },
   {
     "objectID": "abstracts/Zasada2023.html",
     "href": "abstracts/Zasada2023.html",
-    "title": "",
+    "title": "25",
     "section": "",
-    "text": "Evaluation of Compliance Rule Languages for Modelling Regulatory Compliance Requirements (Zasada et al. (2023))\nCompliance in business processes has become a fundamental requirement given the constant rise in regulatory requirements and competitive pressures that have emerged in recent decades. While in other areas of business process modelling and execution, considerable progress towards automation has been made (e.g., process discovery, executable process models), the interpretation and implementation of compliance requirements is still a highly complex task requiring human effort and time. To increase the level of ``mechanization’’ when implementing regulations in business processes, compliance research seeks to formalize compliance requirements. Formal representations of compliance requirements should, then, be leveraged to design correct process models and, ideally, would also serve for the automated detection of violations. To formally specify compliance requirements, however, multiple process perspectives, such as control flow, data, time and resources, have to be considered. This leads to the challenge of representing such complex constraints which affect different process perspectives. To this end, current approaches in business process compliance make use of a varied set of languages. However, every approach has been devised based on different assumptions and motivating scenarios. In addition, these languages and their presentation usually abstract from real-world requirements which often would imply introducing a substantial amount of domain knowledge and interpretation, thus hampering the evaluation of their expressiveness. This is a serious problem, since comparisons of different formal languages based on real-world compliance requirements are lacking, meaning that users of such languages are not able to make informed decisions about which language to choose. To close this gap and to establish a uniform evaluation basis, we introduce a running example for evaluating the expressiveness and complexity of compliance rule languages. For language selection, we conducted a literature review. Next, we briefly introduce and demonstrate the languages’ grammars and vocabularies based on the representation of a number of legal requirements. In doing so, we pay attention to semantic subtleties which we evaluate by adopting a normative classification framework which differentiates between different deontic assignments. Finally, on top of that, we apply Halstead’s well-known metrics for calculating the relevant characteristics of the different languages in our comparison, such as the volume, difficulty and effort for each language. With this, we are finally able to better understand the lexical complexity of the languages in relation to their expressiveness. In sum, we provide a systematic comparison of different compliance rule languages based on real-world compliance requirements which may inform future users and developers of these languages. Finally, we advocate for a more user-aware development of compliance languages which should consider a trade off between expressiveness, complexity and usability.\nKeywords: business processes, compliance rules modelling, conceptual modelling, expressiveness, language complexity, regulatory compliance\n\n\n\n\nZasada, Andrea, Mustafa Hashmi, Michael Fellmann, and David Knuplesch. 2023. “Evaluation of Compliance Rule Languages for Modelling Regulatory Compliance Requirements.” Software 2 (1): 71–120. https://doi.org/10.3390/software2010004.",
+    "text": "Title\nEvaluation of Compliance Rule Languages for Modelling Regulatory Compliance Requirements (Zasada et al. (2023))",
     "crumbs": [
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Zasada2023</span>"
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Zasada2023</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Zasada2023.html#abstract",
+    "href": "abstracts/Zasada2023.html#abstract",
+    "title": "25",
+    "section": "Abstract",
+    "text": "Abstract\nCompliance in business processes has become a fundamental requirement given the constant rise in regulatory requirements and competitive pressures that have emerged in recent decades. While in other areas of business process modelling and execution, considerable progress towards automation has been made (e.g., process discovery, executable process models), the interpretation and implementation of compliance requirements is still a highly complex task requiring human effort and time. To increase the level of ``mechanization’’ when implementing regulations in business processes, compliance research seeks to formalize compliance requirements. Formal representations of compliance requirements should, then, be leveraged to design correct process models and, ideally, would also serve for the automated detection of violations. To formally specify compliance requirements, however, multiple process perspectives, such as control flow, data, time and resources, have to be considered. This leads to the challenge of representing such complex constraints which affect different process perspectives. To this end, current approaches in business process compliance make use of a varied set of languages. However, every approach has been devised based on different assumptions and motivating scenarios. In addition, these languages and their presentation usually abstract from real-world requirements which often would imply introducing a substantial amount of domain knowledge and interpretation, thus hampering the evaluation of their expressiveness. This is a serious problem, since comparisons of different formal languages based on real-world compliance requirements are lacking, meaning that users of such languages are not able to make informed decisions about which language to choose. To close this gap and to establish a uniform evaluation basis, we introduce a running example for evaluating the expressiveness and complexity of compliance rule languages. For language selection, we conducted a literature review. Next, we briefly introduce and demonstrate the languages’ grammars and vocabularies based on the representation of a number of legal requirements. In doing so, we pay attention to semantic subtleties which we evaluate by adopting a normative classification framework which differentiates between different deontic assignments. Finally, on top of that, we apply Halstead’s well-known metrics for calculating the relevant characteristics of the different languages in our comparison, such as the volume, difficulty and effort for each language. With this, we are finally able to better understand the lexical complexity of the languages in relation to their expressiveness. In sum, we provide a systematic comparison of different compliance rule languages based on real-world compliance requirements which may inform future users and developers of these languages. Finally, we advocate for a more user-aware development of compliance languages which should consider a trade off between expressiveness, complexity and usability.",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Zasada2023</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Zasada2023.html#keywords",
+    "href": "abstracts/Zasada2023.html#keywords",
+    "title": "25",
+    "section": "Keywords",
+    "text": "Keywords\nbusiness processes, compliance rules modelling, conceptual modelling, expressiveness, language complexity, regulatory compliance",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Zasada2023</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Zasada2023.html#reference",
+    "href": "abstracts/Zasada2023.html#reference",
+    "title": "25",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nZasada, Andrea, Mustafa Hashmi, Michael Fellmann, and David Knuplesch. 2023. “Evaluation of Compliance Rule Languages for Modelling Regulatory Compliance Requirements.” Software 2 (1): 71–120. https://doi.org/10.3390/software2010004.",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Zasada2023</span>"
     ]
   },
   {
     "objectID": "abstracts/Vanderaa2017.html",
     "href": "abstracts/Vanderaa2017.html",
-    "title": "",
+    "title": "20",
     "section": "",
-    "text": "Comparing Textual Descriptions to Process Models – The Automatic Detection of Inconsistencies (van der Aa, Leopold, and Reijers (2017))\nMany organizations maintain textual process descriptions alongside graphical process models. The purpose is to make process information accessible to various stakeholders, including those who are not familiar with reading and interpreting the complex execution logic of process models. Despite this merit, there is a clear risk that model and text become misaligned when changes are not applied to both descriptions consistently. For organizations with hundreds of different processes, the effort required to identify and clear up such conflicts is considerable. To support organizations in keeping their process descriptions consistent, we present an approach to automatically identify inconsistencies between a process model and a corresponding textual description. Our approach detects cases where the two process representations describe activities in different orders and detect process model activities not contained in the textual description. A quantitative evaluation with 53 real-life model-text pairs demonstrates that our approach accurately identifies inconsistencies between model and text.\nKeywords: Business process management, Business process modeling, Compliance checking, Inconsistency detection, Matching, Natural language processing\n\n\n\n\nvan der Aa, Han, Henrik Leopold, and Hajo A. Reijers. 2017. “Comparing Textual Descriptions to Process Models – The Automatic Detection of Inconsistencies.” Information Systems 64 (March): 447–60. https://doi.org/10.1016/j.is.2016.07.010.",
+    "text": "Title\nComparing Textual Descriptions to Process Models – The Automatic Detection of Inconsistencies (van der Aa, Leopold, and Reijers (2017))",
     "crumbs": [
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Vanderaa2017</span>"
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Vanderaa2017</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Vanderaa2017.html#abstract",
+    "href": "abstracts/Vanderaa2017.html#abstract",
+    "title": "20",
+    "section": "Abstract",
+    "text": "Abstract\nMany organizations maintain textual process descriptions alongside graphical process models. The purpose is to make process information accessible to various stakeholders, including those who are not familiar with reading and interpreting the complex execution logic of process models. Despite this merit, there is a clear risk that model and text become misaligned when changes are not applied to both descriptions consistently. For organizations with hundreds of different processes, the effort required to identify and clear up such conflicts is considerable. To support organizations in keeping their process descriptions consistent, we present an approach to automatically identify inconsistencies between a process model and a corresponding textual description. Our approach detects cases where the two process representations describe activities in different orders and detect process model activities not contained in the textual description. A quantitative evaluation with 53 real-life model-text pairs demonstrates that our approach accurately identifies inconsistencies between model and text.",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Vanderaa2017</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Vanderaa2017.html#keywords",
+    "href": "abstracts/Vanderaa2017.html#keywords",
+    "title": "20",
+    "section": "Keywords",
+    "text": "Keywords\nBusiness process management, Business process modeling, Compliance checking, Inconsistency detection, Matching, Natural language processing",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Vanderaa2017</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Vanderaa2017.html#reference",
+    "href": "abstracts/Vanderaa2017.html#reference",
+    "title": "20",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nvan der Aa, Han, Henrik Leopold, and Hajo A. Reijers. 2017. “Comparing Textual Descriptions to Process Models – The Automatic Detection of Inconsistencies.” Information Systems 64 (March): 447–60. https://doi.org/10.1016/j.is.2016.07.010.",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Vanderaa2017</span>"
     ]
   },
   {
