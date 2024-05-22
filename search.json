@@ -1,12 +1,52 @@
 [
   {
+    "objectID": "abstracts/Aa2017.html",
+    "href": "abstracts/Aa2017.html",
+    "title": "19",
+    "section": "",
+    "text": "Title\nComparing Textual Descriptions to Process Models – The Automatic Detection of Inconsistencies (van der Aa, Leopold, and Reijers (2017))",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Aa2017</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Aa2017.html#abstract",
+    "href": "abstracts/Aa2017.html#abstract",
+    "title": "19",
+    "section": "Abstract",
+    "text": "Abstract\nMany organizations maintain textual process descriptions alongside graphical process models. The purpose is to make process information accessible to various stakeholders, including those who are not familiar with reading and interpreting the complex execution logic of process models. Despite this merit, there is a clear risk that model and text become misaligned when changes are not applied to both descriptions consistently. For organizations with hundreds of different processes, the effort required to identify and clear up such conflicts is considerable. To support organizations in keeping their process descriptions consistent, we present an approach to automatically identify inconsistencies between a process model and a corresponding textual description. Our approach detects cases where the two process representations describe activities in different orders and detect process model activities not contained in the textual description. A quantitative evaluation with 53 real-life model-text pairs demonstrates that our approach accurately identifies inconsistencies between model and text.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Aa2017</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Aa2017.html#keywords",
+    "href": "abstracts/Aa2017.html#keywords",
+    "title": "19",
+    "section": "Keywords",
+    "text": "Keywords\nBusiness process management, Business process modeling, Compliance checking, Inconsistency detection, Matching, Natural language processing",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Aa2017</span>"
+    ]
+  },
+  {
+    "objectID": "abstracts/Aa2017.html#reference",
+    "href": "abstracts/Aa2017.html#reference",
+    "title": "19",
+    "section": "Reference",
+    "text": "Reference\n\n\n\n\nAa, Han van der, Henrik Leopold, and Hajo A. Reijers. 2017. “Comparing Textual Descriptions to Process Models – The Automatic Detection of Inconsistencies.” Information Systems 64 (March): 447–60. https://doi.org/10.1016/j.is.2016.07.010.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Aa2017</span>"
+    ]
+  },
+  {
     "objectID": "abstracts/Amantea2022.html",
     "href": "abstracts/Amantea2022.html",
     "title": "1",
     "section": "",
     "text": "Title\nBusiness Process Modelling in Healthcare and Compliance Management: A Logical Framework (Amantea et al. (2022))",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Amantea2022</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Amantea2022</span>"
     ]
   },
   {
@@ -16,7 +56,7 @@
     "section": "Abstract",
     "text": "Abstract\nThis work describes a methodological approach to investigate Compliance Management in healthcare based on a BPM perspective, exploring an application in an innovative hospital service. Firstly, we present a business process analysis by modeling the process with the adoption of a standard language. Secondly, we encode a set of rules in LegalRuleML, an XML formalism designed to be a standard for representing the semantic and logical content of legal documents. The rules represent some provisions of the General Data Protection Regulation (GDPR) that are involved in the health process analyzed. Moreover, in order to perform the regulatory compliance check automatically, we converted the set of rules into Defeasible Deontic Logic format (DDL), readable by the Regorous compliance checker developed at CSIRO. Overall, the paper shows a methodology to automate regulatory compliance checking of a real hospital process with actual regulations and norms. The codes in the LegalRuleML and DDL formats used in the work are available online.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Amantea2022</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Amantea2022</span>"
     ]
   },
   {
@@ -26,7 +66,7 @@
     "section": "Keywords",
     "text": "Keywords\nNo keywords available",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Amantea2022</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Amantea2022</span>"
     ]
   },
   {
@@ -36,7 +76,7 @@
     "section": "Reference",
     "text": "Reference\n\n\n\n\nAmantea, Ilaria Angela, Livio Robaldo, Emilio Sulis, Guido Governatori, and Guido Boella. 2022. “Business Process Modelling in Healthcare and Compliance Management: A Logical Framework.” FLAP 9 (4): 1131–54. https://collegepublications.co.uk/ifcolog/?00056.",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Amantea2022</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Amantea2022</span>"
     ]
   },
   {
@@ -46,7 +86,7 @@
     "section": "",
     "text": "Title\nToward Agile Business Process Management: Description of Concepts and a Proposed Definition (Bernardo Junior and De Padua (2023))",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Bernardojunior2023</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bernardojunior2023</span>"
     ]
   },
   {
@@ -56,7 +96,7 @@
     "section": "Abstract",
     "text": "Abstract\nBusiness Process Management (BPM) needs to be adjusted quickly and flexibly to cope with the dynamics of the business environment, so the demand for the incorporation of agility has reached BPM. To contribute to the theoretical consolidation of Agile BPM, it is necessary to develop a conceptualization for the term, that is, to describe the essential attributes for its understanding. Communicating the meaning of the concept in reduced words occurs through the definition, so the main objective of this study is to develop a scientific definition for Agile BPM. This study was performed in three phases. First, a systematic literature review was conducted to investigate how the scientific literature has addressed Agile BPM. Next, a deductive analysis was performed to conceptualize Agile BPM. In the third phase, a consultation with experts was conducted to refine the conceptual view and critique a tentative definition, preceded by judges’ analysis to consolidate the definition. As a result, the concept of Agile BPM was elaborated, and based on the reduction of this conceptualization, a scientific definition was presented which describes that Agile BPM is “the promotion of BPM in which practitioners stimulate change quickly and flexibly in order to meet organizational demands with compliance and provide a better customer experience”. There is a pioneering spirit in the present study regarding the deliberate conceptualization of Agile BPM, which provides the basis for discussion of the topic, and helps scientific dissemination through a definition, contributing to the development of a theory of Agile BPM.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Bernardojunior2023</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bernardojunior2023</span>"
     ]
   },
   {
@@ -66,7 +106,7 @@
     "section": "Keywords",
     "text": "Keywords\nAgility, bpm governance, Business And Economics–Management, Business process management, challenges, Communication, critical success factors, Customer satisfaction, implementation capabilities, intuition, knowledge systems, Literature reviews, operations strategy, organization, Systematic review",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Bernardojunior2023</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bernardojunior2023</span>"
     ]
   },
   {
@@ -76,7 +116,7 @@
     "section": "Reference",
     "text": "Reference\n\n\n\n\nBernardo Junior, Ronaldo, and Silvia Ines Dallavalle De Padua. 2023. “Toward Agile Business Process Management: Description of Concepts and a Proposed Definition.” Knowl Process Manag 30 (1): 14–32. https://doi.org/10.1002/kpm.1737.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Bernardojunior2023</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bernardojunior2023</span>"
     ]
   },
   {
@@ -86,7 +126,7 @@
     "section": "",
     "text": "Title\nBusiness Process Reengineering of Emergency Management Procedures: A Case Study (Bevilacqua, Ciarapica, and Paciarotti (2012))",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bevilacqua2012</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bevilacqua2012</span>"
     ]
   },
   {
@@ -96,7 +136,7 @@
     "section": "Abstract",
     "text": "Abstract\nThe production and storage of dangerous substances in an industrial establishment creates risks for man, environment and properties in the surrounding area. Safety regulations require the establishment of a preventive information campaign regarding industrial risks and self-defence measures to adopt in an emergency situation. In the case of a major accident, people must be promptly made aware of the appropriate self-defence actions and behaviours to adopt. This strategic activity can reduce the panic effect, make citizens more cooperative and guarantee the effectiveness of any emergency plan. In this paper, the information chain is studied as an industrial process modelled by the IDEF0 language. Through this method, each link in the chain has been deeply analysed. For each function of the process, the inputs, outputs and necessary controls and resources have been identified. Starting from a clear view of the current state, the process of re-engineering has been implemented to minimise or eliminate downtime, deficiencies and illnesses and, thus, consequent time losses. The main contribution of the IDEF0 application in emergency management is to provide a clear view of the whole system, a communication system between emergency actors, a rich information source and a structured base for the re-engineering process.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bevilacqua2012</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bevilacqua2012</span>"
     ]
   },
   {
@@ -106,7 +146,7 @@
     "section": "Keywords",
     "text": "Keywords\nEmergency management, IDEF0, Information supply, Information system, Public, Risk information, Safety management",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bevilacqua2012</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bevilacqua2012</span>"
     ]
   },
   {
@@ -116,7 +156,7 @@
     "section": "Reference",
     "text": "Reference\n\n\n\n\nBevilacqua, M., F. E. Ciarapica, and C. Paciarotti. 2012. “Business Process Reengineering of Emergency Management Procedures: A Case Study.” Safety Science 50 (5): 1368–76. https://doi.org/10.1016/j.ssci.2012.01.002.",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Bevilacqua2012</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Bevilacqua2012</span>"
     ]
   },
   {
@@ -126,7 +166,7 @@
     "section": "",
     "text": "Title\nRegelSpraak: A CNL for Executable Tax Rules Specification (Corsius et al. (2021))",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Corsius2021</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Corsius2021</span>"
     ]
   },
   {
@@ -136,7 +176,7 @@
     "section": "Abstract",
     "text": "Abstract\nRegelSpraak is a CNL developed at the Dutch Tax Administration (DTA) over the last decade. Keeping up with frequently changing tax rules poses a formidable challenge to the DTA IT department. RegelSpraak is a central asset in ongoing efforts of the DTA to attune their tax IT systems to automatic execution of tax law. RegelSpraak now is part of the operational process of rule specification and execution. In this practice-oriented paper, we present the history of RegelSpraak, its properties and the context of its use, emphasizing its double functionality as a language readable by non-technical tax experts but also directly interpretable in a software generating setup.",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Corsius2021</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Corsius2021</span>"
     ]
   },
   {
@@ -146,7 +186,7 @@
     "section": "Keywords",
     "text": "Keywords\nCNL",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Corsius2021</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Corsius2021</span>"
     ]
   },
   {
@@ -156,7 +196,7 @@
     "section": "Reference",
     "text": "Reference\n\n\n\n\nCorsius, Mischa, Stijn Hoppenbrouwers, Mariette Lokin, Elian Baars, Gertrude Sangers-Van Cappellen, and Ilona Wilmont. 2021. “RegelSpraak: A CNL for Executable Tax Rules Specification.” In Proceedings of the Seventh International Workshop on Controlled Natural Language (CNL 2020/21).",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Corsius2021</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Corsius2021</span>"
     ]
   },
   {
@@ -166,7 +206,7 @@
     "section": "",
     "text": "Title\nBusiness Process Compliance Management: An Integrated Proactive Approach (Elgammal et al. (2014))",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Elgammal2014</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Elgammal2014</span>"
     ]
   },
   {
@@ -176,7 +216,7 @@
     "section": "Abstract",
     "text": "Abstract\nToday’s enterprises demand a high degree of compliance of business processes to meet regulations, such as Sarbanes-Oxley and Basel I-III. To ensure continuous guaranteed compliance, compliance management should be considered during all phases of the business process lifecycle; from the analysis and design to deployment, monitoring and evaluation. This paper introduces an integrated business process compliance management framework that incorporates design-time verification and runtime monitoring approaches. The nutshell of the approach is the Compliance Request Language (CRL), which is a high-level pattern-based language for the abstract specification of compliance requirements. From CRL expressions, formal compliance rules can be automatically generated, thereby eliminating the need for business and compliance experts to learn and use complex low-level formal languages. Formalized compliance rules enable automated approaches to be used for the static verification and dynamic monitoring of business processes. An integrated prototypical tool-suite is developed as a proof-of-concept to help validating the applicability of the approaches, and validated by experiment with two real-life case studies.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Elgammal2014</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Elgammal2014</span>"
     ]
   },
   {
@@ -186,7 +226,7 @@
     "section": "Keywords",
     "text": "Keywords\nCompliance Patterns, Design-time Compliance Management, Regulatory Compliance, Runtime Compliance Monitoring",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Elgammal2014</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Elgammal2014</span>"
     ]
   },
   {
@@ -196,7 +236,7 @@
     "section": "Reference",
     "text": "Reference\n\n\n\n\nElgammal, A, S Sebahi, O Turetken, MS Hacid, MP Papazoglou, and WJ van den Heuvel. 2014. “Business Process Compliance Management: An Integrated Proactive Approach.” In, edited by KS Soliman, 764–81.",
     "crumbs": [
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Elgammal2014</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Elgammal2014</span>"
     ]
   },
   {
@@ -206,7 +246,7 @@
     "section": "",
     "text": "Title\nThe Influence of Directive Explanations on Users’ Business Process Compliance Performance (Hadasch, Maedche, and Gregor (2016))",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Hadasch2016</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hadasch2016</span>"
     ]
   },
   {
@@ -216,7 +256,7 @@
     "section": "Abstract",
     "text": "Abstract\nPurpose – In organizations, individual user’s compliance with business processes is important from a regulatory and efficiency point of view. The restriction of users’ choices by implementing a restrictive information system is a typical approach in many organizations. However, restrictions and mandated compliance may affect employees’ performance negatively. Especially when users need a certain degree of flexibility in completing their work activity. The purpose of this paper is to introduce the concept of directive explanations (DEs). DEs provide context-dependent feedback to users, but do not force users to comply.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Hadasch2016</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hadasch2016</span>"
     ]
   },
   {
@@ -226,7 +266,7 @@
     "section": "Keywords",
     "text": "Keywords\nBusiness Process Compliance, Explanations, Organizational Processes, Process, User-system cooperation",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Hadasch2016</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hadasch2016</span>"
     ]
   },
   {
@@ -236,7 +276,7 @@
     "section": "Reference",
     "text": "Reference\n\n\n\n\nHadasch, Frank, Alexander Maedche, and Shirley Gregor. 2016. “The Influence of Directive Explanations on Users’ Business Process Compliance Performance.” Business Process Management Journal 22 (3): 458–83. https://doi.org/10.1108/BPMJ-05-2015-0067.",
     "crumbs": [
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Hadasch2016</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hadasch2016</span>"
     ]
   },
   {
@@ -246,7 +286,7 @@
     "section": "",
     "text": "Title\nNorms Modeling Constructs of Business Process Compliance Management Frameworks: A Conceptual Evaluation (Hashmi and Governatori (2017))",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hashmi2017</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Hashmi2017</span>"
     ]
   },
   {
@@ -256,7 +296,7 @@
     "section": "Abstract",
     "text": "Abstract\nThe effectiveness of a compliance management framework (CMF) can be guaranteed only if the framework is based on sound conceptual and formal foundations. In particular, the formal language used in the CMF is able to expressively represent the specifications of normative requirements (hereafter, norms) that impose constraints on various activities of a business process. However, if the language used lacks expressiveness and the modelling constructs proposed in the CMF are not able to properly represent different types of norms, it can significantly impede the reliability of the compliance results produced by the CMF. This paper investigates whether existing CMFs are able to provide reasoning and modeling support for various types of normative requirements by evaluating the conceptual foundations of the modeling constructs that existing CMFs use to represent a specific type of norm. The evaluation results portray somewhat a bleak picture of the state-of-the-affairs when it comes to represent norms as none of the existing CMFs is able to provide a comprehensive reasoning and modeling support. Also, it points to the shortcomings of the CMFs and emphasises exigent need of new modeling languages with sound theoretical and formal foundations for representing legal norms.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hashmi2017</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Hashmi2017</span>"
     ]
   },
   {
@@ -266,7 +306,7 @@
     "section": "Keywords",
     "text": "Keywords\nBusiness Processes, Compliance, Compliance Management Frameworks, Modelling Constructs, Modelling Languages, Norms",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hashmi2017</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Hashmi2017</span>"
     ]
   },
   {
@@ -276,87 +316,47 @@
     "section": "Reference",
     "text": "Reference\n\n\n\n\nHashmi, Mustafa, and Guido Governatori. 2017. “Norms Modeling Constructs of Business Process Compliance Management Frameworks: A Conceptual Evaluation.” Artificial Intelligence and Law 26 (September): 251–305. https://doi.org/10.1007/s10506-017-9215-8.",
     "crumbs": [
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Hashmi2017</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Hashmi2017</span>"
     ]
   },
   {
     "objectID": "abstracts/Hashmi2018.html",
     "href": "abstracts/Hashmi2018.html",
-    "title": "10",
+    "title": "11",
     "section": "",
-    "text": "Title\nAre We Done with Business Process Compliance: State of the Art and Challenges Ahead (Hashmi et al. (2018))",
+    "text": "Title\nLegal Compliance Through Design: Preliminary Results of a Literature Survey (Hashmi, Casanovas, and de Koker (2018))",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Hashmi2018</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Hashmi2018</span>"
     ]
   },
   {
     "objectID": "abstracts/Hashmi2018.html#abstract",
     "href": "abstracts/Hashmi2018.html#abstract",
-    "title": "10",
+    "title": "11",
     "section": "Abstract",
-    "text": "Abstract\nLiterature on business process compliance (BPC) has predominantly focused on the alignment of the regulatory rules with the design, verification and validation of business processes. Previously surveys on BPC have been conducted with specific context in mind; however, the literature on BPC management research is largely sparse and does not accumulate a detailed understanding on existing literature and related issues faced by the domain. This survey provides a holistic view of the literature on existing BPC management approaches, and categories them based on different compliance management strategies in the context of formulated research questions. A systematic literature approach is used where search terms pertaining keywords were used to identify literature related to the research questions from scholarly databases. From initially 183 papers, we selected 79 papers related to the themes of this survey published between 2000–2015. The survey results reveal that mostly compliance management approaches center around three distinct categories namely: design-time (28%), run-time (32%) and auditing (10%). Also, organisational and internal control based compliance management frameworks (21%) and hybrid approaches make (9%) of the surveyed approaches. Furthermore, open research challenges and gaps are identified and discussed with respect to the compliance problem.",
+    "text": "Abstract\nIn this paper we present the preliminary results of a literature survey conducted in the context of a larger research project on legal compliance by design (LCbD) and legal compliance through design (LCtD). Even though a rich set of approaches and frameworks are available, our analysis shows that there is less focus on legal compliance in general, and LCbD and LCtD in particular. The technical literature on compliance has been concentrated on specific aspects of the law, i.e. mainly on those related to corporate and administrative management (including those of law firms and government). Other legal dimensions such as public law, case law, constitutional, virtual ethics etc., have been put aside.",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Hashmi2018</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Hashmi2018</span>"
     ]
   },
   {
     "objectID": "abstracts/Hashmi2018.html#keywords",
     "href": "abstracts/Hashmi2018.html#keywords",
-    "title": "10",
+    "title": "11",
     "section": "Keywords",
-    "text": "Keywords\nBusiness process compliance, Business processes, Compliance Management Frameworks, Normative requirements, Norms compliance",
+    "text": "Keywords\nlaw and regulations, legal compliance by design, legal compliance through design, legal dimensions, literature review, regulatory compliance",
     "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Hashmi2018</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Hashmi2018</span>"
     ]
   },
   {
     "objectID": "abstracts/Hashmi2018.html#reference",
     "href": "abstracts/Hashmi2018.html#reference",
-    "title": "10",
-    "section": "Reference",
-    "text": "Reference\n\n\n\n\nHashmi, Mustafa, Guido Governatori, Ho-Pun Lam, and Moe Thandar Wynn. 2018. “Are We Done with Business Process Compliance: State of the Art and Challenges Ahead.” Knowl Inf Syst 57 (1): 79–133. https://doi.org/10.1007/s10115-017-1142-1.",
-    "crumbs": [
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Hashmi2018</span>"
-    ]
-  },
-  {
-    "objectID": "abstracts/Hashmiunknown Year.html",
-    "href": "abstracts/Hashmiunknown Year.html",
-    "title": "11",
-    "section": "",
-    "text": "Title\nLegal Compliance Through Design: Preliminary Results of a Literature Survey (Hashmi, Casanovas, and de Koker (n.d.))",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Hashmiunknown Year</span>"
-    ]
-  },
-  {
-    "objectID": "abstracts/Hashmiunknown Year.html#abstract",
-    "href": "abstracts/Hashmiunknown Year.html#abstract",
-    "title": "11",
-    "section": "Abstract",
-    "text": "Abstract\nIn this paper we present the preliminary results of a literature survey conducted in the context of a larger research project on legal compliance by design (LCbD) and legal compliance through design (LCtD). Even though a rich set of approaches and frameworks are available, our analysis shows that there is less focus on legal compliance in general, and LCbD and LCtD in particular. The technical literature on compliance has been concentrated on specific aspects of the law, i.e. mainly on those related to corporate and administrative management (including those of law firms and government). Other legal dimensions such as public law, case law, constitutional, virtual ethics etc., have been put aside.",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Hashmiunknown Year</span>"
-    ]
-  },
-  {
-    "objectID": "abstracts/Hashmiunknown Year.html#keywords",
-    "href": "abstracts/Hashmiunknown Year.html#keywords",
-    "title": "11",
-    "section": "Keywords",
-    "text": "Keywords\nlaw and regulations, legal compliance by design, legal compliance through design, legal dimensions, literature review, regulatory compliance",
-    "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Hashmiunknown Year</span>"
-    ]
-  },
-  {
-    "objectID": "abstracts/Hashmiunknown Year.html#reference",
-    "href": "abstracts/Hashmiunknown Year.html#reference",
     "title": "11",
     "section": "Reference",
-    "text": "Reference\n\n\n\n\nHashmi, Mustafa, Pompeu Casanovas, and Louis de Koker. n.d. “Legal Compliance Through Design: Preliminary Results of a Literature Survey.”",
+    "text": "Reference\n\n\n\n\nHashmi, Mustafa, Pompeu Casanovas, and Louis de Koker. 2018. “Legal Compliance Through Design: Preliminary Results of a Literature Survey.” In Technologies for Regulatory Compliance. Groningen. CEUR-WS.org/Vol-2309/06.pdf.",
     "crumbs": [
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Hashmiunknown Year</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Hashmi2018</span>"
     ]
   },
   {
@@ -920,51 +920,11 @@
     ]
   },
   {
-    "objectID": "abstracts/Family=Aa2017.html",
-    "href": "abstracts/Family=Aa2017.html",
-    "title": "19",
-    "section": "",
-    "text": "Title\nComparing Textual Descriptions to Process Models – The Automatic Detection of Inconsistencies (van der Aa, Leopold, and Reijers (2017))",
-    "crumbs": [
-      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Family=Aa2017</span>"
-    ]
-  },
-  {
-    "objectID": "abstracts/Family=Aa2017.html#abstract",
-    "href": "abstracts/Family=Aa2017.html#abstract",
-    "title": "19",
-    "section": "Abstract",
-    "text": "Abstract\nMany organizations maintain textual process descriptions alongside graphical process models. The purpose is to make process information accessible to various stakeholders, including those who are not familiar with reading and interpreting the complex execution logic of process models. Despite this merit, there is a clear risk that model and text become misaligned when changes are not applied to both descriptions consistently. For organizations with hundreds of different processes, the effort required to identify and clear up such conflicts is considerable. To support organizations in keeping their process descriptions consistent, we present an approach to automatically identify inconsistencies between a process model and a corresponding textual description. Our approach detects cases where the two process representations describe activities in different orders and detect process model activities not contained in the textual description. A quantitative evaluation with 53 real-life model-text pairs demonstrates that our approach accurately identifies inconsistencies between model and text.",
-    "crumbs": [
-      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Family=Aa2017</span>"
-    ]
-  },
-  {
-    "objectID": "abstracts/Family=Aa2017.html#keywords",
-    "href": "abstracts/Family=Aa2017.html#keywords",
-    "title": "19",
-    "section": "Keywords",
-    "text": "Keywords\nBusiness process management, Business process modeling, Compliance checking, Inconsistency detection, Matching, Natural language processing",
-    "crumbs": [
-      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Family=Aa2017</span>"
-    ]
-  },
-  {
-    "objectID": "abstracts/Family=Aa2017.html#reference",
-    "href": "abstracts/Family=Aa2017.html#reference",
-    "title": "19",
-    "section": "Reference",
-    "text": "Reference\n\n\n\n\nAa, Han van der, Henrik Leopold, and Hajo A. Reijers. 2017. “Comparing Textual Descriptions to Process Models – The Automatic Detection of Inconsistencies.” Information Systems 64 (March): 447–60. https://doi.org/10.1016/j.is.2016.07.010.",
-    "crumbs": [
-      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Family=Aa2017</span>"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Untitled",
     "section": "",
-    "text": "Document Control\n\n\n\nStatus\nVersion\nDate\nChanges from previous version\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDraft\n0.1\n16 May 2024\nSplit corpus for rendering to html",
+    "text": "Document Control\n\n\n\n\n\n\n\n\n\nStatus\nVersion\nDate\nChanges from previous version\n\n\n\n\n\n\n\n\n\n\nDraft\n0.2\n22 May 2024\nChanged zotero export from bittex to biblatex\n\n\nDraft\n0.1\n16 May 2024\nSplit corpus for rendering to html",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Untitled</span>"
     ]
