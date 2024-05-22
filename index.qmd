@@ -8,7 +8,7 @@ format: html
 |Status | Version | Date       | Changes from previous version     |
 |-------|---------|------------|-----------------------------------|
 |       |         |            |                                   |
-|       |         |            |                                   |
+|Draft  | 0.2     | 22 May 2024|Changed zotero export from bittex to biblatex |
 |Draft  | 0.1     | 16 May 2024|Split corpus for rendering to html |
 
 ::: {.content-visible when-format="pdf"}

@@ -25,9 +25,18 @@ def extract_bibtex_info(bibfile):
     citekey = entry.get('ID')
     author_field = entry.get('author', "No author available")
     main_author = author_field.split(' and ')[0]
-    last_name = main_author.split(',')[0] if ', ' in main_author else main_author
-    last_name = last_name.replace(' ','')
-    year = entry.get('year', ' Unknown year')
+    if 'family=' in main_author:
+        last_name = main_author.split('family=')[1].split(',')[0]
+    else:
+        last_name = main_author.split(',')[0] if ', ' in main_author else main_author    
+    last_name = last_name.replace(' ','').replace('}', '').replace('{', '')
+    year = entry.get('year')  # Try 'year' field first
+    if not year:
+        date_field = entry.get('date')
+        if date_field:
+            year = date_field.split('-')[0]  # Extract the year part from the date string
+    if not year:
+        year = 'Unknown year'
     title = entry.get('title', "No title available")
     abstract = entry.get('abstract', "No abstract available")
     keywords = entry.get('keywords', "No keywords available")
