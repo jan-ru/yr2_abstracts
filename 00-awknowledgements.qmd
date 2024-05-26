@@ -2,3 +2,7 @@
 title: "Untitled"
 ---
 
+There are a lot of people working with quatro and working on improving quarto. My primary reference is the excellent quarto documentation. Yet, some concepts only make sense having seen them applied in practice. I have taken inspiration from:
+
+- Forbo7 / Salman Naqvi for the use of the metadata-files option in the format:html section. Indeed breaking up _quarto.yml is a good idea.
+- nasa openscape is where I copied the navbar code from to distinguish About, SLR, Abstracts and Script.
