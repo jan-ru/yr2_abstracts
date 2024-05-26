@@ -2,6 +2,10 @@ project:
   type: website
   output-dir: docs
 
+header-includes:
+  - \usepackage{soul}
+latex-clean: true
+
 books:
   - book:
     downloads: [pdf]

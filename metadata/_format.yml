@@ -2,7 +2,9 @@ format:
   pdf:
     papersize: a4
     documentclass: scrreprt
-    toc: true
+    toc: false
     toc-depth: 1
+    tof: false
+    tot: false
   html:
     number-sections: false

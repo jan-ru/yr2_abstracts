@@ -87,7 +87,7 @@ for entry in bib_database.entries:
     file_name = last_name + year
     file_path = os.path.join(directory, file_name + extension)
     with open(file_path, 'w', encoding='utf-8') as file:
-        file.write(f"# {sequence}\n\n**Title**\n\n{title} (@{citekey})\n\n**Abstract**\n\n{abstract}\n\n**Keywords**\n\n{formatted_keywords}\n\n**Reference**")
+        file.write(f"# {citekey}\n\n**Title**\n\n{title} (@{citekey})\n\n**Abstract**\n\n{abstract}\n\n**Keywords**\n\n{formatted_keywords}\n")
     display(Markdown(f"{title} (@{citekey})\n\n## Abstract\n\n{abstract}\n\n## Keywords\n\n{formatted_keywords}\n\\newpage"))
 
 display(Markdown(f"***Number of selected bibtex entries {sequence}.***"))

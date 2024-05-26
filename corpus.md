@@ -1,4 +1,4 @@
-# 7
+# elgammal2014BusinessProcessCompliance
 
 **Title**
 
@@ -12,9 +12,8 @@ Today's enterprises demand a high degree of compliance of business processes to 
 
 Compliance Patterns, Design-time Compliance Management, Regulatory Compliance, Runtime Compliance Monitoring
 
-**Reference**
 
-# 13
+# kir2021KnowledgeintensiveAdaptiveBusiness
 
 **Title**
 
@@ -28,9 +27,8 @@ Business process management has been the driving force of optimization and opera
 
 Agent-based business process management, Agile business process management, Business process management, Knowledge-intensive processes, Process adaptation, Process modeling and execution
 
-**Reference**
 
-# 12
+# holzmuller-laue2014ImprovedComplianceBPMDriven
 
 **Title**
 
@@ -44,9 +42,8 @@ Using methods and technologies of business process management (BPM) for the labo
 
 BPMN, end-to-end workflow, laboratory automation, model-based application development, systems integration
 
-**Reference**
 
-# 14
+# lohmann2013ComplianceDesignArtifactcentric
 
 **Title**
 
@@ -60,9 +57,8 @@ Compliance to legal regulations, internal policies, or best practices is becomin
 
 Artifact-centric business processes, Compliance by design, Compliance management, Process synthesis
 
-**Reference**
 
-# 3
+# bevilacqua2012BusinessProcessReengineering
 
 **Title**
 
@@ -76,9 +72,8 @@ The production and storage of dangerous substances in an industrial establishmen
 
 Emergency management, IDEF0, Information supply, Information system, Public, Risk information, Safety management
 
-**Reference**
 
-# 16
+# mendling2018BlockchainsBusinessProcess
 
 **Title**
 
@@ -92,9 +87,8 @@ Blockchain technology promises a sizable potential for executing inter-organizat
 
 Blockchain, Business Process Management, Research Challenges
 
-**Reference**
 
-# 15
+# loreti2018DistributedApproachCompliance
 
 **Title**
 
@@ -108,9 +102,8 @@ In recent years, the significant advantages brought to business processes by pro
 
 Business process management, Distributed compliance monitoring, MapReduce, Stream processing
 
-**Reference**
 
-# 4
+# corsius2021RegelSpraakCNLExecutable
 
 **Title**
 
@@ -124,9 +117,8 @@ RegelSpraak is a CNL developed at the Dutch Tax Administration (DTA) over the la
 
 CNL
 
-**Reference**
 
-# 1
+# amantea2022BusinessProcessModelling
 
 **Title**
 
@@ -140,9 +132,8 @@ This work describes a methodological approach to investigate Compliance Manageme
 
 No keywords available
 
-**Reference**
 
-# 8
+# hadasch2016InfluenceDirectiveExplanations
 
 **Title**
 
@@ -156,9 +147,8 @@ Purpose – In organizations, individual user’s compliance with business proce
 
 Business Process Compliance, Explanations, Organizational Processes, Process, User-system cooperation
 
-**Reference**
 
-# 22
+# viriyasitavat2020BlockchainbasedBusinessProcess
 
 **Title**
 
@@ -172,9 +162,8 @@ Business process management (BPM) aims to optimize business processes to achieve
 
 Block-chain technology (BCT), Business process management (BPM), Industry 4.0, Internet of Things (IoT), Quality of Service (QoS), Service selection and composition, Smart contracts, Trustworthiness
 
-**Reference**
 
-# 20
+# vanderaalst2018SpreadsheetsBusinessProcess
 
 **Title**
 
@@ -188,9 +177,8 @@ Purpose – Process mining provides a generic collection of techniques to turn e
 
 Business Process Management, Data Science, Process Mining, Spreadsheets
 
-**Reference**
 
-# 23
+# viriyasitavat2023BlockchainasaServiceBusinessProcess
 
 **Title**
 
@@ -204,9 +192,8 @@ Blockchain technology (BCT) has brought a paradigm shift to Business Process Man
 
 Blockchain Technology, Blockchain-as-a-services, Business Process Compliance, Business Process Management, Business Processes, Smart Contracts, Systematic Literature Review
 
-**Reference**
 
-# 21
+# vanderfeesten2011ProductbasedWorkflowSupport
 
 **Title**
 
@@ -220,9 +207,8 @@ Despite the industrial need for the improvement of information-intensive busines
 
 Business Process Modelling, Product Data Model, Workflow Management
 
-**Reference**
 
-# 19
+# vanderaa2017ComparingTextualDescriptions
 
 **Title**
 
@@ -236,9 +222,8 @@ Many organizations maintain textual process descriptions alongside graphical pro
 
 Business process management, Business process modeling, Compliance checking, Inconsistency detection, Matching, Natural language processing
 
-**Reference**
 
-# 9
+# hashmi2017norms
 
 **Title**
 
@@ -252,9 +237,8 @@ The effectiveness of a compliance management framework (CMF) can be guaranteed o
 
 Business Processes, Compliance, Compliance Management Frameworks, Modelling Constructs, Modelling Languages, Norms
 
-**Reference**
 
-# 18
+# raucci2020BPMPerspectivesSupport
 
 **Title**
 
@@ -268,9 +252,8 @@ Purpose This paper investigates the criteria for a selective integration, in the
 
 Banking Processes, Business Process Management, Formal Methods, Internal Control Systems, Investment Services, Segregation of Duties
 
-**Reference**
 
-# 11
+# hashmi2018LegalComplianceDesign
 
 **Title**
 
@@ -284,9 +267,8 @@ In this paper we present the preliminary results of a literature survey conducte
 
 law and regulations, legal compliance by design, legal compliance through design, legal dimensions, literature review, regulatory compliance
 
-**Reference**
 
-# 5
+# DBLP:conf/bpm/SackmannKS18
 
 **Title**
 
@@ -300,9 +282,8 @@ Business Process Compliance (BPC) means  ensuring that business processes are in
 
 Business process compliance, Compliance management life-cycle, Digitization
 
-**Reference**
 
-# 6
+# DBLP:journals/rigaacs/KoncevicsPGDBA17
 
 **Title**
 
@@ -316,9 +297,8 @@ The paper presents results of the comparative analysis of business process model
 
 Business process compliance, compliance management, compliance management tools, open source business process modelling tools
 
-**Reference**
 
-# 17
+# ramezani2011SeparatingComplianceManagement
 
 **Title**
 
@@ -332,9 +312,8 @@ No abstract available
 
 Top100
 
-**Reference**
 
-# 24
+# zasada2023EvaluationComplianceRule
 
 **Title**
 
@@ -348,9 +327,8 @@ Compliance in business processes has become a fundamental requirement given the 
 
 business processes, compliance rules modelling, conceptual modelling, expressiveness, language complexity, regulatory compliance
 
-**Reference**
 
-# 2
+# bernardojunior2023AgileBusinessProcess
 
 **Title**
 
@@ -363,5 +341,3 @@ Business Process Management (BPM) needs to be adjusted quickly and flexibly to c
 **Keywords**
 
 Agility, bpm governance, Business And Economics--Management, Business process management, challenges, Communication, critical success factors, Customer satisfaction, implementation capabilities, intuition, knowledge systems, Literature reviews, operations strategy, organization, Systematic review
-
-**Reference**
