@@ -1,4 +1,4 @@
-# 2
+# bernardojunior2023AgileBusinessProcess
 
 **Title**
 
@@ -11,5 +11,3 @@ Business Process Management (BPM) needs to be adjusted quickly and flexibly to c
 **Keywords**
 
 Agility, bpm governance, Business And Economics--Management, Business process management, challenges, Communication, critical success factors, Customer satisfaction, implementation capabilities, intuition, knowledge systems, Literature reviews, operations strategy, organization, Systematic review
-
-**Reference**

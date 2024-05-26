@@ -1,4 +1,4 @@
-# 20
+# vanderaalst2018SpreadsheetsBusinessProcess
 
 **Title**
 
@@ -11,5 +11,3 @@ Purpose – Process mining provides a generic collection of techniques to turn e
 **Keywords**
 
 Business Process Management, Data Science, Process Mining, Spreadsheets
-
-**Reference**
