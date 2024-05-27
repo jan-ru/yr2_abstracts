@@ -1,0 +1,3 @@
+[submodule "slr/yr2_slr"]
+	path = slr/yr2_slr
+	url = https://github.com/jan-ru/yr2_slr.git
