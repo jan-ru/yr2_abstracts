@@ -1,6 +1,6 @@
-# vanderaalst2018SpreadsheetsBusinessProcess
+# VanDerAalst2018
 
-**Title**
+***Title**
 
 Spreadsheets for Business Process Management: Using Process Mining to Deal with “Events” Rather than “Numbers”? (@vanderaalst2018SpreadsheetsBusinessProcess)
 
@@ -11,3 +11,9 @@ Purpose – Process mining provides a generic collection of techniques to turn e
 **Keywords**
 
 Business Process Management, Data Science, Process Mining, Spreadsheets
+
+::: {.content-visible when-format=""html""}
+
+**Reference**
+
+:::
