@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jan-ru.github.io/yr2_abstracts/slr/s2_slr_doc_1.html</loc>
-    <lastmod>2024-05-27T16:03:51.831Z</lastmod>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/s2_slr_publish_or_perish.html</loc>
+    <lastmod>2024-05-27T18:15:38.136Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/s2_slr_not_used.html</loc>
+    <lastmod>2024-05-27T18:15:38.135Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/s2_slr_doc_e_calculations.html</loc>
+    <lastmod>2024-05-27T18:15:38.134Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/s2_slr_doc_a_databases_searched.html</loc>
+    <lastmod>2024-05-27T18:15:38.133Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/s2_slr_doc_3.html</loc>
+    <lastmod>2024-05-27T18:15:38.132Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/s2_slr_doc_2.html</loc>
+    <lastmod>2024-05-27T18:15:38.132Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/tables/s2_tbl_platform_queries.html</loc>
+    <lastmod>2024-05-27T18:15:38.147Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/tables/s2_tbl_research_methods.html</loc>
+    <lastmod>2024-05-27T18:15:38.148Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/tables/s2_tbl_platforms.html</loc>
+    <lastmod>2024-05-27T18:15:38.148Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/s2_slr_doc_4.html</loc>
+    <lastmod>2024-05-27T18:15:38.132Z</lastmod>
   </url>
   <url>
     <loc>https://jan-ru.github.io/yr2_abstracts/00-preface.html</loc>
@@ -135,5 +171,37 @@
   <url>
     <loc>https://jan-ru.github.io/yr2_abstracts/page_02_abstracts.html</loc>
     <lastmod>2024-05-26T20:30:34.931Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/s2_slr_doc_d_literature_found.html</loc>
+    <lastmod>2024-05-27T18:15:38.134Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/s2_slr_doc_5.html</loc>
+    <lastmod>2024-05-27T18:15:38.133Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/tables/s2_tbl_ris_fields_per_source_bak.html</loc>
+    <lastmod>2024-05-27T18:15:38.148Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/tables/s2_tbl_query_results.html</loc>
+    <lastmod>2024-05-27T18:15:38.148Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/tables/flowchart_oceg.html</loc>
+    <lastmod>2024-05-27T18:15:38.147Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/s2_slr_paper_digest.html</loc>
+    <lastmod>2024-05-27T18:15:38.135Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/index.html</loc>
+    <lastmod>2024-05-27T18:15:38.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://jan-ru.github.io/yr2_abstracts/slr/yr2_slr/s2_slr_doc_b_basket_of_11.html</loc>
+    <lastmod>2024-05-27T18:15:38.133Z</lastmod>
   </url>
 </urlset>
