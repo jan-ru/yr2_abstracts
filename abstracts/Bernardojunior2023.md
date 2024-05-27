@@ -1,6 +1,6 @@
 # BernardoJunior2023
 
-***Title**
+**Title**
 
 Toward Agile Business Process Management: Description of Concepts and a Proposed Definition (@bernardojunior2023AgileBusinessProcess)
 
@@ -12,7 +12,7 @@ Business Process Management (BPM) needs to be adjusted quickly and flexibly to c
 
 Agility, bpm governance, Business And Economics--Management, Business process management, challenges, Communication, critical success factors, Customer satisfaction, implementation capabilities, intuition, knowledge systems, Literature reviews, operations strategy, organization, Systematic review
 
-::: {.content-visible when-format=""html""}
+::: {.content-visible when-format=""pdf""}
 
 **Reference**
 
