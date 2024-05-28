@@ -6,5 +6,9 @@ format:
     toc-depth: 1
     tof: false
     tot: false
+    latex-output-dir: output/abstracts
+    include-in-header:
+      text:
+        \usepackage{soul}
   html:
     number-sections: false

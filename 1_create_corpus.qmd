@@ -1,7 +1,4 @@
 ---
-title: "Selected Abstracts"
-format:
-    pdf
 bibliography: bib/MyLibrary.bib
 link-citations: true
 execute:
@@ -48,7 +45,6 @@ def insert_space_after_comma(keywords):
     return keywords_with_spaces
 
 def process_citekey(citekey):
-    # Check if the citekey contains a forward slash
     if '/' in citekey:
         # Extract the part of the string after the last forward slash
         citekey = citekey.split('/')[-1]
@@ -80,6 +76,10 @@ with open(bibfile, 'r', encoding='utf-8') as bibtex_file:
     bib_database = bibtexparser.load(bibtex_file, parser=parser)
 
 sequence = 0
+t = '**Title**'
+a = '**Abstract**'
+k = '**Keywords**'
+r = ''
 for entry in bib_database.entries:
     sequence += 1
     last_name, year, title, citekey, abstract, keywords = extract_bibtex_info(bibfile)
@@ -87,7 +87,7 @@ for entry in bib_database.entries:
     file_name = last_name + year
     file_path = os.path.join(directory, file_name + extension)
     with open(file_path, 'w', encoding='utf-8') as file:
-        file.write(f"# {citekey}\n\n**Title**\n\n{title} (@{citekey})\n\n**Abstract**\n\n{abstract}\n\n**Keywords**\n\n{formatted_keywords}\n")
+        file.write(f"# {file_name}\n\n{t}\n\n{title} (@{citekey})\n\n{a}\n\n{abstract}\n\n{k}\n\n{formatted_keywords}\n\n{r}")
     display(Markdown(f"{title} (@{citekey})\n\n## Abstract\n\n{abstract}\n\n## Keywords\n\n{formatted_keywords}\n\\newpage"))
 
 display(Markdown(f"***Number of selected bibtex entries {sequence}.***"))

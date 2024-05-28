@@ -9,10 +9,8 @@ website:
 #        - text: "Slides"
 #          href: about.qmd#slides          
     - text: "SLR"
-      href: page_slr.qmd
+      href: page_01_slr.qmd
     - text: "Abstracts"
-      href: index.html
-    - text: "Interviews"
       href: index.html
     - text: "Scripts"
       href: ./scripts/index.html
@@ -72,4 +70,3 @@ website:
         file: abstracts/Viriyasitavat2023.md
       - text: Zasada2023
         file: abstracts/Zasada2023.md
-    output-dir: docs
