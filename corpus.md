@@ -14,6 +14,22 @@ Compliance Patterns, Design-time Compliance Management, Regulatory Compliance, R
 
 
 
+# Zhou2012
+
+**Title**
+
+CPS Track Report: 2nd Track on Cyber Physical Society with SOA, BPM and Sensor Networks (@6269749)
+
+**Abstract**
+
+No abstract available
+
+**Keywords**
+
+/unread, Aerospace electronics, Business, Collaboration, Data models, Semantics, Service oriented architecture, Wireless sensor networks
+
+
+
 # Kir2021
 
 **Title**
@@ -27,6 +43,54 @@ Business process management has been the driving force of optimization and opera
 **Keywords**
 
 Agent-based business process management, Agile business process management, Business process management, Knowledge-intensive processes, Process adaptation, Process modeling and execution
+
+
+
+# Lohmann2019
+
+**Title**
+
+Regulatory Instability, Business Process Management Technology, and BPM Skill Configurations (@10.1007/978-3-030-26619-6_27)
+
+**Abstract**
+
+This paper investigates how firms configure their business process management efforts in different industries. We generate a business process management (BPM) skills taxonomy through the computational linguistic analysis of job ads from . We apply the taxonomy to resumes of professionals employed at retailer Walmart, pharmaceutical company Pfizer, and investment bank Goldman Sachs. We find that Walmart and Pfizer distribute change- and operations-related BPM skills among the same roles whereas Goldman Sachs distributes both kinds of skills among more separate roles. This separation reflects a trilateral configuration where line managers and analysts focus on operational BPM tasks related to running processes while change-related tasks are covered by project managers. At Walmart and Pfizer the tasks of the BPM project manager are shared among managers and analysts, reflecting a bilateral configuration. Comparing each firm’s regulatory environments and BPM technology capabilities, we conjecture that the organizational configuration pattern is influenced by a firm’s ability to reliably automate business processes, since this affects how much attention line managers and analysts have to spend on monitoring processes and on reconciling issues and exceptions. This attention could otherwise be spent on regulatory-imposed process change efforts. This configural logic suggests a reconfiguration of BPM professionals towards a bilateral configuration when an organization transforms its business with digital technology, because the focus of such efforts includes process and decision automation.
+
+**Keywords**
+
+/unread, BPM function, BPM professionals, BPM skills, BPM taxonomy
+
+
+
+# VanDerAalst2003
+
+**Title**
+
+Business Process Management: A Survey (@10.5555/1761141.1761143)
+
+**Abstract**
+
+Business Process Management (BPM) includes methods, techniques, and tools to support the design, enactment, management, and analysis of operational business processes. It can be considered as an extension of classical Workflow Management (WFM) systems and approaches. Although the practical relevance of BPM is undisputed, a clear definition of BPM and related acronyms such as BAM, BPA, and STP are missing. Moreover, a clear scientific foundation is missing. In this paper, we try to demystify the acronyms in this domain, describe the state-of-the-art technology, and argue that BPM could benefit from formal methods/languages (cf. Petri nets, process algebras, etc.).
+
+**Keywords**
+
+/unread, business process management, formal methods, workflow management
+
+
+
+# McDermid2003
+
+**Title**
+
+Integrated Business Process Management: Using State-Based Business Rules to Communicate between Disparate Stakeholders (@10.5555/1761141.1761148)
+
+**Abstract**
+
+We need to put more emphasis on managing the communication between different types of stakeholders and in particular we need to use diagrammatic constructs that support that communication process. This paper describes a state-based approach to capturing business rules that has been tested with different stakeholders in several business process applications. The examples provided in this paper show the benefits of using this notation as a means of communicating between three different groups of stakeholders.
+
+**Keywords**
+
+/unread
 
 
 
@@ -46,6 +110,38 @@ BPMN, end-to-end workflow, laboratory automation, model-based application develo
 
 
 
+# Tchemeube2013
+
+**Title**
+
+Location-Aware Business Process Management for Real-Time Monitoring of a Cardiac Care Process (@10.5555/2555523.2555548)
+
+**Abstract**
+
+Long wait times are a global issue in the Canadian healthcare system. Patient flow management relies on flow managers to manually detect, investigate and mitigate wait time issues. However, existing data that could support this activity is usually not accurate (because of possible human errors), incomplete, late, and scattered across various information systems in a typical hospital. Yet, in the case of cardiac patients, ensuring a prompt, smooth and continuous care delivery becomes extremely important and motivates improvement of data support for patient flow management activities. This paper presents the development of a location-aware business process management system (LA-BPMS) for monitoring a cardiac care delivery process in a hospital and in real-time. The system provides a better visibility of process execution to patient flow managers who can rely on accurate and real-time information about patient process states, as well as wait time measurements to control patient flow efficiently. We show how an intelligent approach of combining location awareness and business process automation allow this to be possible. A real cardiac care process from an Ontario hospital is used as an example.
+
+**Keywords**
+
+/unread
+
+
+
+# Yang2008
+
+**Title**
+
+API and Component Based Customization of an Open Source Business Process Management System: uEngine (@10.1109/NCM.2008.149)
+
+**Abstract**
+
+There is no doubt that Business Process Management (BPM) has added tremendous value to organizations in virtually every industry. By utilizing Business Process Management Systems (BPMS), organizations can streamline and automate tasks, reduce turnaround time, and help ensure regulatory compliance. The foremost considerations when enterprises deploy BPM solutions involve supportive system functions, friendly Graphical User Interfaces (GUI) and maximal Return on Investment (ROI), based on the specific processes required, organizational management, and working style of their particular business environment. In order to address the problems associated with BPMS customization, for the flexible coverage of various requirements, this paper takes a three step approach. First, limited customization support of commercial and academic BPMS is reviewed in favor of open source BPMS. Then, advantageous features of uEngine, an open source BPMS which supports flexible customization, are introduced. Finally, API-based and component-based customization in building a BPM application utilizing uEngine is introduced with illustrative examples.
+
+**Keywords**
+
+/unread, Business Process Management System, Customization, Open Source
+
+
+
 # Lohmann2013
 
 **Title**
@@ -59,6 +155,38 @@ Compliance to legal regulations, internal policies, or best practices is becomin
 **Keywords**
 
 Artifact-centric business processes, Compliance by design, Compliance management, Process synthesis
+
+
+
+# Adamo2021
+
+**Title**
+
+What Is a Process Model Composed of? A Systematic Literature Review of Meta-Models in BPM (@10.1007/s10270-020-00847-w)
+
+**Abstract**
+
+Business process modelling languages typically enable the representation of business process models by employing (graphical) symbols. These symbols can vary depending upon the verbosity of the language, the modelling paradigm, the focus of the language and so on. To make explicit different constructs and rules employed by a specific language, as well as bridge the gap across different languages, meta-models have been proposed in the literature. These meta-models are a crucial source of knowledge on what state-of-the-art literature considers relevant to describe business processes. The goal of this work is to provide the first extensive systematic literature review (SLR) of business process meta-models. This SLR aims to answer research questions concerning: (1) the kind of meta-models proposed in the literature, (2) the recurring constructs they contain, (3) their purposes and (4) their evaluations. The SRL was performed manually considering papers automatically retrieved from reference paper repositories as well as proceedings of the main conferences in the Business Process Management research area. Sixty-five papers were selected and evaluated against four research questions. The results indicate the existence of a reasonable body of work conducted in this specific area, but not a full maturity. In particular, in answering the research questions several challenges have (re-)emerged for the Business Process Community, concerning: (1) the type of elements that constitute a Business Process and their meaning, (2) the absence of a (or several) reference meta-model(s) for the community, (3) the purpose for which meta-models are introduced in the literature and (4) a framework for the evaluation of the meta-models themselves. Moreover, the classification framework devised to answer the four research questions can provide a reference structure for future descriptive categorizations.
+
+**Keywords**
+
+/unread, Business Process Modelling, Conceptual Modelling, Meta-Models
+
+
+
+# List2006
+
+**Title**
+
+An Evaluation of Conceptual Business Process Modelling Languages (@10.1145/1141277.1141633)
+
+**Abstract**
+
+Conceptual Business Process Modelling Languages (BPMLs) express certain aspects of processes (e.g. activities, roles, interactions, data, etc.) and address different application areas. To evaluate BPMLs, a general framework is required. Although a lot of BPMLs are available in research and industry, an established evaluation framework as well as a comprehensive evaluation of BPMLs is missing. To bridge this gap, we propose a generic meta-model that captures a wide range of process concepts and evaluate seven BPMLs based on this meta-model.
+
+**Keywords**
+
+/unread, business process modelling, meta-model
 
 
 
@@ -91,6 +219,22 @@ Blockchain technology promises a sizable potential for executing inter-organizat
 **Keywords**
 
 Blockchain, Business Process Management, Research Challenges
+
+
+
+# Singer2015
+
+**Title**
+
+Business Process Management in Small- and Medium-Sized Enterprises: An Empirical Study (@10.1145/2723839.2723849)
+
+**Abstract**
+
+This study aims to focus on the examination of business process management (BPM) maturity levels within small-and medium-sized enterprises (SME) and their relationship with the company's economic success. A further aim is to evaluate the understanding of the term BPM in the field. The findings result from a mixed-method approach combining qualitative and quantitative empirical methods. The qualitative study collected data carrying out 20 interviews in 11 enterprises. On the basis of these findings, a web-questionnaire for the quantitative study was developed. In order to evaluate the maturity levels, an adapted version of Hammers Process and Enterprise Maturity Model (PEMM) had to be developed. Data collected within quantitative research suggests higher maturity levels in comparison with data collected within qualitative research. A weak statistical connection between maturity level and economic success can be found. However, the data suggest that there is a lack in common understanding of the term business process management in praxis. Due to the reactivity of qualitative interviews a different sample may provide other findings. Whilst accessibility is a considerable advantage of web-surveys, a disadvantage of web-surveys is the lack of regulation of the sample. Hence, the findings of this study are not statistically representative for all SMEs.
+
+**Keywords**
+
+/unread, BPM, business process management, empirical study, maturity, SME
 
 
 
@@ -190,6 +334,38 @@ Business Process Management, Data Science, Process Mining, Spreadsheets
 
 
 
+# Lederer2019
+
+**Title**
+
+Can You See the Wood for the Trees? Collection and Compilation of Agility Models for BPM (@10.1145/3329007.3329016)
+
+**Abstract**
+
+Agility is considered as a key concept to increase flexibility in company environments. Especially in times of digital disruptions, attempts are made to transfer the software engineering methods and rules (e.g., SCRUM) to other processes from other domains without having BPM standards so far. This article collected 17 known agility models relevant for BPM based on a literature review. Twelve essential dimensions to increase agility are described (e.g., communication, technology, process team, change), which might serve with specific values (e.g., frequency, channel and structure) as potential development paths for increasing agility in business processes.
+
+**Keywords**
+
+/unread, agility, business process management, maturity model, transformation
+
+
+
+# Yim2005
+
+**Title**
+
+Strategic Decision Making Support Model on RTE Approach from the BPM (@10.1145/1089551.1089625)
+
+**Abstract**
+
+RTE is a new management paradigm on which core processes are executed and managed with the latest information. This concept is a needful concept to continuously strengthen corporate competitiveness in an era of unbridled competition with the collapse of traditional value chain and accelerated flow of information. Paradigm of AI (Artificial Intelligence), which is based on the assumption that existing business processing types or expertise in a predefined and limited management environment can help to make a right decision in the new future environment, and expert system should overcome rule based and model based limitations. In RTE, rather than existing business types or expertise, it is important to monitor the event or information at the present point of time that can provide support in the current situation.In this research, a model that integrates KM (Knowledge Management), BI (Business Intelligence) with business process is presented, which are essential for decision making in a real-time based corporate environment. Furthermore, in a dynamic management environment of real world, a decision making support model that can overcome three limitations that are posed by AI, Expert system paradigm shall be presented in this research.
+
+**Keywords**
+
+/unread, business process management, decision making, knowledge management, RTE, system dynamics
+
+
+
 # Viriyasitavat2023
 
 **Title**
@@ -251,6 +427,22 @@ The effectiveness of a compliance management framework (CMF) can be guaranteed o
 **Keywords**
 
 Business Processes, Compliance, Compliance Management Frameworks, Modelling Constructs, Modelling Languages, Norms
+
+
+
+# Poernomo2008
+
+**Title**
+
+Normative Ontologies for Data-Centric Business Process Management (@4814996)
+
+**Abstract**
+
+This paper addresses the problem of describing and analyzing data manipulation within business process workflow specifications. We apply a model-driven approach. We begin with business requirement specifications, consisting of an ontology and an associated set of normative rules, that define the ways in which business processes can interact. We then transform this specification into a Petri Net workflow model and, separately, an Event B specification. The former models can be submitted to further behavioural analysis to ensure, for instance, satisfaction of liveness and safety properties. The latter specifications are important as we can use theorem proving techniques to check and refine data representation with respect to process evolution. An important property of the transformation is semantic equivalence between the Petri net model and Event-B model.
+
+**Keywords**
+
+/unread, Computer integrated manufacturing, Computer science, Costs, Data analysis, Educational institutions, Middleware, Object oriented modeling, Ontologies, Petri nets, Vocabulary
 
 
 
@@ -334,6 +526,22 @@ Top100
 
 
 
+# Low2007
+
+**Title**
+
+Symbiotic Simulation for Business Process Re-Engineering in High-Tech Manufacturing and Service Networks (@10.5555/1351542.1351653)
+
+**Abstract**
+
+In today's highly competitive business environment, the speed of a company's response to changes by adapting its own business processes is vital to its survival. In this paper, we propose a symbiotic simulation system that can monitor the real-world operations of high-tech manufacturing and service networks, carry out what-if analysis and optimization on service-oriented based business workflow, and dynamically deploy the optimized business workflow onto the real-world operations. A case study of an aerospace spare parts logistics system was carried out to investigate the viability of the system.
+
+**Keywords**
+
+/unread
+
+
+
 # Zasada2023
 
 **Title**
@@ -350,6 +558,22 @@ business processes, compliance rules modelling, conceptual modelling, expressive
 
 
 
+# Lux2013
+
+**Title**
+
+Business Process Management as Basis for Enterprise Management Systems (@6642899)
+
+**Abstract**
+
+The paper describes an enterprise management system which provides an integrated approach to tackle management relevant topics like business process management, quality management, audit management, internal risk and control management, enterprise architecture management, compliance management and so on within a single information system. The term "enterprise management system (EMS)" is introduced for such a kind of management system. A business process pyramid is defined to link the strategic with the operational level of processes and all attached management-relevant information, e.g. audits, risks, etc. The approach was successfully implemented in the enterprise management system DHC VISION, which is used today worldwide by medium- and large-sized enterprises.
+
+**Keywords**
+
+/unread, Audit Management, Enterprise Management System, Organizations, Planning, Process control, Process Pyramid, Software, Standards organizations, Strategic and Operational BPM
+
+
+
 # BernardoJunior2023
 
 **Title**
@@ -363,4 +587,20 @@ Business Process Management (BPM) needs to be adjusted quickly and flexibly to c
 **Keywords**
 
 Agility, bpm governance, Business And Economics--Management, Business process management, challenges, Communication, critical success factors, Customer satisfaction, implementation capabilities, intuition, knowledge systems, Literature reviews, operations strategy, organization, Systematic review
+
+
+
+# Limam2021
+
+**Title**
+
+A New Approach for Business Process Management Enhancement: Mobile Hospital Case Study (@doi:10.1504/IJCISTUDIES.2021.120514)
+
+**Abstract**
+
+Nowadays, business process model and notation (BPMN) is the tool used to support business process management and business users to bridge the communication gap between business process design and implementation. However, the BPMN metamodel lacks formal specification of well-formed rules. In this context, we propose an object constraint language (OCL)-based approach to enhance the expressivity of the BPMN model to hold the information needed and to express resource allocation constraints. Furthermore, we propose an algorithm that verifies if the BPMN model has bad marks in order to verify the correctness of the enhanced model. The whole approach has been tested in the medical field. In particular, it has been used to model, check and improve the care process of a mobile hospital.
+
+**Keywords**
+
+/unread
 

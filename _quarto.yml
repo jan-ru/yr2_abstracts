@@ -1,21 +1,21 @@
 project:
   type: book
-  output-dir: output
-  
-latex-clean: true
+  output-dir: docs
 
 book:
+  downloads: [pdf]
   title: "Aligning business processes with regulatory requirements"
   subtitle: "Selected abstracts"
-  abstract: ""
-  downloads: [pdf]
-  pdf-url: https://jan-ru.github.io/yr2_abstracts/abstracts
-  date: today
+  pdf-url: https://jan-ru.github.io/yr2_abstracts/abstracts/yr2_abstracts.pdf
+  date: last-modified
   date-format: "DD/MM/YYYY"
+
   chapters:
     - index.qmd
     - text: Aa2017
       file: abstracts/Aa2017.md
+    - text: Adamo2021
+      file: abstracts/Adamo2021.md
     - text: Amantea2022
       file: abstracts/Amantea2022.md
     - text: Bernardojunior2023
@@ -38,18 +38,40 @@ book:
       file: abstracts/Kir2021.md
     - text: Koncevics2017
       file: abstracts/Koncevics2017.md
+    - text: Lederer2019
+      file: abstracts/Lederer2019.md
+    - text: Limam2021
+      file: abstracts/Limam2021.md
+    - text: List2006
+      file: abstracts/List2006.md
     - text: Lohmann2013
       file: abstracts/Lohmann2013.md
+    - text: Lohmann2019
+      file: abstracts/Lohmann2019.md
     - text: Loreti2018
       file: abstracts/Loreti2018.md
+    - text: Low2007
+      file: abstracts/Low2007.md
+    - text: Lux2013
+      file: abstracts/Lux2013.md
+    - text: Mcdermid2003
+      file: abstracts/Mcdermid2003.md
     - text: Mendling2018
       file: abstracts/Mendling2018.md
+    - text: Poernomo2008
+      file: abstracts/Poernomo2008.md
     - text: Ramezani2011
       file: abstracts/Ramezani2011.md
     - text: Raucci2020
       file: abstracts/Raucci2020.md
     - text: Sackmann2018
       file: abstracts/Sackmann2018.md
+    - text: Singer2015
+      file: abstracts/Singer2015.md
+    - text: Tchemeube2013
+      file: abstracts/Tchemeube2013.md
+    - text: Vanderaalst2003
+      file: abstracts/Vanderaalst2003.md
     - text: Vanderaalst2018
       file: abstracts/Vanderaalst2018.md
     - text: Vanderfeesten2011
@@ -58,17 +80,22 @@ book:
       file: abstracts/Viriyasitavat2020.md
     - text: Viriyasitavat2023
       file: abstracts/Viriyasitavat2023.md
+    - text: Yang2008
+      file: abstracts/Yang2008.md
+    - text: Yim2005
+      file: abstracts/Yim2005.md
     - text: Zasada2023
       file: abstracts/Zasada2023.md
-
+    - text: Zhou2012
+      file: abstracts/Zhou2012.md
 
 bibliography: bib/MyLibrary.bib
 reference-location: section
 link-citations: true
 
 metadata-files:
-  - ./metadata/_website.yml
-  - ./metadata/_format.yml
+  - _website.yml
+  - _format.yml
 
 execute:
   echo: false
