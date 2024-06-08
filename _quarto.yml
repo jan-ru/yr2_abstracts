@@ -1,6 +1,8 @@
 project:
   type: book
-  output-dir: docs
+  output-dir: output
+
+latex-clean: true
 
 book:
   downloads: [pdf]
@@ -100,3 +102,6 @@ metadata-files:
 execute:
   echo: false
   freeze: auto
+
+comments:
+  hypothesis: true

@@ -1,19 +1,9 @@
 # Introduction {.unnumbered}
 
-Wordcloud or list of keywords to be included.
+List of keywords to be included.
 
+::: {.content-visible when-format="html"}
 
-<!--
-::: {.content-visible when-format="pdf"}
-
-# Preface {.unnumbered}
-
-{{< include 00-preface.qmd >}}
-
-
-# Acknowledgements {.unnumbered}
-
-{{< include 00-awknowledgements.qmd >}}
+{{< include index_keywords.html >}}
 
 :::
--->

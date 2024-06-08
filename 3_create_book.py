@@ -14,7 +14,6 @@ with open('_quarto.yml', 'w') as f:
     f.write("book:\n  downloads: [pdf]\n")
     f.write("  title: \"Aligning business processes with regulatory requirements\"\n")
     f.write("  subtitle: \"Selected abstracts\"\n")
-    f.write("  downloads: [pdf]\"\n")
     f.write("  pdf-url: https://jan-ru.github.io/yr2_abstracts/abstracts/yr2_abstracts.pdf\n")
     f.write("  date: last-modified\n")
     f.write("  date-format: \"DD/MM/YYYY\"\n\n")
