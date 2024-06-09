@@ -24,7 +24,7 @@ def generate_keyword_html(keywords, output_html='index_keywords.html'):
     max_count = max(keyword_counts.values())
 
     # Generate HTML content
-    #html_content = """
+    html_content = ""
     #<style>
     #    .keyword {
     #        display: inline-block;
