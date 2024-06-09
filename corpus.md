@@ -10,7 +10,7 @@ Today's enterprises demand a high degree of compliance of business processes to 
 
 **Keywords**
 
-Compliance Patterns, Design-time Compliance Management, Regulatory Compliance, Runtime Compliance Monitoring
+Compliance Patterns,  Design-time Compliance Management,  Regulatory Compliance,  Runtime Compliance Monitoring
 
 
 
@@ -26,7 +26,7 @@ No abstract available
 
 **Keywords**
 
-/unread, Aerospace electronics, Business, Collaboration, Data models, Semantics, Service oriented architecture, Wireless sensor networks
+Aerospace electronics,  Business,  Collaboration,  Data models,  Semantics,  Service oriented architecture,  Wireless sensor networks
 
 
 
@@ -42,7 +42,7 @@ Business process management has been the driving force of optimization and opera
 
 **Keywords**
 
-Agent-based business process management, Agile business process management, Business process management, Knowledge-intensive processes, Process adaptation, Process modeling and execution
+Agent-based business process management,  Agile business process management,  Business process management,  Knowledge-intensive processes,  Process adaptation,  Process modeling and execution
 
 
 
@@ -58,7 +58,7 @@ This paper investigates how firms configure their business process management ef
 
 **Keywords**
 
-/unread, BPM function, BPM professionals, BPM skills, BPM taxonomy
+BPM function,  BPM professionals,  BPM skills,  BPM taxonomy
 
 
 
@@ -74,7 +74,7 @@ Business Process Management (BPM) includes methods, techniques, and tools to sup
 
 **Keywords**
 
-/unread, business process management, formal methods, workflow management
+business process management,  formal methods,  workflow management
 
 
 
@@ -90,7 +90,7 @@ We need to put more emphasis on managing the communication between different typ
 
 **Keywords**
 
-/unread
+
 
 
 
@@ -106,7 +106,7 @@ Using methods and technologies of business process management (BPM) for the labo
 
 **Keywords**
 
-BPMN, end-to-end workflow, laboratory automation, model-based application development, systems integration
+BPMN,  end-to-end workflow,  laboratory automation,  model-based application development,  systems integration
 
 
 
@@ -122,7 +122,7 @@ Long wait times are a global issue in the Canadian healthcare system. Patient fl
 
 **Keywords**
 
-/unread
+
 
 
 
@@ -138,7 +138,7 @@ There is no doubt that Business Process Management (BPM) has added tremendous va
 
 **Keywords**
 
-/unread, Business Process Management System, Customization, Open Source
+Business Process Management System,  Customization,  Open Source
 
 
 
@@ -154,7 +154,23 @@ Compliance to legal regulations, internal policies, or best practices is becomin
 
 **Keywords**
 
-Artifact-centric business processes, Compliance by design, Compliance management, Process synthesis
+Artifact-centric business processes,  Compliance by design,  Compliance management,  Process synthesis
+
+
+
+# Awad2010
+
+**Title**
+
+A Compliance Management Framework for Business Process Models (@DBLP:phd/de/Awad2010)
+
+**Abstract**
+
+Companies develop process models to explicitly describe their business operations. In the same time, business operations, business processes, must adhere to various types of compliance requirements. **Regulations**, e.g., Sarbanes Oxley Act of 2002, internal policies, best practices are just a few sources of compliance requirements. In some cases, non-adherence to compliance requirements makes the organization subject to legal punishment. In other cases, non-adherence to compliance leads to loss of competitive advantage and thus loss of market share. Unlike the classical domain-independent behavioral correctness of business processes, compliance requirements are domain-specific. Moreover, compliance requirements change over time. New requirements might appear due to change in laws and adoption of new policies. Compliance requirements are offered or enforced by different entities that have different objectives behind these requirements. Finally, compliance requirements might affect different aspects of business processes, e.g., control flow and data flow. As a result, it is infeasible to hard-code compliance checks in tools. Rather, a repeatable process of modeling compliance rules and checking them against business processes automatically is needed. This thesis provides a formal approach to support process design-time compliance checking. Using visual patterns, it is possible to model compliance requirements concerning control flow, data flow and conditional flow rules. Each pattern is mapped into a temporal logic formula. The thesis addresses the problem of consistency checking among various compliance requirements, as they might stem from divergent sources. Also, the thesis contributes to automatically check compliance requirements against process models using model checking. We show that extra domain knowledge, other than expressed in compliance rules, is needed to reach correct decisions. In case of violations, we are able to provide a useful feedback to the user. The feedback is in the form of parts of the process model whose execution causes the violation. In some cases, our approach is capable of providing automated remedy of the violation.
+
+**Keywords**
+
+Business Process Models,  Compliance,  Temporal Logic,  Violation Explanation,  Violation Resolution
 
 
 
@@ -170,7 +186,7 @@ Business process modelling languages typically enable the representation of busi
 
 **Keywords**
 
-/unread, Business Process Modelling, Conceptual Modelling, Meta-Models
+Business Process Modelling,  Conceptual Modelling,  Meta-Models
 
 
 
@@ -186,7 +202,7 @@ Conceptual Business Process Modelling Languages (BPMLs) express certain aspects 
 
 **Keywords**
 
-/unread, business process modelling, meta-model
+business process modelling,  meta-model
 
 
 
@@ -202,7 +218,7 @@ The production and storage of dangerous substances in an industrial establishmen
 
 **Keywords**
 
-Emergency management, IDEF0, Information supply, Information system, Public, Risk information, Safety management
+Emergency management,  IDEF0,  Information supply,  Information system,  Public,  Risk information,  Safety management
 
 
 
@@ -218,7 +234,7 @@ Blockchain technology promises a sizable potential for executing inter-organizat
 
 **Keywords**
 
-Blockchain, Business Process Management, Research Challenges
+Blockchain,  Business Process Management,  Research Challenges
 
 
 
@@ -234,7 +250,7 @@ This study aims to focus on the examination of business process management (BPM)
 
 **Keywords**
 
-/unread, BPM, business process management, empirical study, maturity, SME
+BPM,  business process management,  empirical study,  maturity,  SME
 
 
 
@@ -250,7 +266,7 @@ In recent years, the significant advantages brought to business processes by pro
 
 **Keywords**
 
-Business process management, Distributed compliance monitoring, MapReduce, Stream processing
+Business process management,  Distributed compliance monitoring,  MapReduce,  Stream processing
 
 
 
@@ -298,7 +314,7 @@ Purpose – In organizations, individual user’s compliance with business proce
 
 **Keywords**
 
-Business Process Compliance, Explanations, Organizational Processes, Process, User-system cooperation
+Business Process Compliance,  Explanations,  Organizational Processes,  Process,  User-system cooperation
 
 
 
@@ -314,7 +330,7 @@ Business process management (BPM) aims to optimize business processes to achieve
 
 **Keywords**
 
-Block-chain technology (BCT), Business process management (BPM), Industry 4.0, Internet of Things (IoT), Quality of Service (QoS), Service selection and composition, Smart contracts, Trustworthiness
+Block-chain technology (BCT),  Business process management (BPM),  Industry 4.0,  Internet of Things (IoT),  Quality of Service (QoS),  Service selection and composition,  Smart contracts,  Trustworthiness
 
 
 
@@ -330,7 +346,7 @@ Purpose – Process mining provides a generic collection of techniques to turn e
 
 **Keywords**
 
-Business Process Management, Data Science, Process Mining, Spreadsheets
+Business Process Management,  Data Science,  Process Mining,  Spreadsheets
 
 
 
@@ -346,7 +362,7 @@ Agility is considered as a key concept to increase flexibility in company enviro
 
 **Keywords**
 
-/unread, agility, business process management, maturity model, transformation
+agility,  business process management,  maturity model,  transformation
 
 
 
@@ -362,7 +378,7 @@ RTE is a new management paradigm on which core processes are executed and manage
 
 **Keywords**
 
-/unread, business process management, decision making, knowledge management, RTE, system dynamics
+business process management,  decision making,  knowledge management,  RTE,  system dynamics
 
 
 
@@ -378,7 +394,7 @@ Blockchain technology (BCT) has brought a paradigm shift to Business Process Man
 
 **Keywords**
 
-Blockchain Technology, Blockchain-as-a-services, Business Process Compliance, Business Process Management, Business Processes, Smart Contracts, Systematic Literature Review
+Blockchain Technology,  Blockchain-as-a-services,  Business Process Compliance,  Business Process Management,  Business Processes,  Smart Contracts,  Systematic Literature Review
 
 
 
@@ -394,7 +410,7 @@ Despite the industrial need for the improvement of information-intensive busines
 
 **Keywords**
 
-Business Process Modelling, Product Data Model, Workflow Management
+Business Process Modelling,  Product Data Model,  Workflow Management
 
 
 
@@ -410,7 +426,7 @@ Many organizations maintain textual process descriptions alongside graphical pro
 
 **Keywords**
 
-Business process management, Business process modeling, Compliance checking, Inconsistency detection, Matching, Natural language processing
+Business process management,  Business process modeling,  Compliance checking,  Inconsistency detection,  Matching,  Natural language processing
 
 
 
@@ -426,7 +442,7 @@ The effectiveness of a compliance management framework (CMF) can be guaranteed o
 
 **Keywords**
 
-Business Processes, Compliance, Compliance Management Frameworks, Modelling Constructs, Modelling Languages, Norms
+Business Processes,  Compliance,  Compliance Management Frameworks,  Modelling Constructs,  Modelling Languages,  Norms
 
 
 
@@ -442,7 +458,7 @@ This paper addresses the problem of describing and analyzing data manipulation w
 
 **Keywords**
 
-/unread, Computer integrated manufacturing, Computer science, Costs, Data analysis, Educational institutions, Middleware, Object oriented modeling, Ontologies, Petri nets, Vocabulary
+Computer integrated manufacturing,  Computer science,  Costs,  Data analysis,  Educational institutions,  Middleware,  Object oriented modeling,  Ontologies,  Petri nets,  Vocabulary
 
 
 
@@ -458,7 +474,7 @@ Purpose This paper investigates the criteria for a selective integration, in the
 
 **Keywords**
 
-Banking Processes, Business Process Management, Formal Methods, Internal Control Systems, Investment Services, Segregation of Duties
+Banking Processes,  Business Process Management,  Formal Methods,  Internal Control Systems,  Investment Services,  Segregation of Duties
 
 
 
@@ -474,7 +490,7 @@ In this paper we present the preliminary results of a literature survey conducte
 
 **Keywords**
 
-law and regulations, legal compliance by design, legal compliance through design, legal dimensions, literature review, regulatory compliance
+law and regulations,  legal compliance by design,  legal compliance through design,  legal dimensions,  literature review,  regulatory compliance
 
 
 
@@ -490,7 +506,7 @@ Business Process Compliance (BPC) means  ensuring that business processes are in
 
 **Keywords**
 
-Business process compliance, Compliance management life-cycle, Digitization
+Business process compliance,  Compliance management life-cycle,  Digitization
 
 
 
@@ -506,7 +522,7 @@ The paper presents results of the comparative analysis of business process model
 
 **Keywords**
 
-Business process compliance, compliance management, compliance management tools, open source business process modelling tools
+Business process compliance,  compliance management,  compliance management tools,  open source business process modelling tools
 
 
 
@@ -538,7 +554,7 @@ In today's highly competitive business environment, the speed of a company's res
 
 **Keywords**
 
-/unread
+
 
 
 
@@ -554,7 +570,7 @@ Compliance in business processes has become a fundamental requirement given the 
 
 **Keywords**
 
-business processes, compliance rules modelling, conceptual modelling, expressiveness, language complexity, regulatory compliance
+business processes,  compliance rules modelling,  conceptual modelling,  expressiveness,  language complexity,  regulatory compliance
 
 
 
@@ -570,7 +586,7 @@ The paper describes an enterprise management system which provides an integrated
 
 **Keywords**
 
-/unread, Audit Management, Enterprise Management System, Organizations, Planning, Process control, Process Pyramid, Software, Standards organizations, Strategic and Operational BPM
+Audit Management,  Enterprise Management System,  Organizations,  Planning,  Process control,  Process Pyramid,  Software,  Standards organizations,  Strategic and Operational BPM
 
 
 
@@ -586,7 +602,7 @@ Business Process Management (BPM) needs to be adjusted quickly and flexibly to c
 
 **Keywords**
 
-Agility, bpm governance, Business And Economics--Management, Business process management, challenges, Communication, critical success factors, Customer satisfaction, implementation capabilities, intuition, knowledge systems, Literature reviews, operations strategy, organization, Systematic review
+Agility,  bpm governance,  Business And Economics--Management,  Business process management,  challenges,  Communication,  critical success factors,  Customer satisfaction,  implementation capabilities,  intuition,  knowledge systems,  Literature reviews,  operations strategy,  organization,  Systematic review
 
 
 
@@ -602,5 +618,5 @@ Nowadays, business process model and notation (BPMN) is the tool used to support
 
 **Keywords**
 
-/unread
+
 

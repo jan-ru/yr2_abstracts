@@ -39,6 +39,11 @@ def extract_bibtex_info(bibfile):
     keywords = entry.get('keywords', "No keywords available")
     return last_name, year, title, citekey, abstract, keywords
 
+def exclude_zotero_tags(keywords, keyword_to_exclude="/unread"):
+    keyword_list = keywords.split(',')
+    filtered_keywords = [keyword.strip() for keyword in keyword_list if keyword.strip() != keyword_to_exclude]
+    return ', '.join(filtered_keywords)
+
 def insert_space_after_comma(keywords):
     keyword_list = keywords.split(',')
     keywords_with_spaces = ', '.join(keyword_list)
@@ -83,7 +88,8 @@ r = ''
 for entry in bib_database.entries:
     sequence += 1
     last_name, year, title, citekey, abstract, keywords = extract_bibtex_info(bibfile)
-    formatted_keywords = insert_space_after_comma(keywords)
+    filtered_keywords = exclude_zotero_tags(keywords)
+    formatted_keywords = insert_space_after_comma(filtered_keywords)
     file_name = last_name + year
     file_path = os.path.join(directory, file_name + extension)
     with open(file_path, 'w', encoding='utf-8') as file:
@@ -112,8 +118,6 @@ with open(output_file, 'w', encoding='utf-8') as file:
 
 <!-- excluded: conference paper
 **WS8 Regulatory Instability, Business Process Management Technology, and BPM Skill Configurations (@DBLP:conf/bpm/LohmannM19)**
-
-This paper investigates how firms configure their business process management efforts in different industries. We generate a business process management (BPM) skills taxonomy through the computational linguistic analysis of job ads from Monster.com . We apply the taxonomy to LinkedIn.com resumes of professionals employed at retailer Walmart, pharmaceutical company Pfizer, and investment bank Goldman Sachs. We find that Walmart and Pfizer distribute change- and operations-related BPM skills among the same roles whereas Goldman Sachs distributes both kinds of skills among more separate roles. This separation reflects a trilateral configuration where line managers and analysts focus on operational BPM tasks related to running processes while change-related tasks are covered by project managers. At Walmart and Pfizer the tasks of the BPM project manager are shared among managers and analysts, reflecting a bilateral configuration. Comparing each firm's **regulatory** environments and BPM technology capabilities, we conjecture that the organizational configuration pattern is influenced by a firm's ability to reliably automate business processes, since this affects how much attention line managers and analysts have to spend on monitoring processes and on reconciling issues and exceptions. This attention could otherwise be spent on regulatory-imposed process change efforts. This configural logic suggests a reconfiguration of BPM professionals towards a bilateral configuration when an organization transforms its business with digital technology, because the focus of such efforts includes process and decision automation.
 
 **WS9 SEMPA - A Semantic Business Process Management Approach for the Planning of Process Models (@heinrichSEMPAAnsatzSemantischen2008)**
 

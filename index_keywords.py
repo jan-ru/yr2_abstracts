@@ -24,30 +24,20 @@ def generate_keyword_html(keywords, output_html='index_keywords.html'):
     max_count = max(keyword_counts.values())
 
     # Generate HTML content
-    html_content = """
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Keyword Cloud</title>
-        <style>
-            .keyword {
-                display: inline-block;
-                margin: 5px;
-            }
-        </style>
-    </head>
-    <body>
-    """
+    #html_content = """
+    #<style>
+    #    .keyword {
+    #        display: inline-block;
+    #        margin: 5px;
+    #    }
+    #</style>
+    #"""
 
     for keyword, count in sorted_keywords:
         font_size = 10 + (count / max_count) * 40  # Example: base size 10px, max size 50px
         html_content += f'<span class="keyword" style="font-size: {font_size}px;">{keyword}</span>\n'
 
     html_content += """
-    </body>
-    </html>
     """
 
     # Write the HTML content to a file
@@ -58,3 +48,4 @@ def generate_keyword_html(keywords, output_html='index_keywords.html'):
 bib_file_path = 'bib/MySelection.bib'
 keywords = parse_bibtex_keywords(bib_file_path)
 generate_keyword_html(keywords)
+print("index_keywords.html generated")
