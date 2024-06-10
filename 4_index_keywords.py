@@ -1,7 +1,14 @@
 import bibtexparser
 from collections import Counter
-# potentially use package thefuzz (to match lower and uppercase?)
+from thefuzz import process
+
 # including tgdm (ref. bibtex_DBLP)
+
+def match_keywords(existing_keywords, new_keyword, threshold=70):
+    matches = process.extract(new_keyword, existing_keywords, limit=1)
+    if matches and matches[0][1] >= threshold:
+        return matches[0][0]
+    return new_keyword
 
 def parse_bibtex_keywords(bib_file):
     with open(bib_file, 'r') as bibtex_file:
@@ -14,7 +21,8 @@ def parse_bibtex_keywords(bib_file):
             for keyword in entry_keywords:
                 keyword = keyword.strip()
                 if keyword != "/unread":
-                    keyword = keyword.capitalize()
+#                    keyword = keyword.capitalize()
+                    keyword = match_keywords(keywords, keyword)
                     keywords.append(keyword)
     
     return keywords
@@ -24,6 +32,13 @@ def generate_keyword_html(keywords, output_html='index_keywords.html'):
     keyword_counts = Counter(keywords)
     sorted_keywords = sorted(keyword_counts.items())    
     max_count = max(keyword_counts.values())
+    total_count = sum(keyword_counts.values())
+
+    for keyword, count in sorted_keywords:
+        print(f'Keyword: {keyword}, Count: {count}')
+
+    print(f'Max Count: {max_count}')
+    print(f'Total Count: {total_count}')
 
     # Generate HTML content
     html_content = ""

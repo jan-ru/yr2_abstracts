@@ -18,6 +18,8 @@ with open('_quarto.yml', 'w') as f:
     f.write("  date: last-modified\n")
     f.write("  date-format: \"DD/MM/YYYY\"\n\n")
     f.write("  chapters:\n    - index.qmd\n")
+    f.write("    - abstracts_studies.qmd\n")
+    f.write("    - abstracts_concepts.qmd\n")
     for file in files:
         if file.endswith('.md'):
             chapter_name = os.path.splitext(file)[0].title()

@@ -14,6 +14,7 @@ book:
 
   chapters:
     - index.qmd
+    - abstracts_studies.qmd
     - text: Aa2017
       file: abstracts/Aa2017.md
     - text: Adamo2021
