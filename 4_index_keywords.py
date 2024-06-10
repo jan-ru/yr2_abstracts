@@ -1,5 +1,7 @@
 import bibtexparser
 from collections import Counter
+# potentially use package thefuzz (to match lower and uppercase?)
+# including tgdm (ref. bibtex_DBLP)
 
 def parse_bibtex_keywords(bib_file):
     with open(bib_file, 'r') as bibtex_file:
@@ -25,13 +27,6 @@ def generate_keyword_html(keywords, output_html='index_keywords.html'):
 
     # Generate HTML content
     html_content = ""
-    #<style>
-    #    .keyword {
-    #        display: inline-block;
-    #        margin: 5px;
-    #    }
-    #</style>
-    #"""
 
     for keyword, count in sorted_keywords:
         font_size = 10 + (count / max_count) * 40  # Example: base size 10px, max size 50px

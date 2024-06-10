@@ -1,0 +1,69 @@
+[
+    {
+        "Definition": "",
+        "Sources": "",
+        "Date_Accessed": "",
+        "Notes": "Additional comments or contextual information",
+        "ID": 1
+    },
+    {
+        "Definition": "",
+        "Sources": "",
+        "Date_Accessed": "",
+        "Notes": "Additional comments or contextual information",
+        "ID": 2
+    },
+    {
+        "Definition": "Business Process Compliance",
+        "Sources": "",
+        "Date_Accessed": "",
+        "Notes": "Additional comments or contextual information",
+        "ID": 3
+    },
+    {
+        "Definition": "Business Process Management",
+        "Sources": "",
+        "Date_Accessed": "",
+        "Notes": "Additional comments or contextual information",
+        "ID": 4
+    },
+    {
+        "Definition": "Compliance",
+        "Sources": "",
+        "Date_Accessed": "",
+        "Notes": "Additional comments or contextual information",
+        "ID": 6
+    },
+    {
+        "ID": 8,
+        "Concept": "Concept7",
+        "Definition": "",
+        "Sources": "",
+        "Date_Accessed": "",
+        "Notes": ""
+    },
+    {
+        "ID": 9,
+        "Concept": "",
+        "Definition": "",
+        "Sources": "",
+        "Date_Accessed": "",
+        "Notes": "Additional comments"
+    },
+    {
+        "ID": 10,
+        "Concept": "",
+        "Definition": "",
+        "Sources": "",
+        "Date_Accessed": "",
+        "Notes": "Comments"
+    },
+    {
+        "ID": 11,
+        "Concept": "Workflow Management",
+        "Definition": "Workflow Management",
+        "Sources": "Workflow Management",
+        "Date_Accessed": "",
+        "Notes": "Workflow Management"
+    }
+]

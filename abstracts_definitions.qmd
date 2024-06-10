@@ -1,0 +1,100 @@
+# Definitions
+
+[
+  {
+    "ID": 1,
+    "Concept": "Agile BPM",
+    "Definition": "”, 
+    "Source(s) : "",
+    "Date Accessed": "",
+    "Notes": "Additional comments or contextual information"
+  }
+  {
+    "ID": 2,
+    "Concept": "Business Processes",
+    "Definition": "”, 
+    "Source(s) : "",
+    "Date Accessed": "",
+    "Notes": "Additional comments or contextual information"
+  }
+  {
+    "ID": 3,
+    "Concept": "Business Process Compliance",
+    "Definition": "”, 
+    "Source(s) : "",
+    "Date Accessed": "",
+    "Notes": "Additional comments or contextual information"
+  }
+  {
+    "ID": 4,
+    "Concept": "Business Process Management",
+    "Definition": "”, 
+    "Source(s) : "",
+    "Date Accessed": "",
+    "Notes": "Additional comments or contextual information"
+  }
+  {
+    "ID": 5,
+    "Concept": "Business Process Modelling",
+    "Definition": "”, 
+    "Source(s) : "",
+    "Date Accessed": "",
+    "Notes": "Additional comments or contextual information"
+  }
+  {
+    "ID": 6,
+    "Concept": "Compliance",
+    "Definition": "a term generally used to refer to the conformance to a set of laws, regulations, internal policies, SLA, standards, or best practices (compliance sources according to COMPAS conceptual model [D7.1]).”,
+    "Source(s) : "([pdf](zotero://open-pdf/library/items/F9DC3ASQ?page=6&annotation=88RIKA78))",
+    "Date Accessed": "2024-06-09",
+    "Notes": "Additional comments or contextual information"
+  }
+  {
+    "ID": 7,
+    "Concept": "Compliance Management",
+    "Definition": "”, 
+    "Source(s) : "",
+    "Date Accessed": "",
+    "Notes": "Additional comments or contextual information"
+  }
+  {
+    "ID": 8,
+    "Concept": "Compliance Management Framework",
+    "Definition": "Compliance governance refers to the set of procedures, methodologies, and technologies put in place by a corporation to carry out, monitor, and manage compliance.”, 
+    "Source(s) : "([pdf](zotero://open-pdf/library/items/F9DC3ASQ?page=6&annotation=3QZXX5ZL))", "Hashmi2017",
+    "Date Accessed": "2024-06-09",
+    "Notes": "Additional comments or contextual information"
+  }
+  {
+    "ID": 9,
+    "Concept": "Formal Methods",
+    "Definition": "”, 
+    "Source(s) : "",
+    "Date Accessed": "",
+    "Notes": "Additional comments or contextual information"
+  }
+  {
+    "ID": 9,
+    "Concept": "Regulatory Compliance",
+    "Definition": "”, 
+    "Source(s) : "",
+    "Date Accessed": "",
+    "Notes": "Additional comments or contextual information"
+  }
+  {
+    "ID": 10,
+    "Concept": "Smart Contracts",
+    "Definition": "”, 
+    "Source(s) : "",
+    "Date Accessed": "",
+    "Notes": "Additional comments or contextual information"
+  }
+  {
+    "ID": 11,
+    "Concept": "Workflow Management",
+    "Definition": "”, 
+    "Source(s) : "",
+    "Date Accessed": "",
+    "Notes": "Additional comments or contextual information"
+  }
+]
