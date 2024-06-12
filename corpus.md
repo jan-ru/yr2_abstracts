@@ -1,4 +1,4 @@
-# Elgammal2014
+## Elgammal2014
 
 **Title**
 
@@ -14,23 +14,7 @@ Compliance Patterns,  Design-time Compliance Management,  Regulatory Compliance,
 
 
 
-# Zhou2012
-
-**Title**
-
-CPS Track Report: 2nd Track on Cyber Physical Society with SOA, BPM and Sensor Networks (@6269749)
-
-**Abstract**
-
-No abstract available
-
-**Keywords**
-
-Aerospace electronics,  Business,  Collaboration,  Data models,  Semantics,  Service oriented architecture,  Wireless sensor networks
-
-
-
-# Kir2021
+## Kir2021
 
 **Title**
 
@@ -46,7 +30,7 @@ Agent-based business process management,  Agile business process management,  Bu
 
 
 
-# Lohmann2019
+## Lohmann2019
 
 **Title**
 
@@ -62,7 +46,7 @@ BPM function,  BPM professionals,  BPM skills,  BPM taxonomy
 
 
 
-# VanDerAalst2003
+## VanDerAalst2003
 
 **Title**
 
@@ -78,7 +62,7 @@ business process management,  formal methods,  workflow management
 
 
 
-# McDermid2003
+## McDermid2003
 
 **Title**
 
@@ -94,7 +78,7 @@ We need to put more emphasis on managing the communication between different typ
 
 
 
-# Holzmüller-Laue2014
+## Holzmüller-Laue2014
 
 **Title**
 
@@ -110,7 +94,7 @@ BPMN,  end-to-end workflow,  laboratory automation,  model-based application dev
 
 
 
-# Tchemeube2013
+## Tchemeube2013
 
 **Title**
 
@@ -126,7 +110,7 @@ Long wait times are a global issue in the Canadian healthcare system. Patient fl
 
 
 
-# Yang2008
+## Yang2008
 
 **Title**
 
@@ -142,7 +126,7 @@ Business Process Management System,  Customization,  Open Source
 
 
 
-# Lohmann2013
+## Lohmann2013
 
 **Title**
 
@@ -158,7 +142,7 @@ Artifact-centric business processes,  Compliance by design,  Compliance manageme
 
 
 
-# Awad2010
+## Awad2010
 
 **Title**
 
@@ -174,7 +158,7 @@ Business Process Models,  Compliance,  Temporal Logic,  Violation Explanation,  
 
 
 
-# Adamo2021
+## Adamo2021
 
 **Title**
 
@@ -190,7 +174,7 @@ Business Process Modelling,  Conceptual Modelling,  Meta-Models
 
 
 
-# List2006
+## List2006
 
 **Title**
 
@@ -206,7 +190,7 @@ business process modelling,  meta-model
 
 
 
-# Bevilacqua2012
+## Bevilacqua2012
 
 **Title**
 
@@ -222,7 +206,7 @@ Emergency management,  IDEF0,  Information supply,  Information system,  Public,
 
 
 
-# Mendling2018
+## Mendling2018
 
 **Title**
 
@@ -238,7 +222,7 @@ Blockchain,  Business Process Management,  Research Challenges
 
 
 
-# Singer2015
+## Singer2015
 
 **Title**
 
@@ -254,7 +238,7 @@ BPM,  business process management,  empirical study,  maturity,  SME
 
 
 
-# Loreti2018
+## Loreti2018
 
 **Title**
 
@@ -270,7 +254,7 @@ Business process management,  Distributed compliance monitoring,  MapReduce,  St
 
 
 
-# Corsius2021
+## Corsius2021
 
 **Title**
 
@@ -286,7 +270,7 @@ CNL
 
 
 
-# Amantea2022
+## Amantea2022
 
 **Title**
 
@@ -302,7 +286,7 @@ No keywords available
 
 
 
-# Hadasch2016
+## Hadasch2016
 
 **Title**
 
@@ -318,7 +302,7 @@ Business Process Compliance,  Explanations,  Organizational Processes,  Process,
 
 
 
-# Viriyasitavat2020
+## Viriyasitavat2020
 
 **Title**
 
@@ -334,7 +318,7 @@ Block-chain technology (BCT),  Business process management (BPM),  Industry 4.0,
 
 
 
-# VanDerAalst2018
+## VanDerAalst2018
 
 **Title**
 
@@ -350,7 +334,7 @@ Business Process Management,  Data Science,  Process Mining,  Spreadsheets
 
 
 
-# Lederer2019
+## Lederer2019
 
 **Title**
 
@@ -366,7 +350,7 @@ agility,  business process management,  maturity model,  transformation
 
 
 
-# Yim2005
+## Yim2005
 
 **Title**
 
@@ -382,7 +366,7 @@ business process management,  decision making,  knowledge management,  RTE,  sys
 
 
 
-# Viriyasitavat2023
+## Viriyasitavat2023
 
 **Title**
 
@@ -398,7 +382,7 @@ Blockchain Technology,  Blockchain-as-a-services,  Business Process Compliance, 
 
 
 
-# Vanderfeesten2011
+## Vanderfeesten2011
 
 **Title**
 
@@ -414,7 +398,7 @@ Business Process Modelling,  Product Data Model,  Workflow Management
 
 
 
-# Aa2017
+## Aa2017
 
 **Title**
 
@@ -430,7 +414,7 @@ Business process management,  Business process modeling,  Compliance checking,  
 
 
 
-# Hashmi2017
+## Hashmi2017
 
 **Title**
 
@@ -446,7 +430,7 @@ Business Processes,  Compliance,  Compliance Management Frameworks,  Modelling C
 
 
 
-# Poernomo2008
+## Poernomo2008
 
 **Title**
 
@@ -462,7 +446,7 @@ Computer integrated manufacturing,  Computer science,  Costs,  Data analysis,  E
 
 
 
-# Raucci2020
+## Raucci2020
 
 **Title**
 
@@ -478,7 +462,7 @@ Banking Processes,  Business Process Management,  Formal Methods,  Internal Cont
 
 
 
-# Hashmi2018
+## Hashmi2018
 
 **Title**
 
@@ -494,7 +478,7 @@ law and regulations,  legal compliance by design,  legal compliance through desi
 
 
 
-# Sackmann2018
+## Sackmann2018
 
 **Title**
 
@@ -510,7 +494,7 @@ Business process compliance,  Compliance management life-cycle,  Digitization
 
 
 
-# Koncevics2017
+## Koncevics2017
 
 **Title**
 
@@ -526,7 +510,7 @@ Business process compliance,  compliance management,  compliance management tool
 
 
 
-# Ramezani2011
+## Ramezani2011
 
 **Title**
 
@@ -534,15 +518,15 @@ Separating Compliance Management and Business Process Management (@ramezani2011S
 
 **Abstract**
 
-No abstract available
+The ever growing set of regulations and laws organizations have to comply to, introduces many new challenges. Current approaches that check for compliance by implementing controls in an existing information system (IS) decrease the maintainability of both the set of compliance rules and the IS. In this position paper, we advocate the separation of the compliance process from the organization’s business processes. We introduce a life cycle for the management of compliance rules. A separate compliance engine is used to define and check compliance rules independent from the existing IS within an organization.
 
 **Keywords**
 
-Top100
+compliance checking,  compliance management life-cycle,  compliance requirements,  compliance
 
 
 
-# Low2007
+## Low2007
 
 **Title**
 
@@ -558,7 +542,7 @@ In today's highly competitive business environment, the speed of a company's res
 
 
 
-# Zasada2023
+## Zasada2023
 
 **Title**
 
@@ -574,7 +558,7 @@ business processes,  compliance rules modelling,  conceptual modelling,  express
 
 
 
-# Lux2013
+## Lux2013
 
 **Title**
 
@@ -590,7 +574,7 @@ Audit Management,  Enterprise Management System,  Organizations,  Planning,  Pro
 
 
 
-# BernardoJunior2023
+## BernardoJunior2023
 
 **Title**
 
@@ -606,7 +590,7 @@ Agility,  bpm governance,  Business And Economics--Management,  Business process
 
 
 
-# Limam2021
+## Limam2021
 
 **Title**
 

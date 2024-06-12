@@ -1,42 +1,45 @@
-# Concepts
+# Concepts {.unnumbered}
 
-| Paper                 |Concept                                        |
-|-----------------------|-----------------------------------------------|
-|1 Aa2017               ||
-|2 Adamo2021            ||
-|3 Amantea222           ||
-|4 Bernardojunior2023   |Agile BPM|
-|5 Bevilacqua2012       ||
-|6 Corsius2021          ||
-|7 Elgammal2014         ||
-|8 Hadasch2016          ||
-|9 Hashmi2017           |Compliance Management Framework (CMF)|
-|10 Hashmi2018          ||
-|11 Holzmüller-Laue2014 ||
-|12 Kir2021             |Agile BPM|
-|13 Koncevics2017       ||
-|14 Lederer2019         ||
-|15 Limam2021           ||
-|16 List2006            ||
-|17 Lohmann2013         ||
-|18 Lohmann2019         ||
-|19 Loreti2018          ||
-|20 Low2007             ||
-|21 Lux2013             ||
-|22 Mcdermid2003        ||
-|23 Mendling2018        ||
-|24 Poernomo2008        ||
-|25 Ramezani2011        ||
-|26 Raucci2020          ||
-|27 Sackmann2018        ||
-|28 Singer2015          ||
-|29 Tchemeube2013       ||
-|30 Vanderaalst2003     ||
-|31 Vanderaalst2018     ||
-|32 Vanderfeesten2011   ||
-|33 Viriyasitavat2020   ||
-|34 Viriyasitavat2023   ||
-|35 Yang2008            ||
-|36 Yim2005             ||
-|37 Zasada2023          ||
-|38 Zhou2012            ||
+\fontsize{9}{10}\selectfont
+
+|Paper               |Concept                                                        |
+|--------------------|---------------------------------------------------------------|
+|Aa2017              |Linguistic Analysis, Information Retrieval Metrics \newline    |
+|Adamo2021           |Business Process Meta Models \newline                          |
+|Amantea222          |                                                               |
+|Bernardojunior2023  |Agile BPM                                                      |         
+|Bevilacqua2012      |Internal Emergency Plan (IEP), External Emergency Plan (EEP),Structured Analysis and Design Technique (SADT), Function Modeling Method (IDEF0) \newline|
+|Corsius2021         ||
+|Elgammal2014        |Compliance Request Language, Design-time Compliance Verification, Runtime Compliance Monitoring, Linear Temporal Logic, Compliance Management \newline|
+|Hadasch2016         |Directive Explanations (DEs), Diagrammatic DEs, Textual DEs, Business Process Compliance (BPC) performance \newline|
+|Hashmi2017          ||
+|Hashmi2018          |Compliance Management Framework (CMF), Compliance Checking Approach, Norms Modeling, Norm Linking, Level of Compliance Management \newline|
+|Holzmüller-Laue2014 |BPMN, Laboratory Automation, Laboratory Information Management System (LIMS), Business Process Execution Language (BPEL), Process Control Systems (PCS) \newline|
+|Kir2021             |Agile BPM|
+|Koncevics2017       ||
+|Lederer2019         |Agility Models for BPM|
+|Limam2021           ||
+|List2006            ||
+|Lohmann2013         ||
+|Lohmann2019         ||
+|Loreti2018          ||
+|Low2007             ||
+|Lux2013             ||
+|Mcdermid2003        ||
+|Mendling2018        ||
+|Poernomo2008        ||
+|Ramezani2011        |Compliance Management, |
+|Raucci2020          ||
+|Sackmann2018        ||
+|Singer2015          ||
+|Tchemeube2013       ||
+|Vanderaalst2003     ||
+|Vanderaalst2018     ||
+|Vanderfeesten2011   ||
+|Viriyasitavat2020   ||
+|Viriyasitavat2023   ||
+|Yang2008            ||
+|Yim2005             ||
+|Zasada2023          ||
+
+\fontsize{11}{12}\selectfont

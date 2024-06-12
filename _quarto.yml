@@ -15,6 +15,7 @@ book:
   chapters:
     - index.qmd
     - abstracts_studies.qmd
+    - abstracts_concepts.qmd
     - text: Aa2017
       file: abstracts/Aa2017.md
     - text: Adamo2021
@@ -91,8 +92,6 @@ book:
       file: abstracts/Yim2005.md
     - text: Zasada2023
       file: abstracts/Zasada2023.md
-    - text: Zhou2012
-      file: abstracts/Zhou2012.md
 
 bibliography: bib/MyLibrary.bib
 reference-location: section

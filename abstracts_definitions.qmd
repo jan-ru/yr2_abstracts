@@ -1,46 +1,12 @@
 # Definitions
 
 [
-  {
-    "ID": 1,
-    "Concept": "Agile BPM",
-    "Definition": "”, 
-    "Source(s) : "",
-    "Date Accessed": "",
-    "Notes": "Additional comments or contextual information"
-  }
-  {
-    "ID": 2,
-    "Concept": "Business Processes",
-    "Definition": "”, 
-    "Source(s) : "",
-    "Date Accessed": "",
-    "Notes": "Additional comments or contextual information"
-  }
-  {
-    "ID": 3,
-    "Concept": "Business Process Compliance",
-    "Definition": "”, 
-    "Source(s) : "",
-    "Date Accessed": "",
-    "Notes": "Additional comments or contextual information"
-  }
-  {
-    "ID": 4,
-    "Concept": "Business Process Management",
-    "Definition": "”, 
-    "Source(s) : "",
-    "Date Accessed": "",
-    "Notes": "Additional comments or contextual information"
-  }
-  {
-    "ID": 5,
-    "Concept": "Business Process Modelling",
-    "Definition": "”, 
-    "Source(s) : "",
-    "Date Accessed": "",
-    "Notes": "Additional comments or contextual information"
-  }
+The term ‘compliance’ is generally used in a very broad sense denoting the adherence to source rules (developed to apply to participants and on their behaviour in some local contexts) to the target rules (developed for a wider community of participants in a potentially global context). Essentially, target rules such as norms, laws, regulations, recommendations etc., prescribe some requirements or expectations—and if acted upon, generate some effects or value to their subjects. Adherence of source rules to the target rules guarantees that prescribed requirements or expectations can be met (Governatori and Sadiq, 2009). From a business process compliance perspective, compliance aims to ensure that organisations’ operations, business processes and practices are in alignment with a prescribed set of regulatory laws. 
+
+McIntyre (2008) defines compliance as:  “A desired outcome, with regard to law and regulations, internal policies and procedures, and commitments to stakeholders that can be consistently achieved through a managed investment of time and resources. The compliance management includes the legal and tactical activities in day–to–day business processes.”  
+
+In contrast, Governatori (2005) views compliance as:  “an act/process to ensure that business operations, processes, and practices are in accordance with prescriptive (often legal) documents.”
+
   {
     "ID": 6,
     "Concept": "Compliance",

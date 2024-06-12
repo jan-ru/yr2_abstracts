@@ -1,9 +1,55 @@
 # Introduction {.unnumbered}
 
-List of keywords to be included.
+Abstracts contains a collections of abstracts (and keywords) of 38 items identified via the literature searches. The keywords of the articles have been collected and are shown below. The paragraph Studies (reference) shows what the subject of the articles is and the type of study that has been performed. The paragraph Concepts (reference) lists the concepts mentioned in the articles. Finally Abstracts (reference) lists the abstracts of the individual articles.
+
+<!-- add authors -->
+
+# Keywords
 
 ::: {.content-visible when-format="html"}
 
 {{< include index_keywords.html >}}
+
+:::
+
+::: {.content-visible when-format="pdf"}
+
+
+\fontsize{9}{10}\selectfont
+
+```{python}
+#| label: tbl-keywords
+#| tbl-cap: "Keywords"
+
+import bibtexparser
+from IPython.display import Markdown
+from tabulate import tabulate
+
+file_path = './bib/MySelection.bib'
+
+def extract_keys_and_keywords(file_path):
+    with open(file_path) as bibtex_file:
+        bibtex_str = bibtex_file.read()
+
+    bib_database = bibtexparser.loads(bibtex_str)
+    data = []
+
+    for entry in bib_database.entries:
+        citation_key = entry['ID'][:15]  # Truncate citation key to max 15 characters
+        keywords = entry.get('keywords', 'No keywords')  # Use 'No keywords' if not present
+        data.append([citation_key, keywords])
+        data.append(["", ""])  # This creates the empty line after each entry
+
+    return data
+
+data = extract_keys_and_keywords(file_path)
+
+# Output the table using tabulate
+Markdown(tabulate(data, headers=['Citation Key', 'Keywords'], maxcolwidths=[20, 60]))
+```
+
+The keywords have been added to the bibtex file after consulting the publishers website and/or the web of science service.
+
+\fontsize{11}{12}\selectfont
 
 :::
