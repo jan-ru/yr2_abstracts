@@ -1,21 +1,23 @@
 # Studies {.unnumbered}
 
+<!-- 21/08/2024 deze "one line" summary lijkt met de hand gemaakt te zijn. Zou dit bij voorkeur als een appart record in Zotero moeten worden vastgelegd? -->
+
 \fontsize{9}{10}\selectfont
 
 |Paper         |Study                                          | Type |
 |--------------|-----------------------------------------------|------|
-|Aa2017        | A quantitative evaluation with 53 real-life model-text pairs demonstrates that our approach accurately identifies inconsistencies between model and text.\newline|   | \n
+|Aa2017        | A quantitative evaluation with 53 real-life model-text pairs demonstrates that our approach accurately identifies inconsistencies between model and text.\newline| Experimental Study  | \n
 |Adamo2021     |The goal of this work is to provide the first extensive systematic literature review (SLR) of business process meta-models. \newline| Literature Review |\n
 |Amantea222    |This work describes a methodological approach to investigate Compliance Management in healthcare based on a BPM perspective, exploring an application in an innovative hospital service.\newline| Case Study |
 |Bernardojunior2023|First, a systematic literature review was conducted to investigate how the scientific literature has addressed Agile BPM.\newline| Literature Review |
 |Bevilacqua2012|The production and storage of dangerous substances in an industrial establishment creates risks for man, environment and properties in the surrounding area. In this paper, the information chain is studied as an industrial process modelled by the IDEF0 language.\newline|Case Study|
 |Corsius2021   |RegelSpraak is a CNL developed at the Dutch Tax Administration (DTA) over the last decade.\newline|Case Study|
-|Elgammal2014  |This paper introduces an integrated business process compliance management framework that incorporates design-time verification and runtime monitoring approaches.\newline|Design Science?|
+|Elgammal2014  |This paper introduces an integrated business process compliance management framework that incorporates design-time verification and runtime monitoring approaches.\newline|Design Science|
 |Hadasch2016   |The purpose of this paper is to introduce the concept of directive explanations (DEs). DEs provide context-dependent feedback to users, but do not force users to comply.\newline|User Interaction|
 |Hashmi2017    |This paper investigates whether existing CMFs are able to provide reasoning and modeling support for various types of normative requirements by evaluating the conceptual foundations of the modeling constructs that existing CMFs use to represent a specific type of norm.\newline||
 |Hashmi2018    |In this paper we present the preliminary results of a literature survey on legal compliance by design (LCbD) and legal compliance through design (LCtD).\newline|Literature Review|
 |Holzmüller-Laue2014|Using methods and technologies of business process management (BPM) for the laboratory automation has important benefits (i.e., the agility of high-level automation processes, rapid interdisciplinary prototyping and implementation of laboratory tasks and procedures, and efficient real-time process documentation).\newline|Case Study|
-|Kir2021       |We combine BPM, knowledge-intensive systems and intelligent agent technologies, and yield one consolidated intelligent business process management framework, namely agileBPM, that governs the entire BPM life-cycle.\newline|Comparative Analysis?|
+|Kir2021       |We combine BPM, knowledge-intensive systems and intelligent agent technologies, and yield one consolidated intelligent business process management framework, namely agileBPM, that governs the entire BPM life-cycle.\newline|Design Science|
 |Koncevics2017 |The paper presents results of the comparative analysis of business process modelling tools for supporting automated compliance management in organisations.\newline|Comparative Analysis|
 |Lederer2019   |This article collected 17 known agility models relevant for BPM based on a literature review.\newline|Literature Review|
 |Limam2021     |the BPMN metamodel lacks formal specification of well-formed rules. In this context, we propose an object constraint language (OCL)-based approach to enhance the expressivity of the BPMN model to hold the information needed and to express resource allocation constraints\newline|Design Science?|
@@ -26,20 +28,20 @@
 |Low2007       |In this paper, we propose a symbiotic simulation system. A case study of an aerospace spare parts logistics system was carried out to investigate the viability of the system.\newline|Case Study|
 |Lux2013       |The paper describes an enterprise management system which provides an integrated approach to tackle management relevant topics like business process management, quality management, audit management, internal risk and control management, enterprise architecture management, compliance management and so on within a single information system.\newline||
 |Mcdermid2003  |This paper describes a state-based approach to capturing business rules that has been tested with different stakeholders in several business process applications.\newline||
-|Mendling2018  |This paper analyzes the impact of blockchain on business process management (BPM).\newline||
+|Mendling2018  |This paper analyzes the impact of blockchain on business process management (BPM).\newline|Conceptual/Theoretical|
 |Poernomo2008  |This paper addresses the problem of describing and analyzing data manipulation within business process workflow specifications. We apply a model-driven approach.\newline||
-|Ramezani2011  |In this paper, the authors advocate to adapt the business process management (BPM) life cycle to manage compliance in a similar way. We propose to use a common business vocabulary based on BPM to specify compliance rules, and to separate the business operation from the process of compliance checking. Rather than inserting controls in the business process directly, we propose a specialized engine for CM that communicates with existing IS.\newline||
+|Ramezani2011  |In this paper, the authors advocate to adapt the business process management (BPM) life cycle to manage compliance in a similar way. We propose to use a common business vocabulary based on BPM to specify compliance rules, and to separate the business operation from the process of compliance checking. Rather than inserting controls in the business process directly, we propose a specialized engine for CM that communicates with existing IS.\newline|Conceptual/Theoretical|
 |Raucci2020    |This paper investigates the criteria for a selective integration, in the multidisciplinary business process management (BPM) areas, between information technologies tools and the company’s internal control systems (ICSs) aimed at directing organizational behaviours.\newline||
 |Sackmann2018  |Based on a systematic literature review, we examined several approaches for Business Process Compliance (BPC) in terms of their suitability for supporting the CM life-cycle phases in support of the digitization of compliance.\newline|Literature Review|
 |Singer2015    |This study aims to focus on the examination of business process management (BPM) maturity levels within small-and medium-sized enterprises (SME) and their relationship with the company’s economic success.\newline|Mixed Method Approach|
 |Tchemeube2013 |This paper presents the development of a location-aware business process management system (LA-BPMS) for monitoring a cardiac care delivery process in a hospital and in real-time.\newline|Case Study|
 |Vanderaalst2003|In this paper, we try to demystify the acronyms in the BPM domain, describe the state-of-the-art technology, and argue that BPM could benefit from formal methods/languages\newline||
-|Vanderaalst2018|This paper uses spreadsheets as a metaphor to introduce process mining as an essential tool for data scientists and business analysts.\newline||
+|Vanderaalst2018|This paper uses spreadsheets as a metaphor to introduce process mining as an essential tool for data scientists and business analysts.\newline|Viewpoint/Perspective Paper|
 |Vanderfeesten2011|In this paper, we propose a new approach that builds on concepts that are part of a product-oriented view on process optimization.\newline|Method Development|
 |Viriyasitavat2020|In this paper, an automated BPM solution is investigated to select and compose services in open business environment, Blockchain technology (BCT) is explored and proposed to transfer and verify the trustiness of businesses and partners.\newline||
 |Viriyasitavat2023|This paper aims to understand recent BCT development for its BPM applications and identify the limitations and challenges for further development via a systematic literature review (SLR).\newline|Literature Review|
 |Yang2008      |In this paper the limited customization support of commercial and academic BPMS is reviewed in favor of open source BPMS.\newline|Comparative Analysis|
 |Yim2005          |RTE is a new management paradigm on which core processes are executed and managed with the latest information.\newline||
-|Zasada2023       |In order to establish a uniform evaluation basis for languages in which compliance requirements are expressed, this article introduces a running example for evaluating the expressiveness and complexity of compliance rule languages.\newline||
+|Zasada2023       |In order to establish a uniform evaluation basis for languages in which compliance requirements are expressed, this article introduces a running example for evaluating the expressiveness and complexity of compliance rule languages.\newline|Comparative Analysis |
 
 \fontsize{11}{12}\selectfont

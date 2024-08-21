@@ -1,0 +1,303 @@
+---
+latex-output-dir: output
+execute:
+  echo: false
+bibliography: './bib/MySelection.bib'
+link-citations: true
+---
+
+# Bibliographic data
+
+**Journals**
+
+\fontsize{9}{10}\selectfont
+
+<!-- add journal impact factor (h-score) google scholar scraping? 
+merk op Software uitgever is MDPI niet Elsevier, beter zou zijn publisher ophalen
+aan de hand van DOI -->
+
+```{python, cache=TRUE}
+#| label: tbl-journals
+#| tbl-cap: "Journals"
+
+import bibtexparser
+import requests
+from IPython.display import Markdown
+from tabulate import tabulate
+
+file_path = './bib/citedrive.bib'
+
+def extract_journals_from_bibtex(file_path):
+    print("in extract_journals")
+    with open(file_path) as bibtex_file:
+        bibtex_str = bibtex_file.read()
+
+    bib_database = bibtexparser.loads(bibtex_str)
+    journals = set()
+
+    for entry in bib_database.entries:
+        if entry.get('ENTRYTYPE') == 'article' and 'journal' in entry:
+            journals.add(entry['journal'])
+
+    sorted_journals = sorted(journals)
+    return sorted_journals
+
+
+def find_journal_info(journal_title):
+    # Initialize an empty list to hold the result
+    result = []
+
+    # Encode the journal title for use in a URL
+    encoded_title = requests.utils.quote(journal_title)
+
+    # Construct the CrossRef API request URL
+    api_url = f"https://api.crossref.org/journals?query={encoded_title}"
+
+    # Make the GET request
+    response = requests.get(api_url)
+
+    if response.status_code == 200:
+        # Parse the JSON response
+        data = response.json()
+
+        # Check if there are any results
+        if data['message']['total-results'] > 0:
+            # Assuming the first result is the most relevant one
+            first_journal = data['message']['items'][0]
+            publisher = first_journal.get('publisher', 'Publisher not found')
+            # Journals can have multiple ISSNs; we'll collect them all
+            issn = first_journal.get('ISSN', ['ISSN not found'])[0]
+        
+            # Append the journal information to the result list
+            result = [journal_title, publisher, issn]
+
+        # else:
+        #    return []
+    else:
+        print("Failed to retrieve data from CrossRef API.")
+    
+    return result
+
+header = ["#", "Journal", "Publisher", "ISSN"]
+table = []
+print("before journals=")
+#journals = extract_journals_from_bibtex(file_path)
+#for idx, journal in enumerate(journals, start=1):
+#    print(journal)
+#    journal_info = find_journal_info(journal)
+#    if journal_info != []:
+#        row = [idx] + journal_info
+#        table.append(row)
+#Markdown(tabulate(table, header, maxcolwidths=[2, 40, 35, 10]))
+```
+
+The publisher and the ISSN number have been looked up at [crossref](https://www.crossref.org) using the journal name in the bibtex file.
+
+\newpage
+
+**Authors**
+
+```{python, cache=TRUE}
+#| label: tbl-authors
+#| tbl-cap: "Authors"
+
+def extract_authors_from_bibtex(file_path):
+    with open(file_path) as bibtex_file:
+        bibtex_str = bibtex_file.read()
+
+    bib_database = bibtexparser.loads(bibtex_str)
+    authors_list = []
+
+    for entry in bib_database.entries:
+        if 'author' in entry:
+            entry_authors = [author.strip() for author in entry['author'].split(' and ')]
+            first_author = entry_authors[0]  # Extract the first author
+            other_authors = ', '.join(entry_authors[1:])  # Combine the remaining authors
+            authors_list.append((first_author, other_authors))  # Append as a tuple
+
+    # No need to sort here as tabulate will handle the display
+    return authors_list
+
+authors = extract_authors_from_bibtex(file_path)
+
+# Format and print the table in Markdown format
+Markdown(tabulate(authors, headers=["First Author", "Other Authors"], maxcolwidths=[40, 50]))
+```
+
+\fontsize{9}{10}\selectfont
+
+```{python}
+# 
+import bibtexparser
+import requests
+from IPython.display import Markdown
+from tabulate import tabulate
+
+file_path = './bib/MySelection.bib'
+```
+
+```{python, cache=TRUE}
+#| label: tbl-authors2
+#| tbl-cap: "Authors"
+
+def extract_authors_from_bibtex(file_path):
+    with open(file_path) as bibtex_file:
+        bibtex_str = bibtex_file.read()
+
+    bib_database = bibtexparser.loads(bibtex_str)
+    authors_list = []
+
+    for entry in bib_database.entries:
+        if 'author' in entry:
+            entry_authors = [author.strip() for author in entry['author'].split(' and ')]
+            first_author = entry_authors[0]  # Extract the first author
+            other_authors = ', '.join(entry_authors[1:])  # Combine the remaining authors
+            authors_list.append((first_author, other_authors))  # Append as a tuple
+
+    # No need to sort here as tabulate will handle the display
+    return authors_list
+
+authors = extract_authors_from_bibtex(file_path)
+
+# Format and print the table in Markdown format
+Markdown(tabulate(authors, headers=["First Author", "Other Authors"], maxcolwidths=[40, 50]))
+```
+
+```{python}
+import matplotlib.pyplot as plt
+# import bibtexparser
+
+
+def parse_bib_file(bib_file):
+    with open(bib_file, 'r', encoding='utf-8') as file:
+        bib_database = bibtexparser.load(file)
+    return bib_database.entries
+
+
+def plot_timeline(articles):
+    years = []
+    for article in articles:
+        try:
+            # Extract the year from the 'year' field
+            year = int(article['year'])
+            years.append(year)
+        except KeyError:
+            pass
+
+    # Plot the timeline
+    plt.figure(figsize=(8, 4))
+    plt.hist(years, bins=[edge - 0.5 for edge in range(min(years),
+                                                       max(years) + 2)],
+                                                       color='skyblue',
+                                                       edgecolor='black')
+    plt.title('Timeline of Publications\nn={}'.format(len(articles)))
+    plt.ylabel('Number of Articles')
+    plt.xticks(range(min(years), max(years) + 2))
+
+    # Set y-axis ticks to integer values
+    plt.yticks(range(int(min(plt.gca().get_ylim())), 
+                     int(max(plt.gca().get_ylim())) + 1))
+    plt.tight_layout()
+    plt.show()
+
+
+if __name__ == "__main__":
+    bib_file = 'bib/MySelection.bib'  # Replace with the path to your .bib file
+    articles = parse_bib_file(bib_file)
+    plot_timeline(articles)
+```
+
+\fontsize{11}{12}\selectfont
+
+\newpage
+
+**Keywords**
+
+\fontsize{9}{10}\selectfont
+
+```{python}
+#| label: tbl-keywords
+#| tbl-cap: "Keywords"
+
+def extract_keys_and_keywords(file_path):
+    with open(file_path) as bibtex_file:
+        bibtex_str = bibtex_file.read()
+
+    bib_database = bibtexparser.loads(bibtex_str)
+    data = []
+
+    for entry in bib_database.entries:
+        citation_key = entry['ID'][:15]  # Truncate citation key to max 15 characters
+        keywords = entry.get('keywords', 'No keywords')  # Use 'No keywords' if not present
+        data.append([citation_key, keywords])
+        data.append(["", ""])  # This creates the empty line after each entry
+
+    return data
+
+data = extract_keys_and_keywords(file_path)
+
+# Output the table using tabulate
+Markdown(tabulate(data, headers=['Citation Key', 'Keywords'], maxcolwidths=[20, 55]))
+```
+
+The keywords have been added to the bibtex file after consulting the publishers website and/or the web of science service.
+
+\fontsize{11}{12}\selectfont
+
+\newpage
+
+\fontsize{9}{10}\selectfont
+
+```{python}
+#| label: tbl-keywords2
+#| tbl-cap: "Keywords"
+
+import bibtexparser
+#from bibtexparser.bparser import BibTexParser
+#from bibtexparser.customization import convert_to_unicode
+from IPython.display import display, Markdown
+from tabulate import tabulate
+
+bibfile = './bib/MySelection.bib'
+
+
+def insert_space_after_comma(keywords):
+    keyword_list = keywords.split(',')
+    keywords_with_spaces = ', '.join(keyword_list)
+    return keywords_with_spaces
+
+
+def extract_keys_and_keywords(file_path):
+    with open(file_path) as bibtex_file:
+        bibtex_str = bibtex_file.read()
+
+    bib_database = bibtexparser.loads(bibtex_str)
+    data = []
+
+    for entry in bib_database.entries:
+        citation_key = "@"+entry['ID']
+        keywords = entry.get('keywords', 'No keywords')  # Use 'No keywords' if not present
+        formatted_keywords = insert_space_after_comma(keywords)
+        data.append([citation_key, formatted_keywords])
+        data.append(["", ""])  # Empty line
+
+    return data
+
+
+data = extract_keys_and_keywords(bibfile)
+
+# Output the table using tabulate
+Markdown(tabulate(data, headers=['Citation Key', 'Keywords'], tablefmt="pipe"))
+
+# Markdown(f"***Number of selected bibtex entries temp.***")
+# if the above line is unstarred an empty table is shows.
+```
+
+The keywords have been added to the bibtex file after consulting the publishers website and/or the web of science service.
+
+\newpage
+
+\fontsize{11}{12}\selectfont
+
+# Literature
+
