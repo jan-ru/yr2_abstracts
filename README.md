@@ -15,3 +15,5 @@ This second attempt takes as a starting point a bibliography file in biblatex fo
 For now the scripts are for personal use. No effort has been made to create an installer. Nor is there proper documentation. It's CC4 licensed.
 
 [![Common Changelog](https://common-changelog.org/badge.svg)](https://common-changelog.org)
+
+[![pages-build-deployment](https://github.com/jan-ru/yr2_abstracts/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/jan-ru/yr2_abstracts/actions/workflows/pages/pages-build-deployment)
